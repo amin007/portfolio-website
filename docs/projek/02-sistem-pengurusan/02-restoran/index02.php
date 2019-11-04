@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<title>Sistem Pengurusan Rumah Makan</title>
-
-<xmp theme="united" style="display:none;"><?php
-echo "\n";
+<?php
 #-------------------------------------------------------------------------------------------------
 function bukafailutama($url)
 {
@@ -16,10 +11,18 @@ function bukafailutama($url)
 }
 #-------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------
+//echo "\n";
+$tajukDaa = file('readme.md')[0];
+list($a,$tajuk) = explode('# ',$tajukDaa);
+echo '<!DOCTYPE html>
+<html>
+<title>' . trim($tajuk) . '</title>
+
+<xmp theme="united" style="display:none;">';//*/
 
 list($membukaFail,$dataFail) = bukafailutama('readme.md');
-echo $dataFail . "\n"; ?>
-</xmp>
+echo $dataFail . "\n";
+echo '</xmp>
 
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-</html>
+</html>';//*/
