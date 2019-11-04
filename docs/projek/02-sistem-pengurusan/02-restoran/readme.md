@@ -5,6 +5,7 @@ Ini adalah Sistem Pengurusan untuk Rumah Makan seperti Kedai makan/Restoran/cafe
 bahan masakan untuk makanan dan minuman, meja, kerusi, tv, mesin jualan dan sebagainya
 
 Ia terdiri dari beberapa pengguna sistem
+
 * user-pelanggan
 * user-pelayan
 * user-tukang masak
