@@ -1,8 +1,8 @@
 # sistem pengurusan sekolah
 Ini adalah Sistem Pengurusan untuk Sekolah.
 
-Dalam sekolah ada element pelajar,guru,kakitangan sekolah,guru besar/pengetua,
-kelas,makmal,kantin,peperiksaan,kelab,persatuan,rumahsukan,perpuskataan
+Dalam sekolah ada element pelajar, guru, kakitangan sekolah, guru besar/pengetua,
+ kelas, makmal, kantin, peperiksaan, kelab, persatuan, rumahsukan, perpustakaan
 
 Ia terdiri dari beberapa pengguna sistem
 * user-pelajar
