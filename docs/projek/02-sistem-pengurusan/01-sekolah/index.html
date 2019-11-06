@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>sistem pengurusan sekolah
+</title>
+<link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" type="text/css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#CCCCCC;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+</style>
+</head>
+<body>
+<h1>sistem pengurusan sekolah</h1>
+<p>Ini adalah Sistem Pengurusan untuk Sekolah.</p>
+<p>Dalam sekolah ada element pelajar, guru, kakitangan sekolah, guru besar/pengetua,
+kelas, makmal, kantin, peperiksaan, kelab, persatuan, rumahsukan, perpustakaan</p>
+<p>Ia terdiri dari beberapa pengguna sistem</p>
+<ul>
+<li>user-pelajar</li>
+<li>user-guru</li>
+<li>user-guru besar/pengetua</li>
+<li>user-kerani</li>
+<li>admin01-superadmin</li>
+<li>admin02-guru besar/pengetua</li>
+</ul>
+<hr />
+<h3>paparan utama</h3>
+<ul>
+<li>"index" <strong>Halaman</strong></li>
+<li>"index" <strong>Login</strong></li>
+<li>"index/daftar" <strong>Register</strong></li>
+<li>"login/lupadaa" <strong>Lupa Password</strong></li>
+</ul>
+<hr />
+<h3>paparan user murid/pelajar</h3>
+<ul>
+<li>"ruangtamu" <strong>Anjung</strong></li>
+<li>"ruangtamu/logout" <strong>Logout</strong></li>
+<li>Biodata<ul>
+<li>"biodata/ubah" <strong>Profile user</strong></li>
+</ul>
+</li>
+<li>Yuran<ul>
+<li>"yuran/index" <strong>Jadual Yuran</strong></li>
+<li>"yuran/ubah" <strong>Ubah Yuran</strong></li>
+</ul>
+</li>
+<li>Belian<ul>
+<li>"belian/index" <strong>Jadual Belian</strong></li>
+<li>"belian/baru" <strong>Tambah Belian</strong></li>
+<li>"belian/ubah" <strong>Ubah Belian</strong></li>
+</ul>
+</li>
+<li>Cari<ul>
+<li>"cari/tentang/kelas/1" <strong>Kelas</strong></li>
+<li>"cari/tentang/matapelajaran/1" <strong>Mata Pelajaran</strong></li>
+<li>"cari/tentang/kelab/2" <strong>Kelab</strong></li>
+<li>"cari/tentang/persatuan/2" <strong>Persatuan</strong></li>
+<li>"cari/tentang/rumahsukan/" <strong>Rumah Sukan</strong></li>
+</ul>
+</li>
+<li>Laporan<ul>
+<li>"laporan/bulanan" <strong>Laporan Bulanan</strong></li>
+<li>"laporan/suku" <strong>Laporan Suku Tahun</strong></li>
+</ul>
+</li>
+<li>Bantuan<ul>
+<li>"bantuan/sistem" <strong>Sistem</strong></li>
+<li>"bantuan/forum/perdana" <strong>Forum</strong></li>
+<li>"bantuan/mesej/utama" <strong>Email</strong></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3>paparan user guru</h3>
+<ul>
+<li>"ruangtamu" <strong>Anjung</strong></li>
+<li>"ruangtamu/logout" <strong>Logout</strong></li>
+<li>Biodata<ul>
+<li>"biodata/ubah" <strong>Profile user</strong></li>
+</ul>
+</li>
+<li>Pelajar<ul>
+<li>"pelajar/index" <strong>Jadual Pelajar</strong></li>
+<li>"pelajar/baru" <strong>Tambah Pelajar</strong></li>
+<li>"pelajar/ubah" <strong>Ubah Pelajar</strong></li>
+</ul>
+</li>
+<li>Kelas<ul>
+<li>"kelas/index" <strong>Jadual Kelas</strong></li>
+<li>"kelas/baru" <strong>Tambah Kelas</strong></li>
+<li>"kelas/ubah" <strong>Ubah Kelas</strong></li>
+</ul>
+</li>
+<li>Mata Pelajaran<ul>
+<li>"matapelajaran/index" <strong>Jadual Mata Pelajaran</strong></li>
+<li>"matapelajaran/baru" <strong>Tambah Mata Pelajaran</strong></li>
+<li>"matapelajaran/ubah" <strong>Ubah Mata Pelajaran</strong></li>
+</ul>
+</li>
+<li>Yuran<ul>
+<li>"yuran/index" <strong>Jadual Yuran</strong></li>
+<li>"yuran/ubah" <strong>Ubah Yuran</strong></li>
+</ul>
+</li>
+<li>Belian<ul>
+<li>"belian/index" <strong>Jadual Belian</strong></li>
+<li>"belian/baru" <strong>Tambah Belian</strong></li>
+<li>"belian/ubah" <strong>Ubah Belian</strong></li>
+</ul>
+</li>
+<li>Kokurikulum<ul>
+<li>"koko/kelab/index" <strong>Jadual Kelab</strong></li>
+<li>"koko/kelab/ubah" <strong>Ubah Kelab</strong></li>
+<li>"koko/persatuan/index" <strong>Jadual Persatuan</strong></li>
+<li>"koko/persatuan/ubah" <strong>Ubah Persatuan</strong></li>
+<li>"koko/rumahsukan/index" <strong>Jadual Rumah Sukan</strong></li>
+<li>"koko/rumahsukan/ubah" <strong>Ubah Rumah Sukan</strong></li>
+</ul>
+</li>
+<li>Cari<ul>
+<li>"cari/tentang/kelas/1" <strong>Kelas</strong></li>
+<li>"cari/tentang/matapelajaran/1" <strong>Mata Pelajaran</strong></li>
+<li>"cari/tentang/kelab/2" <strong>Kelab</strong></li>
+<li>"cari/tentang/persatuan/2" <strong>Persatuan</strong></li>
+<li>"cari/tentang/rumahsukan/" <strong>Rumah Sukan</strong></li>
+</ul>
+</li>
+<li>Laporan<ul>
+<li>"laporan/bulanan" <strong>Laporan Bulanan</strong></li>
+<li>"laporan/suku" <strong>Laporan Suku Tahun</strong></li>
+</ul>
+</li>
+<li>Bantuan<ul>
+<li>"bantuan/sistem" <strong>Sistem</strong></li>
+<li>"bantuan/forum/perdana" <strong>Forum</strong></li>
+<li>"bantuan/mesej/utama" <strong>Email</strong></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3>paparan user guru besar</h3>
+<ul>
+<li>"ruangtamu" <strong>Anjung</strong></li>
+<li>"ruangtamu/logout" <strong>Logout</strong></li>
+<li>Biodata<ul>
+<li>"biodata/ubah" <strong>Profile user</strong></li>
+</ul>
+</li>
+<li>Pelajar<ul>
+<li>"pelajar/index" <strong>Jadual Pelajar</strong></li>
+<li>"pelajar/baru" <strong>Tambah Pelajar</strong></li>
+<li>"pelajar/ubah" <strong>Ubah Pelajar</strong></li>
+</ul>
+</li>
+<li>Kelas<ul>
+<li>"kelas/index" <strong>Jadual Kelas</strong></li>
+<li>"kelas/baru" <strong>Tambah Kelas</strong></li>
+<li>"kelas/ubah" <strong>Ubah Kelas</strong></li>
+</ul>
+</li>
+<li>Mata Pelajaran<ul>
+<li>"matapelajaran/index" <strong>Jadual Mata Pelajaran</strong></li>
+<li>"matapelajaran/baru" <strong>Tambah Mata Pelajaran</strong></li>
+<li>"matapelajaran/ubah" <strong>Ubah Mata Pelajaran</strong></li>
+</ul>
+</li>
+<li>Yuran<ul>
+<li>"yuran/index" <strong>Jadual Yuran</strong></li>
+<li>"yuran/baru" <strong>Tambah Yuran</strong></li>
+<li>"yuran/ubah" <strong>Ubah Yuran</strong></li>
+</ul>
+</li>
+<li>Belian<ul>
+<li>"belian/index" <strong>Jadual Belian</strong></li>
+<li>"belian/baru" <strong>Tambah Belian</strong></li>
+<li>"belian/ubah" <strong>Ubah Belian</strong></li>
+</ul>
+</li>
+<li>Kokurikulum<ul>
+<li>"koko/kelab/index" <strong>Jadual Kelab</strong></li>
+<li>"koko/kelab/baru" <strong>Tambah Kelab</strong></li>
+<li>"koko/kelab/ubah" <strong>Ubah Kelab</strong></li>
+<li>"koko/persatuan/index" <strong>Jadual Persatuan</strong></li>
+<li>"koko/persatuan/baru" <strong>Tambah Persatuan</strong></li>
+<li>"koko/persatuan/ubah" <strong>Ubah Persatuan</strong></li>
+<li>"koko/rumahsukan/index" <strong>Jadual Rumah Sukan</strong></li>
+<li>"koko/rumahsukan/baru" <strong>Tambah Rumah Sukan</strong></li>
+<li>"koko/rumahsukan/ubah" <strong>Ubah Rumah Sukan</strong></li>
+</ul>
+</li>
+<li>Cari<ul>
+<li>"cari/tentang/kelas/1" <strong>Kelas</strong></li>
+<li>"cari/tentang/matapelajaran/1" <strong>Mata Pelajaran</strong></li>
+<li>"cari/tentang/kelab/2" <strong>Kelab</strong></li>
+<li>"cari/tentang/persatuan/2" <strong>Persatuan</strong></li>
+<li>"cari/tentang/rumahsukan/" <strong>Rumah Sukan</strong></li>
+</ul>
+</li>
+<li>Laporan<ul>
+<li>"laporan/bulanan" <strong>Laporan Bulanan</strong></li>
+<li>"laporan/suku" <strong>Laporan Suku Tahun</strong></li>
+</ul>
+</li>
+<li>Bantuan<ul>
+<li>"bantuan/sistem" <strong>Sistem</strong></li>
+<li>"bantuan/forum/perdana" <strong>Forum</strong></li>
+<li>"bantuan/mesej/utama" <strong>Email</strong></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3>paparan user kerani</h3>
+<ul>
+<li>"ruangtamu" <strong>Anjung</strong></li>
+<li>"ruangtamu/logout" <strong>Logout</strong></li>
+<li>Biodata<ul>
+<li>"biodata/ubah" <strong>Profile user</strong></li>
+</ul>
+</li>
+<li>Pelajar<ul>
+<li>"pelajar/index" <strong>Jadual Pelajar</strong></li>
+<li>"pelajar/baru" <strong>Tambah Pelajar</strong></li>
+<li>"pelajar/ubah" <strong>Ubah Pelajar</strong></li>
+</ul>
+</li>
+<li>Yuran<ul>
+<li>"yuran/index" <strong>Jadual Yuran</strong></li>
+<li>"yuran/ubah" <strong>Ubah Yuran</strong></li>
+</ul>
+</li>
+<li>Belian<ul>
+<li>"belian/index" <strong>Jadual Belian</strong></li>
+<li>"belian/baru" <strong>Tambah Belian</strong></li>
+<li>"belian/ubah" <strong>Ubah Belian</strong></li>
+</ul>
+</li>
+<li>Cari<ul>
+<li>"cari/tentang/kelas/1" <strong>Kelas</strong></li>
+<li>"cari/tentang/matapelajaran/1" <strong>Mata Pelajaran</strong></li>
+<li>"cari/tentang/kelab/2" <strong>Kelab</strong></li>
+<li>"cari/tentang/persatuan/2" <strong>Persatuan</strong></li>
+<li>"cari/tentang/rumahsukan/" <strong>Rumah Sukan</strong></li>
+</ul>
+</li>
+<li>Laporan<ul>
+<li>"laporan/bulanan" <strong>Laporan Bulanan</strong></li>
+<li>"laporan/suku" <strong>Laporan Suku Tahun</strong></li>
+</ul>
+</li>
+<li>Bantuan<ul>
+<li>"bantuan/sistem" <strong>Sistem</strong></li>
+<li>"bantuan/forum/perdana" <strong>Forum</strong></li>
+<li>"bantuan/mesej/utama" <strong>Email</strong></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3>paparan admin01</h3>
+<ul>
+<li>"ruangtamu" <strong>Ruangtamu</strong></li>
+<li>"ruangtamu/logout" <strong>Logout</strong></li>
+<li>"database" <strong>Capaian Database</strong></li>
+<li>"server" <strong>Capaian Server</strong></li>
+</ul>
+<hr />
+<h3>paparan admin02</h3>
+<ul>
+<li>"ruangtamu" <strong>Ruangtamu</strong></li>
+<li>"ruangtamu/logout" <strong>Logout</strong></li>
+<li>"database" <strong>Capaian Database</strong></li>
+</ul>
+<hr />
+<h1>Standard</h1>
+<ul>
+<li><a href="http://www.php-fig.org/psr/psr-4/" target="_blank">http://www.php-fig.org/psr/psr-4/</a></li>
+</ul>
+<h1>Sumber ilham dari</h1>
+<ul>
+<li><a href="http://jream.com/lab" target="_blank">http://jream.com/lab</a></li>
+<li><a href="https://www.php-fig.org" target="_blank">https://www.php-fig.org</a></li>
+<li><a href="https://github.com/amin007/mvc-melayu" target="_blank">https://github.com/amin007/mvc-melayu</a></li>
+</ul>
+<!-- Footer
+================================================== -->
+<!-- footer class="footer">
+	<div class="container">
+		<span class="label label-info">
+		&copy; Hak Cipta Terperihara 2016. Theme Asal Bootstrap Twitter
+		</span>
+	</div>
+</footer -->
+
+<!-- khas untuk jquery dan js2 lain
+================================================== -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script -->
+</body>
+</html>
