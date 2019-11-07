@@ -64,7 +64,7 @@ table.excel tbody td
 	<div class="card">
 		<div class="card-header">
 			<a class="collapsed card-link" data-toggle="collapse" href="#no02">
-				Isi Kandungan Penjanjian Berdarah Amin Ledang Nombor 1
+				Isi Kandungan Penjanjian Kami
 			</a>
 		</div><!-- / class="card-header" -->
 		<div id="no02" class="collapse show" data-parent="#accordion">
@@ -78,6 +78,19 @@ table.excel tbody td
 	<li class="list-group-item bg-warning">4. Undang-undang dalam negara Malaysia tercinta</li>
 	<li class="list-group-item">5. Tandatangan antara Awak dan Kami</li>
 	</ul><!-- / class="list-group" --><br>
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+		</div><!-- / class="card-body" -->
+		</div><!-- / class="collapsed *" -->
+	</div><!-- / class="card" -->
+	<div class="card">
+		<div class="card-header">
+			<a class="collapsed card-link" data-toggle="collapse" href="#no03">
+				Isi Kandungan Penjanjian Berdarah Amin Ledang Nombor 1
+			</a>
+		</div><!-- / class="card-header" -->
+		<div id="no03" class="collapse" data-parent="#accordion">
+		<div class="card-body">
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
 <ul class="list-group">
 <li class="list-group-item" align="justify">
@@ -297,10 +310,11 @@ sila tandatangan di bawah. Perjanjian ini akan menjadi berkesan pada [Bulan DD, 
 		<div id="no04" class="collapse" data-parent="#accordion">
 		<div class="card-body">
 <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
-<p align="justify">
-Perjanjian Reka Bentuk Laman Web ini ( "Perjanjian" ) dimasukkan ke dalam _____________ ( "Tarikh Berkuatkuasa" ), antara dan antara _________________, dengan alamat ______________________________ ( "Pelanggan" ) dan _________________, dengan alamat _______________________________, Pereka " ), secara kolektif" Para Pihak. "</p>
-
-<p align="justify">
+<ul class="list-group">
+<li class="list-group-item" align="justify">
+Perjanjian Reka Bentuk Laman Web ini ( "<span class="font-weight-bold">Perjanjian</span>" ) dimasukkan ke dalam _____________ ( "<span class="font-weight-bold">Tarikh Berkuatkuasa</span>" ), antara dan antara _________________, dengan alamat ______________________________ ( "<span class="font-weight-bold">Pelanggan,/span>" ) dan _________________, dengan alamat _______________________________, "<span class="font-weight-bold">Pereka</span>" ), secara kolektif " Para Pihak. "
+</li>
+<li class="list-group-item" align="justify">
 Huraian Projek. Pelanggan ingin menyewa Designer untuk membuat Laman Web. Keperluan khusus dan perincian yang dinyatakan oleh Pelanggan adalah seperti berikut:
 _________________________________________________________________ _________________________________________________________________ _________________________________________________________________ _________________________________________________________________
 Jadual (Pilihan). Para Pihak bersetuju dengan jadual berikut:
@@ -312,68 +326,60 @@ Pembayaran. Para Pihak bersetuju dengan Terma dan Pembayaran berikut:
 Jumlah Bayaran untuk Perkhidmatan: _____________________________________________________
 Yuran Pendahuluan (Disebabkan Sebelum Tarikh Mula Projek): ____________________________________
 Baki Baki yang Disebabkan: ___________________________________________________
-Kerahsiaan. Sepanjang Perjanjian ini, adalah perlu bagi Pelanggan untuk berkongsi maklumat proprietari, termasuk rahsia perdagangan, pengetahuan industri, dan maklumat rahsia lain, kepada Perancang agar Pereka untuk melengkapkan Laman Web dalam bentuk terakhirnya. Pereka tidak akan berkongsi apa-apa maklumat proprietari ini pada bila-bila masa, walaupun selepas Perjanjian dipenuhi. Pereka juga tidak akan menggunakan apa-apa maklumat proprietari ini untuk manfaat peribadinya pada bila-bila masa, walaupun selepas Perjanjian dipenuhi.</p>
-
-<p align="justify">
+Kerahsiaan. Sepanjang Perjanjian ini, adalah perlu bagi Pelanggan untuk berkongsi maklumat proprietari, termasuk rahsia perdagangan, pengetahuan industri, dan maklumat rahsia lain, kepada Perancang agar Pereka untuk melengkapkan Laman Web dalam bentuk terakhirnya. Pereka tidak akan berkongsi apa-apa maklumat proprietari ini pada bila-bila masa, walaupun selepas Perjanjian dipenuhi. Pereka juga tidak akan menggunakan apa-apa maklumat proprietari ini untuk manfaat peribadinya pada bila-bila masa, walaupun selepas Perjanjian dipenuhi.
+</li>
+<li class="list-group-item" align="justify">
 
 Hak Pemilikan. Pelanggan terus memiliki apa-apa dan semua maklumat proprietinya yang dimilikinya dengan Perancang sepanjang tempoh Perjanjian ini untuk tujuan Projek. Pereka tidak mempunyai hak untuk maklumat proprietari ini dan mungkin tidak menggunakannya kecuali untuk melengkapkan Projek. Setelah selesai Perjanjian, Pelanggan akan memiliki reka bentuk laman web akhir.
-</p>
-
-<p align="justify">
+</li>
+<li class="list-group-item" align="justify">
 Sementara Designer akan menyesuaikan Laman Web Klien ke spesifikasi Pelanggan, Pelanggan mengakui bahawa laman web umumnya mempunyai struktur dan asas yang sama. Pereka terus memiliki apa-apa dan semua reka bentuk template yang mungkin telah dibuat sebelum Perjanjian ini. Pereka akan terus memiliki apa-apa reka bentuk template yang boleh dibuat sebagai hasil dari Perjanjian ini.
-</p>
-
-<p align="justify">
+</li>
+<li class="list-group-item" align="justify">
 
 Perwakilan dan Jaminan.
-</p>
-
-<p align="justify">
 
 Pereka . Pereka mewakili dan menjamin bahawa dia mempunyai hak untuk masuk dan melaksanakan Perjanjian ini. Pereka bentuk mewakili dan memberi jaminan bahawa dia mempunyai hak untuk menggunakan dan mengagihkan reka bentuk yang dibuat untuk Pelanggan dan reka bentuk tersebut tidak dimiliki oleh orang lain kepada pengetahuan Designer. Sekiranya Pereka tidak mempunyai hak ini, Perancang akan membayar balik kerosakan yang berkaitan Pelanggan mungkin mengalami atau akan bertanggungjawab supaya Pelanggan tidak mengalami sebarang kerosakan.
-</p>
-
-<p align="justify">
+</li>
+<li class="list-group-item" align="justify">
 
 Pelanggan . Pelanggan mewakili dan memberi waran yang mempunyai hak untuk menggunakan apa-apa maklumat proprietari, termasuk, tetapi tidak terhad kepada rahsia perdagangan, tanda dagangan, logo, hak cipta, imej, data, angka, kandungan, dan sejenis yang boleh diberikan kepada Perancang untuk dimasukkan dalam laman web ini. Sekiranya Pelanggan tidak mempunyai hak ini, Pelanggan akan membayar balik kerosakan yang berkaitan Perancang mungkin mengalami atau akan bertanggungjawab sehingga Perancang tidak mengalami sebarang kerosakan.
-</p>
-
-<p align="justify">
+</li>
+<li class="list-group-item" align="justify">
 
 Penafian Waranti. Pereka bentuk hendaklah membuat Laman Web untuk tujuan Pelanggan dan spesifikasi Pelanggan. DESIGNER TIDAK MENYEDIAKAN ATAU WARRANT YANG MENYAMPAIKAN LAMAN WEB MENGAKTIFKAN KEUNTUNGAN TAMBAHAN, PENJUALAN, PENDEDAHAN, PENGANDUNGAN MEREK, ATAU SEPERTI. DESIGNER TIDAK BERTANGGUNGJAWAB UNTUK PELANGGAN JIKA LAMAN WEB TIDAK MENGGALAKKAN HASIL YANG DISEDIAKAN SELESAI (S).
-</p>
+</li>
+<li class="list-group-item" align="justify">
 
-<p align="justify">
+Batasan Liabiliti. DI BAWAH TIDAK ADA BAGI PIHAK LAIN ADALAH PIHAK LAIN ADALAH TIDAK BERTANGGUNGJAWAB KE PIHAK LAIN ATAU SEBARANG PIHAK KETIGA UNTUK SEBARANG KEROSAKAN YANG DIBERIKAN DARI SEBARANG PERJANJIAN PERJANJIAN INI SEBAGAIMANA TETAPI TIDAK TERHAD KEPADA, KEHILANGAN PENDAPATAN ATAU KEUNTUNGAN YANG DITINJAIKAN ATAU KERUGIAN HANYA, KOS PELANGGARAN ATAU KEGAGALAN DELIVERY.
 
-Batasan Liabiliti. DI BAWAH TIDAK ADA BAGI PIHAK LAIN ADALAH PIHAK LAIN ADALAH TIDAK BERTANGGUNGJAWAB KE PIHAK LAIN ATAU SEBARANG PIHAK KETIGA UNTUK SEBARANG KEROSAKAN YANG DIBERIKAN DARI SEBARANG PERJANJIAN PERJANJIAN INI SEBAGAIMANA TETAPI TIDAK TERHAD KEPADA, KEHILANGAN PENDAPATAN ATAU KEUNTUNGAN YANG DITINJAIKAN ATAU KERUGIAN HANYA, KOS PELANGGARAN ATAU KEGAGALAN DELIVERY.</p>
+</li>
+<li class="list-group-item" align="justify">
+Yuran guaman. Sekiranya berlaku pertikaian yang mengakibatkan tindakan undang-undang, pihak yang berjaya akan berhak mendapatkan yuran guamannya, termasuk, tetapi tidak terhad kepada yuran pengacaranya.
 
-<p align="justify">
-Yuran guaman. Sekiranya berlaku pertikaian yang mengakibatkan tindakan undang-undang, pihak yang berjaya akan berhak mendapatkan yuran guamannya, termasuk, tetapi tidak terhad kepada yuran pengacaranya.</p>
-
-<p align="justify">
+</li>
+<li class="list-group-item" align="justify">
 
 Perjanjian Perundangan dan Pengikat. Perjanjian ini adalah sah dan mengikat antara Pihak yang dinyatakan di atas. Perjanjian ini boleh dibuat dan sah dan mengikat kedua-duanya di Amerika Syarikat dan di seluruh Eropah. Para Pihak masing-masing mewakili bahawa mereka mempunyai kuasa untuk memasuki Perjanjian ini.
 Pihak-pihak bersetuju dengan terma dan syarat yang dinyatakan di atas seperti yang ditunjukkan oleh tandatangan mereka seperti berikut:
-</p>
-
-<p align="justify">
-
-"PELANGGAN"
-
-Tandatangan: _____________________________________
-
-Oleh: ________________________________________
-
-Tarikh: ______________________________________
-
-"DESIGNER"
-
-Tandatangan: _____________________________________
-
-Oleh: ________________________________________
-
-Tarikh: ______________________________________
-
+</li>
+<li class="list-group-item" align="justify">
+	<div class="container">
+	<table class="table table-borderless table-sm">
+	<tr><td colspan="2">"PELANGGAN"</td></tr>
+	<tr><td>Tandatangan:</td><td>___________________</td></tr>
+	<tr><td>Nama:</td><td>___________________</td></tr>
+	<tr><td>Tajuk:</td><td>___________________</td></tr>
+	<tr><td>Tarikh:</td><td>___________________</td></tr>
+	<tr><td colspan="2">"DESIGNER"</td></tr>
+	<tr><td>Tandatangan:</td><td>___________________</td></tr>
+	<tr><td>Nama:</td><td>___________________</td></tr>
+	<tr><td>Tajuk:</td><td>___________________</td></tr>
+	<tr><td>Tarikh:</td><td>___________________</td></tr>
+	</table>
+	</div><!-- / class="container" -->
+</li>
+</ul><!-- / class="list-group" --><br>
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="card-body" -->
