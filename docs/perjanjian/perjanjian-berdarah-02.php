@@ -312,16 +312,35 @@ sila tandatangan di bawah. Perjanjian ini akan menjadi berkesan pada [Bulan DD, 
 <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 <ul class="list-group">
 <li class="list-group-item" align="justify">
-Perjanjian Reka Bentuk Laman Web ini ( "<span class="font-weight-bold">Perjanjian</span>" ) dimasukkan ke dalam _____________ ( "<span class="font-weight-bold">Tarikh Berkuatkuasa</span>" ), antara dan antara _________________, dengan alamat ______________________________ ( "<span class="font-weight-bold">Pelanggan,/span>" ) dan _________________, dengan alamat _______________________________, "<span class="font-weight-bold">Pereka</span>" ), secara kolektif " Para Pihak. "
+Perjanjian Reka Bentuk Laman Web ini ( "<span class="font-weight-bold">Perjanjian</span>" )
+dimasukkan ke dalam _____________ ( "<span class="font-weight-bold">Tarikh Berkuatkuasa</span>" ),
+antara dan antara _________________, dengan alamat ______________________________ ( "<span
+class="font-weight-bold">Pelanggan</span>" ) dan _________________, dengan
+alamat _______________________________, "<span class="font-weight-bold">Pereka</span>" ),
+secara kolektif "<span class="font-weight-bold">Para Pihak.</span>"
 </li>
 <li class="list-group-item" align="justify">
-Huraian Projek. Pelanggan ingin menyewa Designer untuk membuat Laman Web. Keperluan khusus dan perincian yang dinyatakan oleh Pelanggan adalah seperti berikut:
-_________________________________________________________________ _________________________________________________________________ _________________________________________________________________ _________________________________________________________________
-Jadual (Pilihan). Para Pihak bersetuju dengan jadual berikut:
-Tarikh Reka Bentuk Awal: _______________________________________________________
-Komen Pelanggan / Tarikh Kelulusan: _____________________________________________
-Tarikh Reka Bentuk Akhir: _______________________________________________________
-Semakan. Pelanggan adalah berhak untuk semakan ____. Sebarang semakan di luar ____ akan dikenakan pada kadar $ _______.
+<span class="font-weight-bold">Huraian Projek.</span>
+<br>Pelanggan ingin menyewa Designer untuk membuat Laman Web. Keperluan khusus dan perincian yang
+dinyatakan oleh Pelanggan adalah seperti berikut:
+<br>______________________________________________________________________________________________
+<br>______________________________________________________________________________________________
+<br>______________________________________________________________________________________________
+<br>______________________________________________________________________________________________
+<br><br>
+</li>
+<li class="list-group-item" align="justify">
+<span class="font-weight-bold">1. Jadual (Pilihan).</span>
+<br>Para Pihak bersetuju dengan jadual berikut:
+
+<br>Tarikh Reka Bentuk Awal: _______________________________________________________
+<br>Komen Pelanggan / Tarikh Kelulusan: _____________________________________________
+<br>Tarikh Reka Bentuk Akhir: _______________________________________________________
+<br><br>
+</li>
+<li class="list-group-item" align="justify">
+<span class="font-weight-bold">2. Semakan.</span>
+<br>Pelanggan adalah berhak untuk semakan ____. Sebarang semakan di luar ____ akan dikenakan pada kadar $ _______.
 Pembayaran. Para Pihak bersetuju dengan Terma dan Pembayaran berikut:
 Jumlah Bayaran untuk Perkhidmatan: _____________________________________________________
 Yuran Pendahuluan (Disebabkan Sebelum Tarikh Mula Projek): ____________________________________
@@ -329,8 +348,8 @@ Baki Baki yang Disebabkan: ___________________________________________________
 Kerahsiaan. Sepanjang Perjanjian ini, adalah perlu bagi Pelanggan untuk berkongsi maklumat proprietari, termasuk rahsia perdagangan, pengetahuan industri, dan maklumat rahsia lain, kepada Perancang agar Pereka untuk melengkapkan Laman Web dalam bentuk terakhirnya. Pereka tidak akan berkongsi apa-apa maklumat proprietari ini pada bila-bila masa, walaupun selepas Perjanjian dipenuhi. Pereka juga tidak akan menggunakan apa-apa maklumat proprietari ini untuk manfaat peribadinya pada bila-bila masa, walaupun selepas Perjanjian dipenuhi.
 </li>
 <li class="list-group-item" align="justify">
-
-Hak Pemilikan. Pelanggan terus memiliki apa-apa dan semua maklumat proprietinya yang dimilikinya dengan Perancang sepanjang tempoh Perjanjian ini untuk tujuan Projek. Pereka tidak mempunyai hak untuk maklumat proprietari ini dan mungkin tidak menggunakannya kecuali untuk melengkapkan Projek. Setelah selesai Perjanjian, Pelanggan akan memiliki reka bentuk laman web akhir.
+<span class="font-weight-bold">Hak Pemilikan.</span>
+<br>Pelanggan terus memiliki apa-apa dan semua maklumat proprietinya yang dimilikinya dengan Perancang sepanjang tempoh Perjanjian ini untuk tujuan Projek. Pereka tidak mempunyai hak untuk maklumat proprietari ini dan mungkin tidak menggunakannya kecuali untuk melengkapkan Projek. Setelah selesai Perjanjian, Pelanggan akan memiliki reka bentuk laman web akhir.
 </li>
 <li class="list-group-item" align="justify">
 Sementara Designer akan menyesuaikan Laman Web Klien ke spesifikasi Pelanggan, Pelanggan mengakui bahawa laman web umumnya mempunyai struktur dan asas yang sama. Pereka terus memiliki apa-apa dan semua reka bentuk template yang mungkin telah dibuat sebelum Perjanjian ini. Pereka akan terus memiliki apa-apa reka bentuk template yang boleh dibuat sebagai hasil dari Perjanjian ini.
