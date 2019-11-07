@@ -72,10 +72,10 @@ table.excel tbody td
 <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 	<ul class="list-group">
 	<li class="list-group-item active">Pendek kata, perjanjian ini tentang:</li>
-	<li class="list-group-item">1. Apa yang Kami janjikan kepada Awak</li>
-	<li class="list-group-item">2. Apa yang Awak janjikan kepada Kami</li>
-	<li class="list-group-item">3. Tentang perkhidmatan, bayaran, tempoh masa, hakcipta dan sebagainya</li>
-	<li class="list-group-item">4. Undang-undang dalam negara Malaysia tercinta</li>
+	<li class="list-group-item bg-success text-white">1. Apa yang Kami janjikan kepada Awak</li>
+	<li class="list-group-item bg-success text-white">2. Apa yang Awak janjikan kepada Kami</li>
+	<li class="list-group-item bg-info text-white">3. Tentang perkhidmatan, bayaran, tempoh masa, hakcipta dan sebagainya</li>
+	<li class="list-group-item bg-warning">4. Undang-undang dalam negara Malaysia tercinta</li>
 	<li class="list-group-item">5. Tandatangan antara Awak dan Kami</li>
 	</ul><!-- / class="list-group" --><br>
 
