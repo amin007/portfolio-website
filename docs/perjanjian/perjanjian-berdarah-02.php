@@ -50,12 +50,14 @@ table.excel tbody td
 		</div><!-- / class="card-header" -->
 		<div id="no01" class="collapse" data-parent="#accordion">
 		<div class="card-body">
-			<p><span class="font-weight-bold">Definisi:</span>1. persetujuan yg dibuat antara dua pihak atau lebih, permuafakatan: Malaysia telah menandatangani satu ~ per­da­gangan dgn Korea Selatan; ~ jual beli; ~ program persetujuan bertulis antara dua pihak (biasanya pihak pelaksana aktiviti dsb dgn pihak yg mempunyai kuasa utk meluluskan kewangan) bagi melaksanakan sesuatu aktiviti (program dsb) mengikut jumlah peruntukan yg diluluskan; 2. Id wasiat (kitab suci); Kitab P~ Lama Kitab Taurat; Kitab P~ Baru Kitab Injil.
-			<span class="font-weight-bold">(Kamus Dewan Edisi Keempat)</span></p>
-			<p><span class="font-weight-bold">Definisi:</span>1 hal atau perbuatan berjanji (bersetuju) ttg sesuatu; permuafakatan; persetujuan: ~ perdagangan antara Malaysia dgn Negeri China telah ditandatangani. 2 kontrak; syarat: dgn tiada ~ dgn tidak bersyarat.
-			<span class="font-weight-bold">(Kamus Pelajar Edisi Kedua)</span></p>
-			<p>translate inggeris kepada melayu guna google daa</p>
-			<a target="_blank" href="https://www.docsketch.com/contracts/web-design-contract-template/">Docsketech</a></cite></footer>
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+<p><span class="font-weight-bold">Definisi:</span>1. persetujuan yg dibuat antara dua pihak atau lebih, permuafakatan: Malaysia telah menandatangani satu ~ per­da­gangan dgn Korea Selatan; ~ jual beli; ~ program persetujuan bertulis antara dua pihak (biasanya pihak pelaksana aktiviti dsb dgn pihak yg mempunyai kuasa utk meluluskan kewangan) bagi melaksanakan sesuatu aktiviti (program dsb) mengikut jumlah peruntukan yg diluluskan; 2. Id wasiat (kitab suci); Kitab P~ Lama Kitab Taurat; Kitab P~ Baru Kitab Injil.
+<span class="font-weight-bold">(Kamus Dewan Edisi Keempat)</span></p>
+<p><span class="font-weight-bold">Definisi:</span>1 hal atau perbuatan berjanji (bersetuju) ttg sesuatu; permuafakatan; persetujuan: ~ perdagangan antara Malaysia dgn Negeri China telah ditandatangani. 2 kontrak; syarat: dgn tiada ~ dgn tidak bersyarat.
+<span class="font-weight-bold">(Kamus Pelajar Edisi Kedua)</span></p>
+<p>translate inggeris kepada melayu guna google daa</p>
+<a target="_blank" href="https://www.docsketch.com/contracts/web-design-contract-template/">Docsketech</a></cite></footer>
+<!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="card-body" -->
 		</div><!-- / class="collapsed *" -->
 	</div><!-- / class="card" -->
@@ -68,6 +70,15 @@ table.excel tbody td
 		<div id="no02" class="collapse show" data-parent="#accordion">
 		<div class="card-body">
 <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+	<ul class="list-group">
+	<li class="list-group-item active">Pendek kata, perjanjian ini tentang:</li>
+	<li class="list-group-item">1. Apa yang Kami janjikan kepada Awak</li>
+	<li class="list-group-item">2. Apa yang Awak janjikan kepada Kami</li>
+	<li class="list-group-item">3. Tentang perkhidmatan, bayaran, tempoh masa, hakcipta dan sebagainya</li>
+	<li class="list-group-item">4. Undang-undang dalam negara Malaysia tercinta</li>
+	<li class="list-group-item">5. Tandatangan antara Awak dan Kami</li>
+	</ul><!-- / class="list-group" --><br>
+
 <ul class="list-group">
 <li class="list-group-item" align="justify">
 Perjanjian Rekaan Laman Web ("Perjanjian") sedang dibuat di antara [Nama Pelanggan]<br>
