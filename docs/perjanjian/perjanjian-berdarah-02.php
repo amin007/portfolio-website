@@ -312,12 +312,12 @@ sila tandatangan di bawah. Perjanjian ini akan menjadi berkesan pada [Bulan DD, 
 <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 <ul class="list-group">
 <li class="list-group-item" align="justify">
-Perjanjian Reka Bentuk Laman Web ini ( "<span class="font-weight-bold">Perjanjian</span>" )
-dimasukkan ke dalam _____________ ( "<span class="font-weight-bold">Tarikh Berkuatkuasa</span>" ),
-antara dan antara _________________, dengan alamat ______________________________ ( "<span
-class="font-weight-bold">Pelanggan</span>" ) dan _________________, dengan
-alamat _______________________________, "<span class="font-weight-bold">Pereka</span>" ),
-secara kolektif "<span class="font-weight-bold">Para Pihak.</span>"
+Perjanjian Reka Bentuk Laman Web ini ( <span class="font-weight-bold">"Perjanjian"</span> )
+dimasukkan ke dalam _____________ ( <span class="font-weight-bold">"Tarikh Berkuatkuasa"</span> ),
+antara dan antara _________________, dengan alamat ______________________________ ( <span
+class="font-weight-bold">"Pelanggan"</span> ) dan _________________, dengan
+alamat _______________________________, <span class="font-weight-bold">"Pereka"</span> ),
+secara kolektif <span class="font-weight-bold">"Para Pihak"</span>.
 </li>
 <li class="list-group-item" align="justify">
 <span class="font-weight-bold">Huraian Projek.</span>
@@ -331,75 +331,124 @@ dinyatakan oleh Pelanggan adalah seperti berikut:
 </li>
 <li class="list-group-item" align="justify">
 <span class="font-weight-bold">1. Jadual (Pilihan).</span>
-<br>Para Pihak bersetuju dengan jadual berikut:
+	<br>Para Pihak bersetuju dengan jadual berikut:
 
-<br>Tarikh Reka Bentuk Awal: _______________________________________________________
-<br>Komen Pelanggan / Tarikh Kelulusan: _____________________________________________
-<br>Tarikh Reka Bentuk Akhir: _______________________________________________________
-<br><br>
+	<table border="0">
+	<tr><td><span class="font-weight-bold">Tarikh Reka Bentuk Awal</span></td>
+		<td>:___________________________________________________</td></tr>
+	<tr><td><span class="font-weight-bold">Komen Pelanggan / Tarikh Kelulusan</span></td>
+		<td>:___________________________________________________</td></tr>
+	<tr><td><span class="font-weight-bold">Tarikh Reka Bentuk Akhir</span></td>
+		<td>:___________________________________________________</td></tr>
+	</table>
+	<br><br>
 </li>
 <li class="list-group-item" align="justify">
 <span class="font-weight-bold">2. Semakan.</span>
-<br>Pelanggan adalah berhak untuk semakan ____. Sebarang semakan di luar ____ akan dikenakan pada kadar $ _______.
-Pembayaran. Para Pihak bersetuju dengan Terma dan Pembayaran berikut:
-Jumlah Bayaran untuk Perkhidmatan: _____________________________________________________
-Yuran Pendahuluan (Disebabkan Sebelum Tarikh Mula Projek): ____________________________________
-Baki Baki yang Disebabkan: ___________________________________________________
-Kerahsiaan. Sepanjang Perjanjian ini, adalah perlu bagi Pelanggan untuk berkongsi maklumat proprietari, termasuk rahsia perdagangan, pengetahuan industri, dan maklumat rahsia lain, kepada Perancang agar Pereka untuk melengkapkan Laman Web dalam bentuk terakhirnya. Pereka tidak akan berkongsi apa-apa maklumat proprietari ini pada bila-bila masa, walaupun selepas Perjanjian dipenuhi. Pereka juga tidak akan menggunakan apa-apa maklumat proprietari ini untuk manfaat peribadinya pada bila-bila masa, walaupun selepas Perjanjian dipenuhi.
+	<br>Pelanggan adalah berhak untuk semakan __________.
+	<br>Sebarang semakan di luar __________ akan dikenakan pada kadar RM __________.
+	<br><br>
 </li>
 <li class="list-group-item" align="justify">
-<span class="font-weight-bold">Hak Pemilikan.</span>
-<br>Pelanggan terus memiliki apa-apa dan semua maklumat proprietinya yang dimilikinya dengan Perancang sepanjang tempoh Perjanjian ini untuk tujuan Projek. Pereka tidak mempunyai hak untuk maklumat proprietari ini dan mungkin tidak menggunakannya kecuali untuk melengkapkan Projek. Setelah selesai Perjanjian, Pelanggan akan memiliki reka bentuk laman web akhir.
-</li>
-<li class="list-group-item" align="justify">
-Sementara Designer akan menyesuaikan Laman Web Klien ke spesifikasi Pelanggan, Pelanggan mengakui bahawa laman web umumnya mempunyai struktur dan asas yang sama. Pereka terus memiliki apa-apa dan semua reka bentuk template yang mungkin telah dibuat sebelum Perjanjian ini. Pereka akan terus memiliki apa-apa reka bentuk template yang boleh dibuat sebagai hasil dari Perjanjian ini.
-</li>
-<li class="list-group-item" align="justify">
+<span class="font-weight-bold">3. Pembayaran.</span>
+	<br>Para Pihak bersetuju dengan Terma dan Pembayaran berikut:
 
-Perwakilan dan Jaminan.
-
-Pereka . Pereka mewakili dan menjamin bahawa dia mempunyai hak untuk masuk dan melaksanakan Perjanjian ini. Pereka bentuk mewakili dan memberi jaminan bahawa dia mempunyai hak untuk menggunakan dan mengagihkan reka bentuk yang dibuat untuk Pelanggan dan reka bentuk tersebut tidak dimiliki oleh orang lain kepada pengetahuan Designer. Sekiranya Pereka tidak mempunyai hak ini, Perancang akan membayar balik kerosakan yang berkaitan Pelanggan mungkin mengalami atau akan bertanggungjawab supaya Pelanggan tidak mengalami sebarang kerosakan.
+	<table border="0">
+	<tr><td><span class="font-weight-bold">Jumlah Bayaran untuk Perkhidmatan</span></td>
+		<td>: _________________________________________________</td></tr>
+	<tr><td><span class="font-weight-bold">Yuran Pendahuluan (Disebabkan
+		<br>Sebelum Tarikh Mula Projek)</span></td>
+		<td>: _________________________________________________</td></tr>
+	<tr><td><span class="font-weight-bold">Baki Baki yang Disebabkan</span></td>
+		<td>: _________________________________________________</td></tr>
+	</table>
+	<br><br>
 </li>
 <li class="list-group-item" align="justify">
-
-Pelanggan . Pelanggan mewakili dan memberi waran yang mempunyai hak untuk menggunakan apa-apa maklumat proprietari, termasuk, tetapi tidak terhad kepada rahsia perdagangan, tanda dagangan, logo, hak cipta, imej, data, angka, kandungan, dan sejenis yang boleh diberikan kepada Perancang untuk dimasukkan dalam laman web ini. Sekiranya Pelanggan tidak mempunyai hak ini, Pelanggan akan membayar balik kerosakan yang berkaitan Perancang mungkin mengalami atau akan bertanggungjawab sehingga Perancang tidak mengalami sebarang kerosakan.
+<span class="font-weight-bold">4. Kerahsiaan.</span>
+	<p align="justify">Sepanjang Perjanjian ini, adalah perlu bagi Pelanggan untuk berkongsi maklumat
+	proprietari, termasuk rahsia perdagangan, pengetahuan industri, dan maklumat rahsia lain, kepada
+	Perancang agar Pereka untuk melengkapkan Laman Web dalam bentuk terakhirnya. Pereka tidak akan
+	berkongsi apa-apa maklumat proprietari ini pada bila-bila masa, walaupun selepas Perjanjian dipenuhi.
+	Pereka juga tidak akan menggunakan apa-apa maklumat proprietari ini untuk manfaat peribadinya pada
+	bila-bila masa, walaupun selepas Perjanjian dipenuhi.</p>
 </li>
 <li class="list-group-item" align="justify">
+<span class="font-weight-bold">5. Hak Pemilikan.</span>
+	<p align="justify">Pelanggan terus memiliki apa-apa dan semua maklumat proprietinya yang dimilikinya
+	dengan Perancang sepanjang tempoh Perjanjian ini untuk tujuan Projek. Pereka tidak mempunyai hak
+	untuk maklumat proprietari ini dan mungkin tidak menggunakannya kecuali untuk melengkapkan Projek.
+	Setelah selesai Perjanjian, Pelanggan akan memiliki reka bentuk laman web akhir.</p>
 
-Penafian Waranti. Pereka bentuk hendaklah membuat Laman Web untuk tujuan Pelanggan dan spesifikasi Pelanggan. DESIGNER TIDAK MENYEDIAKAN ATAU WARRANT YANG MENYAMPAIKAN LAMAN WEB MENGAKTIFKAN KEUNTUNGAN TAMBAHAN, PENJUALAN, PENDEDAHAN, PENGANDUNGAN MEREK, ATAU SEPERTI. DESIGNER TIDAK BERTANGGUNGJAWAB UNTUK PELANGGAN JIKA LAMAN WEB TIDAK MENGGALAKKAN HASIL YANG DISEDIAKAN SELESAI (S).
+	<p align="justify">
+	Sementara Pereka akan menyesuaikan Laman Web Klien ke spesifikasi Pelanggan, Pelanggan mengakui
+	bahawa laman web umumnya mempunyai struktur dan asas yang sama. Pereka terus memiliki apa-apa
+	dan semua reka bentuk template yang mungkin telah dibuat sebelum Perjanjian ini. Pereka akan
+	terus memiliki apa-apa reka bentuk template yang boleh dibuat sebagai hasil dari Perjanjian ini.</p>
 </li>
 <li class="list-group-item" align="justify">
+<span class="font-weight-bold">6. Perwakilan dan Jaminan.</span>
+	<p align="justify">
+	<u>Pereka.</u> Pereka mewakili dan menjamin bahawa dia mempunyai hak untuk masuk dan melaksanakan
+	Perjanjian ini. Pereka bentuk mewakili dan memberi jaminan bahawa dia mempunyai hak untuk menggunakan
+	dan mengagihkan reka bentuk yang dibuat untuk Pelanggan dan reka bentuk tersebut tidak dimiliki
+	oleh orang lain kepada pengetahuan Pereka. Sekiranya Pereka tidak mempunyai hak ini, Perancang
+	akan membayar balik kerosakan yang berkaitan Pelanggan mungkin mengalami atau akan bertanggungjawab
+	supaya Pelanggan tidak mengalami sebarang kerosakan.</p>
 
-Batasan Liabiliti. DI BAWAH TIDAK ADA BAGI PIHAK LAIN ADALAH PIHAK LAIN ADALAH TIDAK BERTANGGUNGJAWAB KE PIHAK LAIN ATAU SEBARANG PIHAK KETIGA UNTUK SEBARANG KEROSAKAN YANG DIBERIKAN DARI SEBARANG PERJANJIAN PERJANJIAN INI SEBAGAIMANA TETAPI TIDAK TERHAD KEPADA, KEHILANGAN PENDAPATAN ATAU KEUNTUNGAN YANG DITINJAIKAN ATAU KERUGIAN HANYA, KOS PELANGGARAN ATAU KEGAGALAN DELIVERY.
+	<p align="justify">
+	<u>Pelanggan.</u> Pelanggan mewakili dan memberi waran yang mempunyai hak untuk menggunakan
+	apa-apa maklumat proprietari, termasuk, tetapi tidak terhad kepada rahsia perdagangan, tanda dagangan,
+	logo, hak cipta, imej, data, angka, kandungan, dan sejenis yang boleh diberikan kepada Perancang
+	untuk dimasukkan dalam laman web ini. Sekiranya Pelanggan tidak mempunyai hak ini, Pelanggan akan
+	membayar balik kerosakan yang berkaitan Perancang mungkin mengalami atau akan bertanggungjawab
+	sehingga Perancang tidak mengalami sebarang kerosakan.</p>
+</li>
+<li class="list-group-item" align="justify">
+<span class="font-weight-bold">7. Penafian Waranti.</span>
+	<p align="justify">Pereka bentuk hendaklah membuat Laman Web untuk tujuan Pelanggan dan
+	spesifikasi Pelanggan. PEREKA TIDAK MENYEDIAKAN ATAU WARRANT YANG MENYAMPAIKAN LAMAN WEB
+	MENGAKTIFKAN KEUNTUNGAN TAMBAHAN, PENJUALAN, PENDEDAHAN, PENGANDUNGAN MEREK, ATAU SEPERTI.
+	PEREKA TIDAK BERTANGGUNGJAWAB UNTUK PELANGGAN JIKA LAMAN WEB TIDAK MENUNJUKKAN
+	HASIL YANG DIHARAPKAN.</p>
+</li>
+<li class="list-group-item" align="justify">
+<span class="font-weight-bold">8. Batasan Liabiliti.</span>
+	<p align="justify">DALAM KEADAAN APA-APA, SAMA ADA PIHAK BOLEH BERTANGGUNGJAWAB KEPADA PIHAK LAIN
+	ATAU MANA-MANA PIHAK KETIGA ATAS APA-APA GANTI RUGI YANG TIMBUL DARIPADA MANA-MANA BAHAGIAN
+	PERJANJIAN INI SEPERTI, TETAPI TIDAK TERHAD KEPADA, KEHILANGAN HASIL ATAU KEUNTUNGAN YANG DIJANGKA
+	ATAU KERUGIAN DALAM PERNIAGAAN, KOS KELEWATAN ATAU KEGAGALAN PENGHANTARAN.</p>
+</li>
+<li class="list-group-item" align="justify">
+<span class="font-weight-bold">9. Yuran guaman.</span>
+	<p align="justify">Sekiranya berlaku pertikaian yang mengakibatkan tindakan undang-undang, pihak yang
+	berjaya akan berhak mendapatkan yuran guamannya, termasuk, tetapi tidak terhad kepada yuran pengacaranya.</p>
 
 </li>
 <li class="list-group-item" align="justify">
-Yuran guaman. Sekiranya berlaku pertikaian yang mengakibatkan tindakan undang-undang, pihak yang berjaya akan berhak mendapatkan yuran guamannya, termasuk, tetapi tidak terhad kepada yuran pengacaranya.
-
+<span class="font-weight-bold">10. Perjanjian Perundangan dan Pengikat.</span>
+	<p align="justify">	Perjanjian ini adalah sah dan mengikat antara Pihak yang dinyatakan di atas. Perjanjian
+	ini boleh dibuat dan sah dan mengikat kedua-duanya di Malaysia. Para Pihak masing-masing mewakili bahawa
+	mereka mempunyai kuasa untuk memasuki Perjanjian ini.</p>
 </li>
 <li class="list-group-item" align="justify">
-
-Perjanjian Perundangan dan Pengikat. Perjanjian ini adalah sah dan mengikat antara Pihak yang dinyatakan di atas. Perjanjian ini boleh dibuat dan sah dan mengikat kedua-duanya di Amerika Syarikat dan di seluruh Eropah. Para Pihak masing-masing mewakili bahawa mereka mempunyai kuasa untuk memasuki Perjanjian ini.
-Pihak-pihak bersetuju dengan terma dan syarat yang dinyatakan di atas seperti yang ditunjukkan oleh tandatangan mereka seperti berikut:
-</li>
-<li class="list-group-item" align="justify">
+	<p>Pihak-pihak bersetuju dengan terma dan syarat yang dinyatakan di atas seperti yang ditunjukkan oleh tandatangan mereka seperti berikut:</p>
 	<div class="container">
-	<table class="table table-borderless table-sm">
-	<tr><td colspan="2">"PELANGGAN"</td></tr>
-	<tr><td>Tandatangan:</td><td>___________________</td></tr>
-	<tr><td>Nama:</td><td>___________________</td></tr>
-	<tr><td>Tajuk:</td><td>___________________</td></tr>
-	<tr><td>Tarikh:</td><td>___________________</td></tr>
-	<tr><td colspan="2">"DESIGNER"</td></tr>
-	<tr><td>Tandatangan:</td><td>___________________</td></tr>
-	<tr><td>Nama:</td><td>___________________</td></tr>
-	<tr><td>Tajuk:</td><td>___________________</td></tr>
-	<tr><td>Tarikh:</td><td>___________________</td></tr>
+	<table border="0">
+	<tr><td colspan="2"><span class="font-weight-bold">"Pelanggan"</span></td></tr>
+	<tr><td>Tandatangan</td><td>:___________________</td></tr>
+	<tr><td>Nama</td><td>:___________________</td></tr>
+	<tr><td>Tajuk</td><td>:___________________</td></tr>
+	<tr><td>Tarikh</td><td>:___________________</td></tr>
+	<tr><td colspan="2"><span class="font-weight-bold">"PEREKA"</span></td></tr>
+	<tr><td>Tandatangan:</td><td>:___________________</td></tr>
+	<tr><td>Nama</td><td>:___________________</td></tr>
+	<tr><td>Tajuk</td><td>:___________________</td></tr>
+	<tr><td>Tarikh</td><td>:___________________</td></tr>
 	</table>
 	</div><!-- / class="container" -->
 </li>
 </ul><!-- / class="list-group" --><br>
-
 <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 		</div><!-- / class="card-body" -->
 		</div><!-- / class="collapsed *" -->
