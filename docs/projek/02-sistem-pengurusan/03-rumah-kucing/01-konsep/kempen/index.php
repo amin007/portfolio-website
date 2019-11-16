@@ -35,8 +35,9 @@ foreach($senarai as $myTable => $row):
 foreach($row as $key => $data1):
 	$a = semakGenap($key);
 	$susunGambar = ($a == 'genap') ? 'text-md-right':'text-md-left';
-	$no = ($key+1) . '0';
-	$urlGambar = "https://placekitten.com/g/$no/$no";
+	//$no = ($key+1) . '0';
+	//$urlGambar = "https://placekitten.com/g/$no/$no";
+	$urlGambar = "https://picsum.photos/id/$key/200/300";
 	//echo $data1 . '<br>';
 	//echo $row[$key]['tajuk'] . '<br>';
 ?>
