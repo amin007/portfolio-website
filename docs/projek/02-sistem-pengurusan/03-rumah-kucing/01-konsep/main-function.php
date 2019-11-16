@@ -153,15 +153,7 @@ function notakaki()
 			<li><a href="http://themes.guide/#about">Benefits</a></li>
 			</ul>
 		</div>
-		<div class="col-6 col-lg-3 column text-lg-left text-right">
-			<h6>Tools</h6>
-			<ul class="list-unstyled">
-			<li><a href="http://themestr.app/" title="Custom Bootstrap theme creator - SASS to CSS">Themestr.app</a></li>
-			<li><a href="http://bootstrap4.guide" title="Learn about Bootstrap 4 using this free theme">Bootstrap4.guide</a></li>
-			<li><a href="http://www.codeply.com" title="Prototype and edit code for Bootstrap and other responsive frameworks">Codeply</a></li>
-			</ul>
-		</div>
-		<div class="col-6 col-lg-3 column">
+		<div class="col-6">
 			<h6>Apa Itu Crownfunding?</h6>
 			<p>Daripada Wikipedia, ensiklopedia bebas.
 Pendanaan khalayak, pendanaan awam atau biayasama (Bahasa Inggeris: crowdfunding) ditakrifkan sebagai suatu amalan pendanaan sebuah projek atau perusahaan melalui kutipan jumlah wang yang kecil dari sejumlah ramai orang, biasanya menggunakan medium Internet. 
@@ -172,7 +164,7 @@ Kaedah ini telah digunakan untuk mendana pelbagai jenis keusahawanan beruntung (
 
 Terdapat anggaran yang dibuat pada tahun 2015 bahawa sebanyak sekitar AS$34 bilion telah diperolehi dengan cara ini.</p>
 		</div>
-		<div class="col-6 col-lg-3 column text-right">
+		<div class="col-6 col-lg-3 column text-left">
 			<h6>Follow</h6>
 			<ul class="nav float-right">
 			<li><a target="_blank" href="https://www.facebook.com/amin007.ledang" 
@@ -194,7 +186,9 @@ Terdapat anggaran yang dibuat pada tahun 2015 bahawa sebanyak sekitar AS$34 bili
 	</div>
 </div>
 <div class="container pt-5">
-	<p class="small text-right">Made by ThemesGuide ©2018. MIT License.</p>
+	<p class="small text-right">
+	Made by ThemesGuide &copy;2018. MIT License.
+	<br>Ubahsuai oleh Amin Ledang &copy;2019.</p>
 </div>
 </footer> 
 <?php
