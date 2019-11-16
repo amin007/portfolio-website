@@ -13,13 +13,12 @@ diatas($tajuk);
 
 <!-- untuk konten tengah
 =============================================================================================== -->
-<h1><?php echo $tajuk ?></h1>
 <section class="bg-light" id="themes">
 <div class="container">
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 <div class="row">
 	<div class="col-xl-8 py-3">
-		<h1 class="display-3 mb-0">Themes</h1>
+		<h1 class="display-3 mb-0"><?php echo $tajuk ?></h1>
 		<p class="lead text-justify">
 		A collection of free, <a href="https://github.com/ThemesGuide/bootstrap-themes" target="_new">open-source</a> themes to give your Bootstrap 4 projects a 
 		<strong>unique, custom</strong> style. Simply download the <code>theme.css</code> file for any theme, and include it after the standard
