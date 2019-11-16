@@ -32,12 +32,7 @@ diatas($tajuk);
 <?php
 $senarai = senaraiKempen();
 foreach($senarai as $myTable => $row):
-foreach($row as $key => $data1):
-	$a = semakGenap($key);
-	$susunGambar = ($a == 'genap') ? 'text-md-right':'text-md-left';
-	//$no = ($key+1) . '0';
-	//$urlGambar = "https://placekitten.com/g/$no/$no";
-	$urlGambar = "https://picsum.photos/id/$key/200/300";
+foreach($row as $key => $data):
 	//echo $data1 . '<br>';
 	//echo $row[$key]['tajuk'] . '<br>';
 	# pilih konten

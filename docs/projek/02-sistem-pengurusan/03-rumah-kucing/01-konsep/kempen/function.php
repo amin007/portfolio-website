@@ -80,6 +80,12 @@ function senaraiKempen($tajuk = 'kucing')
 #------------------------------------------------------------------------------------------
 function konten01($row,$key,$data)
 {
+	# set pembolehubah
+	$a = semakGenap($key);
+	$susunGambar = ($a == 'genap') ? 'text-md-right':'text-md-left';
+	//$no = ($key+1) . '0';
+	//$urlGambar = "https://placekitten.com/g/$no/$no";
+	$urlGambar = "https://picsum.photos/id/$key/200/300";
 	?>
 <div class="row py-5 border-bottom">
 	<div class="col-md-5 py-2 text-center <?php echo $susunGambar ?>">
