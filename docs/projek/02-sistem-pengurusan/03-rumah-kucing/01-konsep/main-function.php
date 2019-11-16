@@ -159,6 +159,14 @@ function notakaki()
 		</div>
 		<div class="col-6 col-lg-3 column">
 			<h6>Apa Itu Crownfunding?</h6>
+			<p>Daripada Wikipedia, ensiklopedia bebas.
+Pendanaan khalayak, pendanaan awam atau biayasama (Bahasa Inggeris: crowdfunding) ditakrifkan sebagai suatu amalan pendanaan sebuah projek atau perusahaan melalui kutipan jumlah wang yang kecil dari sejumlah ramai orang, biasanya menggunakan medium Internet. 
+
+Ia merupakan suatu bentuk sumber khalayak dan kewangan alternatif.
+
+Kaedah ini telah digunakan untuk mendana pelbagai jenis keusahawanan beruntung (for-profit entrepreneurship) seperti projek-projek kesenian dan kreatif, perbelanjaan tampungan perubatan, perlancongan, mahupun projek keusahawanan sosial yang bertumpukan masyarakat.
+
+Terdapat anggaran yang dibuat pada tahun 2015 bahawa sebanyak sekitar AS$34 bilion telah diperolehi dengan cara ini.</p>
 		</div>
 		<div class="col-6 col-lg-3 column text-right">
 			<h6>Follow</h6>
