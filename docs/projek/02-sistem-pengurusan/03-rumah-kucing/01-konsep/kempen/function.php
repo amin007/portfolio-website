@@ -86,7 +86,8 @@ function konten01($row,$key,$data)
 	$susunB = ($a == 'genap') ? 'order-md-first text-md-right':'';
 	//$no = ($key+1) . '0';
 	//$urlGambar = "https://placekitten.com/g/$no/$no";
-	$urlGambar = "https://picsum.photos/id/$key/500";
+	//$urlGambar = "https://picsum.photos/id/$key/500";
+	$urlGambar = "https://loremflickr.com/320/240/kitten";
 	?>
 <div class="row py-5 border-bottom">
 	<div class="col-md-5 py-2 text-center <?php echo $susunA ?>">
