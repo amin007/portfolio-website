@@ -202,3 +202,23 @@ function dibawah()
 <?php
 }
 #------------------------------------------------------------------------------------------
+function semakGenap($number)
+{
+	# https://www.geeksforgeeks.org/php-check-number-even-odd/
+	# PHP code to check whether the number
+	# is Even or Odd in Normal way
+	$data = null;
+	if($number % 2 == 0)
+	{
+		//echo "Even";
+		$data = 'genap';
+	}
+	else
+	{
+		//echo "Odd";
+		$data = 'ganjil';
+	}
+	#
+	return $data;
+}
+#------------------------------------------------------------------------------------------
