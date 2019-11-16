@@ -148,14 +148,16 @@ function notakaki()
 		<div class="col-6 col-md-6 col-lg-3 column">
 			<h6>Information</h6>
 			<ul class="list-unstyled">
-			<li><a href="http://themes.guide/#freebies">Free Themes</a></li>
-			<li><a href="http://themes.guide/#themes">Pro Themes</a></li>
-			<li><a href="http://themes.guide/#about">Benefits</a></li>
+			<li><a class="btn btn-info text-white" href="http://themes.guide/#freebies">Free Themes</a></li>
+			<li><a class="btn btn-info text-white" href="http://themes.guide/#themes">Pro Themes</a></li>
+			<li><a class="btn btn-info text-white" href="http://themes.guide/#about">Benefits</a></li>
 			</ul>
 		</div>
 		<div class="col-6">
 			<h6>Apa Itu Crownfunding?</h6>
-			<p>Daripada Wikipedia, ensiklopedia bebas.
+			<p align="justify">Daripada <a target="_blank"
+			class="btn btn-secondary rounded-pill"
+			href="https://ms.wikipedia.org/wiki/Dana_khalayak">Wikipedia</a>.
 Pendanaan khalayak, pendanaan awam atau biayasama (Bahasa Inggeris: crowdfunding) ditakrifkan sebagai suatu amalan pendanaan sebuah projek atau perusahaan melalui kutipan jumlah wang yang kecil dari sejumlah ramai orang, biasanya menggunakan medium Internet. 
 
 Ia merupakan suatu bentuk sumber khalayak dan kewangan alternatif.
@@ -166,20 +168,20 @@ Terdapat anggaran yang dibuat pada tahun 2015 bahawa sebanyak sekitar AS$34 bili
 		</div>
 		<div class="col-6 col-lg-3 column text-left">
 			<h6>Follow</h6>
-			<ul class="nav float-right">
+			<ul class="list-unstyled">
 			<li><a target="_blank" href="https://www.facebook.com/amin007.ledang" 
-				class="btn btn-secondary">
+				class="btn btn-secondary rounded-pill">
 				<i class="fab fa-facebook"></i>: amin007.ledang</a></li>
 			<li><a target="_blank" href="https://www.twitter.com/amin007_ledang"
-				class="btn btn-secondary">
+				class="btn btn-secondary rounded-pill">
 				<i class="fab fa-twitter-square"></i>: amin007_ledang</a></li>
 			<li><a target="_blank" href="https://www.youtube.com/user/amin007ledang"
-				class="btn btn-secondary">
+				class="btn btn-secondary rounded-pill">
 				<i class="fab fa-youtube"></i>: amin007ledang</a></li>
 			<li><a target="_blank" href="https://instagram.com/aminledang"
-				class="btn btn-secondary">
+				class="btn btn-secondary rounded-pill">
 				<i class="fab fa-instagram"></i>: aminledang</a></li>
-			<li><a class="btn btn-secondary text-white">
+			<li><a class="btn btn-secondary rounded-pill">
 				<i class="fab fa-snapchat"></i>: amin007ledang</a></li>
 			</ul>
 		</div>
