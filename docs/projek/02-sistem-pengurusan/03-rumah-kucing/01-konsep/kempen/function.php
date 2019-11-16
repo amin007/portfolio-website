@@ -82,17 +82,18 @@ function konten01($row,$key,$data)
 {
 	# set pembolehubah
 	$a = semakGenap($key);
-	$susunGambar = ($a == 'genap') ? 'text-md-right':'text-md-left';
+	$susunA = ($a == 'genap') ? 'text-md-right':'text-md-left';
+	$susunB = ($a == 'genap') ? 'order-md-first text-md-right':'';
 	//$no = ($key+1) . '0';
 	//$urlGambar = "https://placekitten.com/g/$no/$no";
 	$urlGambar = "https://picsum.photos/id/$key/200/300";
 	?>
 <div class="row py-5 border-bottom">
-	<div class="col-md-5 py-2 text-center <?php echo $susunGambar ?>">
+	<div class="col-md-5 py-2 text-center <?php echo $susunA ?>">
 		<a href="./signal"><img class="img-fluid rounded shadow wow fadeIn"
 		src="<?php echo $urlGambar ?>" alt="Screenshot <?php echo $a ?>"></a>
 	</div>
-	<div class="col-md-7 py-2">
+	<div class="col-md-7 py-2 <?php echo $susunB ?>">
 		<h2 class="my-1"><a href="./signal"><?php echo $row[$key]['tajuk'] ?></a></h2>
 		<p>Like sailing yacht flags in a busy harbor.<br></p>
 		<p><span class="h5" style="font-family:'Comfortaa'">Comfortaa</span> is the font family.</p>
