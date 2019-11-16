@@ -176,7 +176,7 @@ function notakaki()
 				class="btn btn-secondary">
 				<i class="fab fa-instagram"></i>: aminledang</a></li>
 			<li><a class="btn btn-secondary text-white">
-				<i class="fab fa-snapchat">amin007ledang</i></a></li>
+				<i class="fab fa-snapchat"></i>: amin007ledang</a></li>
 			</ul>
 		</div>
 	</div>
