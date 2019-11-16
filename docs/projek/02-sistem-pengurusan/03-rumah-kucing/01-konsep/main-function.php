@@ -57,6 +57,10 @@ input[type="submit"] {
 	font-size: 1.3333333333333333em;
 	font-weight: 900;
 }
+footer {
+	border-top: 1px solid;
+	padding: 10px 0;
+}
 </style>
 </head>
 <body>
