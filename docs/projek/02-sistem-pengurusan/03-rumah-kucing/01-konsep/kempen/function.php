@@ -1,8 +1,8 @@
 <?php
 #------------------------------------------------------------------------------------------
-function senaraiKempen()
+function senaraiKempen($tajuk = 'kucing')
 {
-	$data = array(
+	$data[$tajuk] = array(
 		array(
 			'tajuk'=>'Kucing 1',
 			'gambar'=>'gambar kucing 1',
@@ -18,56 +18,56 @@ function senaraiKempen()
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 3',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 4',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 5',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 6',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 7',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 8',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 9',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
 			'kempen_bil'=>'5',
 			),
 		array(
-			'tajuk'=>'Kucing 1',
+			'tajuk'=>'Kucing 10',
 			'gambar'=>'gambar kucing 1',
 			'kempen_target'=>'10000',
 			'kempen_capai'=>'500',
