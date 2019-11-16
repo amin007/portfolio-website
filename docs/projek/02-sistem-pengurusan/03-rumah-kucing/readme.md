@@ -21,10 +21,10 @@ ___
 * Pages
   * Donation
   * Volunteer
-* "acara/index" **Event
-  * "acara/papar/grid" **Event Grid
-  * "acara/papar/list" **Event List
-  * "acara/papar/single" **Event Single
+* "acara/index" **Event**
+  * "acara/papar/grid" **Event Grid**
+  * "acara/papar/list" **Event List**
+  * "acara/papar/single" **Event Single**
 * "index/info" **Info**
 * "index/hubungi" **Contact**
 
@@ -66,6 +66,8 @@ ___
 # Sumber ilham kawan-kawan
 * [jQuery](http://jquery.com)
 * [Bootstrap](http://getbootstrap.com)
+* [Bootstrap.Themes](http://bootstrap.themes.guide)
+* [AdminLTE](https://adminlte.io/themes/AdminLTE)
 * [animate.css](https://daneden.github.io/animate.css)
 * [Sweet Alert](http://t4t5.github.io/sweetalert)
 * [FontAwesome](http://fortawesome.github.io/Font-Awesome)
@@ -77,3 +79,4 @@ ___
 ___
 # Sumber ilham google
 * [nobility-charity-crowdfunding](https://themeforest.net/item/nobility-charity-crowdfunding-html5-template/21438467)
+* [charity](https://colorlib.com/wp/cat/charity/)
