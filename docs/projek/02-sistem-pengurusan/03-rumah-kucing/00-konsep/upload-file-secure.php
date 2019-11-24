@@ -23,6 +23,7 @@ https://www.owasp.org/index.php/Unrestricted_File_Upload
 http://webcheatsheet.com/PHP/file_upload.php
 https://www.sitepoint.com/community/t/very-secure-upload-form/258556/5
 https://www.hungred.com/useful-information/secure-file-upload-check-list-php/
+https://docs.php.earth/security/uploading/
 */
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
