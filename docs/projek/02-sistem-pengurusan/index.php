@@ -63,6 +63,8 @@ function list_files($tajuk)
 	//$failIni = basename($_SERVER['PHP_SELF']);
 	$dirlist = getFileList("./");
 	diatas($tajuk);
+	keterangan02();
+	echo '<div class="container">';
 	echo "\n<hr><table><tr><td valign=\"top\">";
 	foreach($dirlist as $key02 => $value):
 		if ($value['type'] == 'dir'):
@@ -73,6 +75,7 @@ function list_files($tajuk)
 	foreach(getIdea() as $name => $web):
 		echo "\n" . pautan($name,$web); endforeach;
 	echo "\n</td></tr></table>";
+	echo '</div><!-- / class="container" -->';
 	dibawah();
 }
 #--------------------------------------------------------------------------------------------------
@@ -135,7 +138,6 @@ table.excel tbody td
 </style>
 </head>
 <body>
-<h1>$tajuk</h1>
 
 END;
 }
@@ -162,6 +164,61 @@ function dibawah()
 <!-- script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script -->
 </body>
 </html>
+END;
+}
+#--------------------------------------------------------------------------------------------------
+function keterangan02()
+{
+	print <<<END
+<div class="container">
+<div id="accordion">
+	<blockquote class="blockquote">
+		<h1>Amin Ledang: 02-Sistem Pengurusan</h1>
+		<p> Disini saya senaraikan projek-projek website yang pernah saya buat </p>
+	</blockquote>
+
+	<div class="card">
+		<div class="card-header">
+			<a class="card-link" data-toggle="collapse" href="#maksud01">
+			Apakah yang dinamakan <strong>sistem pengurusan</strong> /
+			<em>management system</em>
+			</a>
+		</div><!-- / class="card-header" -->
+		<div id="maksud01" class="collapse show" data-parent="#accordion">
+		<div class="card-body">
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+<p><span class="font-weight-bold">Definisi:</span>
+<span class="font-weight-bold">(Kamus Dewan Edisi Keempat)</span></p>
+<p><span class="font-weight-bold">Definisi:</span>
+<span class="font-weight-bold">(Kamus Pelajar Edisi Kedua)</span></p>
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+		</div><!-- / class="card-body" -->
+		</div><!-- / class="collapsed *" -->
+	</div><!-- / class="card" -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+	<div class="card">
+		<div class="card-header">
+			<a class="card-link" data-toggle="collapse" href="#maksud02">
+			Apakah maksud <strong>sistem pengurusan</strong> /
+			<em>management system</em> pada Wikipedia
+			</a>
+		</div><!-- / class="card-header" -->
+		<div id="maksud02" class="collapse" data-parent="#accordion">
+		<div class="card-body">
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+
+<p><span class="font-weight-bold">Pengurusan</span> terdiri daripada pengarahan dan pengawalan sebuah kumpulan yang terdiri daripada satu atau lebih orang atau entiti untuk tujuan menyeleraskan dan mengharmonikan kumpulan tersebut untuk mencapai sesuatu matlamat. Ia seringnya merangkumi penggunaan sumber-sumber manusia, kewangan, dan teknologi, serta juga sumber alam semula jadi. Pengurusan juga boleh merujuk kepada seorang atau sekumpulan orang yang menjalankan fungsi pengurusan.</p>
+
+<p>Kata kerja "mengurus" datangnya daripada perkataan bahasa Itali, maneggiare (menangani - khususnya, seekor kuda), yang pada dirinya diterbitkan daripada perkataan Latin, manus (tangan). Perkataan bahasa Perancis, mesnagement (kemudiannya ménagement), telah banyak mempengaruhi perkembangan maksud perkataan bahasa Inggeris, management pada abad-abad ke-17 dan ke-18.</p>
+<footer class="blockquote-footer">Dari laman web <cite title="Source Title">
+<a target="_blank" href="https://ms.wikipedia.org/wiki/Pengurusan">Wikipedia</a></cite></footer>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+		</div><!-- / class="card-body" -->
+		</div><!-- / class="collapsed *" -->
+	</div><!-- / class="card" -->
+</div><!-- / id="accordion" -->
+</div><!-- / class="container" -->
 END;
 }
 #--------------------------------------------------------------------------------------------------
