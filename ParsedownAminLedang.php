@@ -997,6 +997,9 @@ class Parsedown
             'identified' => true,
             'element' => array(
                 'name' => 'table',
+				//'style' => 'border-style: solid;',# Amin Ledang tambah
+				//border-collapse: collapse;border: 1px solid black;
+				//'border' => '1',
                 'elements' => array(),
             ),
         );
@@ -1054,9 +1057,17 @@ class Parsedown
                 if (isset($Block['alignments'][$index]))
                 {
                     $Element['attributes'] = array(
-                        'style' => 'text-align: ' . $Block['alignments'][$index] . ';',
+						# Amin Ledang
+                        'style' => 'text-align: ' . $Block['alignments'][$index]
+						. ';border: 1px solid black;',
                     );
                 }
+				else
+				{# Amin Ledang
+                    $Element['attributes'] = array(
+						'style' => 'border: 1px solid black;',
+                    );
+				}
 
                 $Elements []= $Element;
             }
