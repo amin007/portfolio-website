@@ -70,7 +70,7 @@ footer {
 #------------------------------------------------------------------------------------------
 function navbar()
 {
-	#
+	# warna Thistle #d8bfd8;
 	?><!-- mula - nav atas sekali ---------------------------------------------------------------------------------------------- -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#d8bfd8;">
 	<a class="navbar-brand" href="#anjung">Anjung</a>
@@ -143,6 +143,7 @@ function navbar()
 #------------------------------------------------------------------------------------------
 function notakaki()
 {
+	## warna Thistle #d8bfd8;
 	?><footer id="footer" style="background-color:#d8bfd8;border-style:hidden;">
 <!-- div class="container" -->
 	<div class="row">
