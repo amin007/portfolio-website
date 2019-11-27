@@ -21,11 +21,11 @@
 	<div class="col-lg-2"><span class="input-group-text">pengesahan</span></div>
 	<div class="col-sm-6">
 		<div class="input-group input-group-lg">
-			 <select class="custom-select" id="inputGroupSelect01">
-			<option selected>Choose...</option>
-			<option value="1">One</option>
-			<option value="2">Two</option>
-			<option value="3">Three</option>
+			<select class="form-control">
+			<option selected>Pilih...</option>
+			<option value="1">Disahkan</option>
+			<option value="2">Palsu Belaka</option>
+			<option value="3">Dalam siasatan</option>
 			</select>
 		</div><!-- / class="input-group input-group-lg" -->
 	</div><!-- / class="col-sm-6" -->
