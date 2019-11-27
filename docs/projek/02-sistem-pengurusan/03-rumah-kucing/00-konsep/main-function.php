@@ -184,7 +184,8 @@ Terdapat anggaran yang dibuat pada tahun 2015 bahawa sebanyak sekitar AS$34 bili
 			<li><a target="_blank" href="https://instagram.com/aminledang"
 				class="btn btn-secondary rounded-pill">
 				<i class="fab fa-instagram"></i>: aminledang</a></li>
-			<li><a class="btn btn-secondary rounded-pill">
+			<li><a target="_blank" href="#"
+				class="btn btn-secondary rounded-pill">
 				<i class="fab fa-snapchat"></i>: amin007ledang</a></li>
 			</ul>
 		</div><!-- / class="col-6" -->
