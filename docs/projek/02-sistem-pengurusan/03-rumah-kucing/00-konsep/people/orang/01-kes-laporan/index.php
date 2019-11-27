@@ -20,7 +20,7 @@ diatas($tajuk);
 include 'x-contoh-nav-tabs-02.php'; echo '<hr>';
 include 'x-contoh-nav-tabs-03.php'; echo '<hr>';
 include 'x-contoh-nav-tabs-04.php'; echo '<hr>';//*/
-include 'kes-laporan.php'; echo '<hr>';
+include 'kes-laporan.php';
 ?>
 <!-- tamat - borang utama ---------------------------------------------------------------------------------------------- -->
 </form>
