@@ -34,8 +34,8 @@ function | **Fungsi Khas** | -
 ___
 ### people
 
-folder   | fail           | tajuk           | url
--------- |--------------- |:---------------:| --:
+folder   | fail           | tajuk           | url-----
+-------- |--------------- |:---------------:| -------:
 orang    |                | **Orang**       | -
 orang    | 01-kes-laporan | **Kes Laporan** | -
 orang    | 02-penyemak    | **Penyemak**    | -
