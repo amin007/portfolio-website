@@ -12,22 +12,26 @@ Ia terdiri dari beberapa folder dan fail.
 
 ___
 ### acara
-nama fail | tajuk             | url
---------- |------------------ | ---
+
+nama fail | tajuk             | url-----
+--------- |------------------ | -------:
 index     | **Halaman Utama** | -
 function  | **Fungsi Khas**   | -
+
 ___
 ### kempen
-nama fail  | tajuk             | url
----------  |------------------ | ---
+
+nama fail  | tajuk             | url-----
+---------  |------------------ | -------:
 index.html | **Halaman Utama** | (./kempen)
 index.php  | **Halaman Utama** | -
 function   | **Fungsi Khas**   | -
 
 ___
 ### pages
-nama fail | tajuk             | url
---------- |------------------ | ---
+
+nama fail | tajuk             | url----
+--------- |------------------ | -------:
 index     | **Halaman Utama** | -
 function  | **Fungsi Khas**   | -
 
