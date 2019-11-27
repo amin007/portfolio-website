@@ -15,6 +15,7 @@ diatas($tajuk);
 =============================================================================================== -->
 <!-- mula - borang utama ---------------------------------------------------------------------------------------------- -->
 <form method="POST" action="" class="form-horizontal">
+<!-- style="background-color: #e9ecef;" -->
 <!-- mula - input tengah ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <div class="form-group row">
 	<div class="col-1"></div>
@@ -39,7 +40,19 @@ diatas($tajuk);
 <div class="form-group row">
 	<div class="col-2"></div>
 	<div class="col-sm-6">
-		<div class="input-group input-group-lg"><!-- style="background-color: #e9ecef;" -->
+		<div class="input-group input-group-lg">
+			<span class="input-group-prepend"><span class="input-group-text">
+				no kp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span></span>
+			<input type="text" class="form-control" placeholder="nama anda">
+		</div>
+	</div>
+</div>
+<!-- sempadan input tengah  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="form-group row">
+	<div class="col-2"></div>
+	<div class="col-sm-6">
+		<div class="input-group input-group-lg">
 			<span class="input-group-prepend"><span class="input-group-text">
 				nombor telefon
 			</span></span>
