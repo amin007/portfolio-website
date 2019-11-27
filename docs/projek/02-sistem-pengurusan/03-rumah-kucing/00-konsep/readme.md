@@ -33,12 +33,13 @@ function | **Fungsi Khas** | -
 
 ___
 ### people
-nama fail | tajuk | url
---- | --- | ---
-orang | **Orang** | -
-orang/01-kes-laporan | **Kes Laporan** | -
-orang/02-penyemak | **Penyemak** | -
-penderma | **Penderma** | -
+
+folder   | fail           | tajuk           | url
+--- | --- | --- | ---
+orang    |                | **Orang**       | -
+orang    | 01-kes-laporan | **Kes Laporan** | -
+orang    | 02-penyemak    | **Penyemak**    | -
+penderma |                | **Penderma**    | -
 
 ___
 # Standard
