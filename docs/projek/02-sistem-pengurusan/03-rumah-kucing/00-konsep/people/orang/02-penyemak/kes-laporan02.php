@@ -34,7 +34,7 @@
 		include '02-yang-dilapor.php';
 		?></div>
 		<div class="tab-pane fade" role="tabpanel" id="disemak" aria-labelledby="disemak-tab"><?php
-		include '02-yang-dilapor.php';
+		include '03-penyemak.php';
 		?></div>
 	</div><!-- / class="tab-content" id="v-pills-tabContent" -->
 	<!--- ///////////////////////////////////////////////////////////////////////////////////////////// -->
