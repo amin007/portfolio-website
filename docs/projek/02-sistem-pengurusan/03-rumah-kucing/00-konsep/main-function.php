@@ -70,7 +70,7 @@ footer {
 #------------------------------------------------------------------------------------------
 function navbar()
 {
-	# warna Thistle #d8bfd8;
+	# warna Thistle #d8bfd8; fuchsia #ff00ff
 	?><!-- mula - nav atas sekali ---------------------------------------------------------------------------------------------- -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#d8bfd8;">
 	<a class="navbar-brand" href="#anjung">Anjung</a>
