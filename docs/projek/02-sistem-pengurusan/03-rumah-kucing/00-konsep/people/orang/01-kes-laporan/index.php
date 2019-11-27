@@ -19,8 +19,9 @@ diatas($tajuk);
 /*include 'x-contoh-nav-tabs-01.php'; echo '<hr>';
 include 'x-contoh-nav-tabs-02.php'; echo '<hr>';
 include 'x-contoh-nav-tabs-03.php'; echo '<hr>';
-include 'x-contoh-nav-tabs-04.php'; echo '<hr>';//*/
-include 'kes-laporan.php';
+include 'x-contoh-nav-tabs-04.php'; echo '<hr>';
+include 'kes-laporan.php';//*/
+include 'kes-laporan02.php';
 ?>
 <!-- tamat - borang utama ---------------------------------------------------------------------------------------------- -->
 </form>
