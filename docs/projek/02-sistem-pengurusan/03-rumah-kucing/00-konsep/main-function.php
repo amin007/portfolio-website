@@ -35,6 +35,7 @@ table.excel tbody td
 	padding: 0 3px; border: 1px solid #aaaaaa;
 	background:#ffffff;
 }
+/* ============================================================================================= */
 /* https://stackoverflow.com/questions/15988373/how-do-i-add-a-font-awesome-icon-to-input-field */
 .carilah {
 	display: inline-block;
@@ -71,7 +72,7 @@ function navbar()
 {
 	#
 	?><!-- mula - nav atas sekali ---------------------------------------------------------------------------------------------- -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#d8bfd8;">
 	<a class="navbar-brand" href="#anjung">Anjung</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 	aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -135,24 +136,25 @@ function navbar()
 			</form>
 	<!-- sempadan 3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 	</div>
-</nav>
+</nav><br>
 <!-- tamat - nav atas sekali ---------------------------------------------------------------------------------------------- -->
 <?php
 }
 #------------------------------------------------------------------------------------------
 function notakaki()
 {
-	?><footer id="footer" class="bg-info text-white">
-<div class="container pt-3">
+	?><footer id="footer" style="background-color:#d8bfd8;border-style:hidden;">
+<!-- div class="container" -->
 	<div class="row">
-		<div class="col-6 col-md-6 col-lg-3 column">
+		<div class="col-1"></div>
+		<div class="col-1"><!-- div class="col-6 col-md-6 col-lg-3 column" -->
 			<h6>Information</h6>
 			<ul class="list-unstyled">
 			<li><a class="btn btn-info text-white" href="http://themes.guide/#freebies">Free Themes</a></li>
 			<li><a class="btn btn-info text-white" href="http://themes.guide/#themes">Pro Themes</a></li>
 			<li><a class="btn btn-info text-white" href="http://themes.guide/#about">Benefits</a></li>
 			</ul>
-		</div>
+		</div><!-- / class="col-6" -->
 		<div class="col-6">
 			<h6>Apa Itu Crownfunding?</h6>
 			<p align="justify">Daripada <a target="_blank"
@@ -165,8 +167,8 @@ Ia merupakan suatu bentuk sumber khalayak dan kewangan alternatif.
 Kaedah ini telah digunakan untuk mendana pelbagai jenis keusahawanan beruntung (for-profit entrepreneurship) seperti projek-projek kesenian dan kreatif, perbelanjaan tampungan perubatan, perlancongan, mahupun projek keusahawanan sosial yang bertumpukan masyarakat.
 
 Terdapat anggaran yang dibuat pada tahun 2015 bahawa sebanyak sekitar AS$34 bilion telah diperolehi dengan cara ini.</p>
-		</div>
-		<div class="col-6 col-lg-3 column text-left">
+		</div><!-- / class="col-6" -->
+		<div class="col-3"><!-- / div class="col-3 col-lg-3 column text-left" -->
 			<h6>Follow</h6>
 			<ul class="list-unstyled">
 			<li><a target="_blank" href="https://www.facebook.com/amin007.ledang" 
@@ -184,14 +186,14 @@ Terdapat anggaran yang dibuat pada tahun 2015 bahawa sebanyak sekitar AS$34 bili
 			<li><a class="btn btn-secondary rounded-pill">
 				<i class="fab fa-snapchat"></i>: amin007ledang</a></li>
 			</ul>
-		</div>
-	</div>
-</div>
-<div class="container pt-5">
+		</div><!-- / class="col-6" -->
+	</div><!-- / class="row" -->
+<!-- / class="container pt-3" -->
+<div class="container pt-0">
 	<p class="small text-right">
 	Made by ThemesGuide &copy;2018. MIT License.
 	<br>Ubahsuai oleh Amin Ledang &copy;2019.</p>
-</div>
+</div><!-- / class="container pt-5" -->
 </footer> 
 <?php
 }
