@@ -24,6 +24,7 @@ http://webcheatsheet.com/PHP/file_upload.php
 https://www.sitepoint.com/community/t/very-secure-upload-form/258556/5
 https://www.hungred.com/useful-information/secure-file-upload-check-list-php/
 https://docs.php.earth/security/uploading/
+https://medium.com/@igordata/php-running-jpg-as-php-or-how-to-prevent-execution-of-user-uploaded-files-6ff021897389
 */
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
