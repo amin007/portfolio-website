@@ -13,7 +13,7 @@ ___
 
 ___
 ### paparan utama
-| Folder      | Url                 | Tajuk             |
+|:file_folder:| Url                 | Tajuk             |
 |-------------|:--------------------|:-----------------:|
 | index       | index               | **Halaman**       |
 | index       | index/login         | **Login**         |
@@ -78,6 +78,7 @@ ___
 * [FontAwesome](http://fortawesome.github.io/Font-Awesome)
 * [backstretch](http://srobbin.com/jquery-plugins/backstretch)
 * [jQuery.Form](http://malsup.com/jquery/form)
+* [markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 * [Pixabay](https://pixabay.com)
 * [Unslpash](https://unsplash.com)
 
