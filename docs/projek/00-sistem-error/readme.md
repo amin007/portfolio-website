@@ -8,9 +8,9 @@ Ia terdiri dari beberapa folder dan fail.
 folder     | fail         | tajuk        | url
 ---------- | -------------| :----------: | ---
 01-page404 | index.php    | **Index**    | [**Index **](./01-page404/index.php)
-01-page404 | awek01.html  | **Awek01**   | [**Awek01**](./01-page404/awek01.php)
-01-page404 | awek02.html  | **Awek02**   | [**Awek01**](./01-page404/awek02.php)
-01-page404 | awek03.html  | **Awek03**   | [**Awek01**](./01-page404/awek03.php)
+01-page404 | awek01.html  | **Awek01**   | [**Awek01**](./01-page404/awek01.html)
+01-page404 | awek02.html  | **Awek02**   | [**Awek01**](./01-page404/awek02.html)
+01-page404 | awek03.html  | **Awek03**   | [**Awek01**](./01-page404/awek03.html)
 
 ___
 # Standard
