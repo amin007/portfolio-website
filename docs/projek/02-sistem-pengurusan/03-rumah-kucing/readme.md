@@ -13,24 +13,26 @@ ___
 
 ___
 ### paparan utama
-* "index" **Halaman**
-* "index/login" **Login**
-* "index/daftar" **Register**
-* "login/lupadaa" **Lupa Password**
-* "index/tentangkami" **About**
-* "kempen/index" **Causes**
-  * "kempen/papar/grid" **Causes Grid**
-  * "kempen/papar/list" **Causes List**
-  * "kempen/papar/single" **Causes Single**
-* Pages
-  * Donation
-  * Volunteer
-* "acara/index" **Event**
-  * "acara/papar/grid" **Event Grid**
-  * "acara/papar/list" **Event List**
-  * "acara/papar/single" **Event Single**
-* "index/info" **Info**
-* "index/hubungi" **Contact**
+|:file_folder:| Url                 | Tajuk             |
+|-------------|:--------------------|:-----------------:|
+| index       | index               | **Halaman**       |
+| index       | index/login         | **Login**         |
+| index       | index/daftar        | **Register**      |
+| login       | login/lupadaa       | **Lupa Password** |
+| index       | index/tentangkami   | **About**         |
+| kempen      | kempen/index        | **Causes**        |
+| kempen      | kempen/papar/grid   | **Causes Grid**   |
+| kempen      | kempen/papar/list   | **Causes List**   |
+| kempen      | kempen/papar/single | **Causes Single** |
+| Pages       |                     |                   |
+| Pages       | *Pages/Donation*    |                   |
+| Pages       | *Pages/Volunteer*   |                   |
+| acara       | acara/index         | **Event**         |
+| acara       | acara/papar/grid    | **Event Grid**    |
+| acara       | acara/papar/list    | **Event List**    |
+| acara       | acara/papar/single  | **Event Single**  |
+| index       | index/info          | **Info**          |
+| index       | index/hubungi       | **Contact**       |
 
 ___
 ### paparan user
@@ -42,7 +44,6 @@ ___
   * "bantuan/sistem" **Sistem**
   * "bantuan/forum/perdana" **Forum**
   * "bantuan/mesej/utama" **Email**
-
 
 ___
 ## paparan admin01
@@ -77,10 +78,12 @@ ___
 * [FontAwesome](http://fortawesome.github.io/Font-Awesome)
 * [backstretch](http://srobbin.com/jquery-plugins/backstretch)
 * [jQuery.Form](http://malsup.com/jquery/form)
+* [markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 * [Pixabay](https://pixabay.com)
 * [Unslpash](https://unsplash.com)
 
 ___
 # Sumber ilham google
 * [nobility-charity-crowdfunding](https://themeforest.net/item/nobility-charity-crowdfunding-html5-template/21438467)
-* [charity](https://colorlib.com/wp/cat/charity/)
+* [charity](https://colorlib.com/wp/cat/charity)
+* [kitabisa](https://kitabisa.com)
