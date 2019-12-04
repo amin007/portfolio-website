@@ -31,4 +31,6 @@ ___
 * [backstretch](http://srobbin.com/jquery-plugins/backstretch)
 * [jQuery.Form](http://malsup.com/jquery/form)
 * [Pixabay](https://pixabay.com)
+* '[Pexels](https://pexels.com)
 * [Unslpash](https://unsplash.com)
+* [7-themes](http://7-themes.com)
