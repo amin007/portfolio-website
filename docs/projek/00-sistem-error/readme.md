@@ -13,7 +13,7 @@ folder     | fail         | tajuk
 01-page404 | awek03.html  | [**Awek03**](./01-page404/awek03.html)
 01-page404 | awek04.html  | [**Awek04**](./01-page404/awek04.html)
 01-page404 | awek05.html  | [**Awek05**](./01-page404/awek05.html)
-01-page404 |              | [**Britney**](./01-page404/brotney-spear01.html)
+01-page404 |              | [**Britney**](./01-page404/britney-spear01.html)
 
 ___
 # Standard
