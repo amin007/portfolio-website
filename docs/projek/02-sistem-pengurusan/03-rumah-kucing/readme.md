@@ -79,10 +79,13 @@ ___
 * [FontAwesome](http://fortawesome.github.io/Font-Awesome)
 * [backstretch](http://srobbin.com/jquery-plugins/backstretch)
 * [jQuery.Form](http://malsup.com/jquery/form)
-* [markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-* [Pixabay](https://pixabay.com)
-* [Unslpash](https://unsplash.com)
-
+* Gambar Percuma
+ * [7-themes](http://7-themes.com)
+ * [Pexels](https://pexels.com)
+ * [Pixabay](https://pixabay.com)
+ * [Unslpash](https://unsplash.com)
+* Lain-lain
+ * [markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 ___
 # Sumber ilham google
 * [nobility-charity-crowdfunding](https://themeforest.net/item/nobility-charity-crowdfunding-html5-template/21438467)
