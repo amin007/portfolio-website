@@ -22,10 +22,10 @@ $data2 = $data[2];
 <div class="row">
 	<div class="col-1"></div><!-- / class="col-1" -->
 	<div class="col-3">
-		<?php echo "<strong>$data0</strong>"
-		. "<br><em>$data1</em>" ?>
+		<?php echo "<strong class=\"text-uppercase\">$data0</strong>"
+		. "<br><em class=\"text-capitalize\">$data1</em>" ?>
 	</div><!-- / class="col-3" -->
-	<div class="col-8"><?php echo $data2 ?>
+	<div class="col-7 text-justify"><?php echo $data2 ?>
 	</div><!-- / class="col-8" -->
 </div><!-- / class="row" -->
 </div><!-- / class="container" -->
@@ -39,7 +39,7 @@ $data2 = $data[2];
 		src="https://cdn.pixabay.com/photo/2015/08/25/03/51/toner-906142_960_720.jpg">
 	</div><!-- / class="col-6" -->
 	<div class="col-6">
-		<img width="100%"
+		<img width="100%" height="100%"
 		src="https://cdn.pixabay.com/photo/2017/09/07/19/43/soap-2726387_960_720.jpg">
 	</div><!-- / class="col-6" -->
 </div><!-- / class="row" -->
