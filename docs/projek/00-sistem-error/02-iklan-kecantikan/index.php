@@ -1,7 +1,12 @@
 <?php
 require 'main-function.php';
 diatas();
-diheadbody()
+diheadbody();
+
+$data = content();
+$data0 = $data[0];
+$data1 = $data[1];
+$data2 = $data[2];
 ?>
 
 <br><br><br>
@@ -12,12 +17,15 @@ diheadbody()
 <div class="container">
 <dl class="row">
 	<dt class="col-1"></dt>
-	<dt class="col-3">Coffee</dt>
-	<dd class="col-8">Black hot drink</dd>
-	<dt class="col-4">Milk</dt>
-	<dd class="col-8">White cold drink</dd>
+	<dt class="col-3">
+		<?php echo "<strong>$data0</strong>"
+		. "<br><em>$data1</em>" ?>
+	</dt>
+	<dd class="col-8"><?php echo $data2 ?></dd>
 </dl>
 </div><!-- / class="container" -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 
 <?php
