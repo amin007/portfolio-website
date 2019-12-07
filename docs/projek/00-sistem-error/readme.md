@@ -1,23 +1,23 @@
 # sistem error
-Ini adalah contoh antaramuka jika sistem adm masalah teknikal.
+Ini adalah contoh antaramuka jika sistem ad masalah teknikal.
 
 ___
 ### konsep asas dalam php/html template
 Ia terdiri dari beberapa folder dan fail.
 
-folder     | fail         | tajuk
----------- | -------------| :----------:
-01-page404 | index.php    | [**Index **](./01-page404/index.php)
-01-page404 | awek01.html  | [**Awek01**](./01-page404/awek01.html)
-01-page404 | awek02.html  | [**Awek02**](./01-page404/awek02.html)
-01-page404 | awek03.html  | [**Awek03**](./01-page404/awek03.html)
-01-page404 | awek04.html  | [**Awek04**](./01-page404/awek04.html)
-01-page404 | awek05.html  | [**Awek05**](./01-page404/awek05.html)
-01-page404 | awek06.html  | [**Awek06**](./01-page404/awek06.html)
-01-page404 | awek07.html  | [**Awek07**](./01-page404/awek07.html)
-01-page404 | awek08.html  | [**Awek08**](./01-page404/awek08.html)
-01-page404 |              | [**Britney**](./01-page404/britney-spear01.html)
-02-iklan   |              | [**Iklan**](./02-iklan-kecantikan)
+folder     | fail
+---------- | :----------:
+01-page404 | [**Index **](./01-page404/index.php)
+01-page404 | [**Awek01**](./01-page404/awek01.html)
+01-page404 | [**Awek02**](./01-page404/awek02.html)
+01-page404 | [**Awek03**](./01-page404/awek03.html)
+01-page404 | [**Awek04**](./01-page404/awek04.html)
+01-page404 | [**Awek05**](./01-page404/awek05.html)
+01-page404 | [**Awek06**](./01-page404/awek06.html)
+01-page404 | [**Awek07**](./01-page404/awek07.html)
+01-page404 | [**Awek08**](./01-page404/awek08.html)
+01-page404 | [**Britney**](./01-page404/britney-spear01.html)
+02-iklan   | [**Iklan**](./02-iklan-kecantikan)
 
 ___
 # Standard
