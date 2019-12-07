@@ -11,9 +11,11 @@ $data2 = $data[2];
 
 <br><br><br>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
-<dl class="row">
-	<dt class="col-12 bg-success text-center"><img width="50%" src="https://cdn.pixabay.com/photo/2017/09/07/19/38/soap-2726371_960_720.jpg"></dt>
-</dl>
+<div class="row">
+	<div class="col-12 bg-success text-center"><img width="50%" src="https://cdn.pixabay.com/photo/2017/09/07/19/38/soap-2726371_960_720.jpg">
+	</div><!-- / class="col-12" -->
+</div><!-- / class="row" -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 <div class="container">
 <dl class="row">
 	<dt class="col-1"></dt>
