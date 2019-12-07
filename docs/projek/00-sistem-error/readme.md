@@ -7,7 +7,7 @@ Ia terdiri dari beberapa folder dan fail.
 
 folder     | fail
 ---------- | :----------:
-01-page404 | [**Index **](./01-page404/index.php)
+01-page404 | [**Index**](./01-page404/index.php)
 01-page404 | [**Awek01**](./01-page404/awek01.html)
 01-page404 | [**Awek02**](./01-page404/awek02.html)
 01-page404 | [**Awek03**](./01-page404/awek03.html)
