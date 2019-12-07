@@ -17,7 +17,7 @@ folder     | fail         | tajuk
 01-page404 | awek07.html  | [**Awek07**](./01-page404/awek07.html)
 01-page404 | awek08.html  | [**Awek08**](./01-page404/awek08.html)
 01-page404 |              | [**Britney**](./01-page404/britney-spear01.html)
-02-iklan  |               | [**Iklan**](./02-iklan-kecantikan.html)
+02-iklan   |              | [**Iklan**](./02-iklan-kecantikan)
 
 ___
 # Standard
