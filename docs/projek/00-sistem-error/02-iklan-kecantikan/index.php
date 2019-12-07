@@ -48,7 +48,7 @@ $data2 = $data[2];
 <br><br><br>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 <div class="row">
-	<div class="col-12 bg-success text-center"><img width="90%" src="https://cdn.pixabay.com/photo/2018/03/10/07/09/wellness-3213367_960_720.jpg">
+	<div class="col-12 text-center"><img width="70%" src="https://cdn.pixabay.com/photo/2018/03/10/07/09/wellness-3213367_960_720.jpg">
 	</div><!-- / class="col-12" -->
 </div><!-- / class="row" -->
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
