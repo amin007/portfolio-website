@@ -1,5 +1,5 @@
 # sistem error
-Ini adalah contoh antaramuka jika sistem ad masalah teknikal.
+Ini adalah contoh antaramuka jika sistem ada masalah teknikal.
 
 ___
 ### konsep asas dalam php/html template
