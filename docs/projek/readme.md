@@ -21,6 +21,16 @@
 :globe_with_meridians:
 
 ___
+# Php Version
+
+```php
+//phpinfo();
+//echo PHPVERSION() . '<br>';
+echo PHP_VERSION . '<br>';
+echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
+echo '<pre>'; print_r($_SERVER); echo '</pre>';
+```
+___
 # Sumber ilham kawan-kawan
 * Stylesheet
   * [Bootstrap](http://getbootstrap.com)
