@@ -46,14 +46,15 @@
 	</div><!-- ed/.class="container" -->
 
 	<div class="container">
-		<td>Total Price:<input type="text" name="price" class="form-control grandtotal"/></td>
+		Total Price:<input type="text" name="price" class="form-control grandtotal" id="grandtotal">
+		<input type="button" class="btn btn-lg btn-secondary btn-block" id="calcPrice" value="Calc Price">
 	</div><!-- ed/.class="container" -->
 
 </section><!-- ed/.sec-content -->
 
 <!-- khas untuk jquery dan js2 lain
 =============================================================================================== -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
@@ -80,19 +81,41 @@ $(document).ready(function (){
 		$(this).closest("tr").remove();       
 		counter -= 1
 	});
-});
+	//---------------------------------------------------------------------------------------------
+	$('[name="price"]').keyup(function() {
+		calculate_price();
+		//calculateGrandTotal();
+	});
+	//---------------------------------------------------------------------------------------------
 
+});
+//-------------------------------------------------------------------------------------------------
 function calculateRow(row) {
 	var price = +row.find('input[name^="price"]').val();
 }
-
+//-------------------------------------------------------------------------------------------------
 function calculateGrandTotal() {
 	var grandTotal = 0;
 	$("table.order-list").find('input[name^="price"]').each(function () {
 		grandTotal += +$(this).val();
 	});
-	$("#grandtotal").text(grandTotal.toFixed(2));
+	$(".grandtotal").text(grandTotal.toFixed(2));
 }
+//-------------------------------------------------------------------------------------------------
+function calculate_price()
+{
+	var total = 0;
+	$('[name="price"]').each(function () {
+		var price = $(this).val();
+		if (parseInt(price) > 0) {
+			total = total + parseInt(price);
+		}
+	});
+
+	// alert(total);
+	$('.grandtotal').val(total);
+}
+//-------------------------------------------------------------------------------------------------
 </script>
 <!-- tamat jquery dan js lain
 =============================================================================================== -->
