@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Calculation</title>
+<link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" type="text/css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<input type="button" class="btn btn-lg btn-primary btn-block" id="addrow" value="Add Row" /><br>
+
+<input type="text" name="price" class="form-control"> <br>
+<input type="text" name="price" class="form-control"> <br>
+<input type="text" name="price" class="form-control"> <br><br>
+<input type="text" class="grandtotal">
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script>
+$(document).ready(function()
+{
+	$('[name="price"]').keyup(function() {calculate_price();});
+});
+
+function calculate_price()
+{
+	var total = 0;
+	$('[name="price"]').each(function () {
+		var price = $(this).val();
+		if (parseInt(price) > 0) {
+			total = total + parseInt(price);
+		}
+	});
+
+	// alert(total);
+	$('.grandtotal').val(total);
+}
+</script>
+</body>
+</html>
