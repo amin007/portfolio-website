@@ -82,6 +82,7 @@ $(document).ready(function (){
 		counter -= 1
 	});
 
+	$('#grandtotal').clone.attr('type','price').insertAfter('#grandtotal').prev().remove();
 	$('[name="price"]').keyup(function() {calculate_price();});
 
 });
