@@ -6,6 +6,7 @@ Pembekal DNS       | Primary dns     | Secondary dns
 Streamyx --------- | 202.188.18.188  | 1.9.1.9
 Google DNS-------- | 8.8.8.8         | 8.8.4.4
 Cloudflare DNS---- | 1.1.1.1         | 1.0.0.1
+Cloudflare3 DNS--- | 1.1.1.3         | 1.0.0.3
 OpenDNS----------- | 208.67.222.123  | 208.67.222.220
 OpenDNS Home------ | 208.67.222.222  | 208.67.220.220
 Quad9------------- | 9.9.9.9         | 149.112.112.112
