@@ -13,12 +13,56 @@
 
 
 <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" type="text/css">
-<!-- Bootstrap core CSS -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
 <!-- Documentation extras -->
 <link href="/sumber/docsearch.min.css" rel="stylesheet">
 <link href="/sumber/docs.min.css" rel="stylesheet">
+<!-- add css -->
+<style type="text/css">
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#CCCCCC;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+/* https://stackoverflow.com/questions/15988373/how-do-i-add-a-font-awesome-icon-to-input-field */
+.carilah {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	//font-size: 1rem;
+	//line-height: 1.5;
+	border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	/* **************************************************************************************** */
+	//height: 32px;width: 32px;
+	color: white;
+}
+input[type="submit"] {
+	font-family: "Font Awesome 5 Free", "FontAwesome";
+	font-size: 1.3333333333333333em;
+	font-weight: 900;
+}
+</style>
 </head>
 
 <body>
@@ -109,7 +153,7 @@
 			</button>
 		</h2>
 		<div id="menuKanan1" class="collapse show" aria-labelledby="headingOne" data-parent="#menuKanan">
-			<ul class="nav flex-column">
+			<ul>
 			<li><a href="/docs/4.5/getting-started/introduction/">Introduction</a></li>
 			<li><a href="/docs/4.5/getting-started/download/">Download</a></li>
 			<li><a href="/docs/4.5/getting-started/contents/">Contents</a></li>
