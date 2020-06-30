@@ -401,7 +401,7 @@ input[type="submit"] {
 
 		<p>Bootstrap is developed <em>mobile first</em>, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, <strong>add the responsive viewport meta tag</strong> to your <code class="highlighter-rouge">&lt;head&gt;</code>.</p>
 
-		<figure class="highlight"><pre><code class="language-html" data-lang="html">&lt;metaname="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"</span>&gt;</span></code></pre></figure>
+		<figure class="highlight"><pre><code class="language-html" data-lang="html">&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;</code></pre></figure>
 
 		<p>You can see an example of this in action in the <a href="#starter-template">starter template</a>.</p>
 
@@ -411,7 +411,8 @@ input[type="submit"] {
 
 		<p>On the rare occasion you need to override it, use something like the following:</p>
 
-		<figure class="highlight"><pre><code class="language-css" data-lang="css">.selector-for-some-widget{
+		<figure class="highlight"><pre><code class="language-css"
+		data-lang="css">.selector-for-some-widget{
 	box-sizing:content-box;
 }</code></pre></figure>
 
