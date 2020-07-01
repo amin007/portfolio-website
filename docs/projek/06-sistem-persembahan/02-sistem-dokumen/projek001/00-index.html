@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Amin007">
+
+<title>Fail Kitab</title>
+<!-- Main css -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+
+<!-- add css -->
+<style type="text/css">
+/* **************************************************************************************** 
+body {
+	background-color: lightblue;
+}
+/* **************************************************************************************** */
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#CCCCCC;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+/* **************************************************************************************** */
+/* https://stackoverflow.com/questions/15988373/how-do-i-add-a-font-awesome-icon-to-input-field */
+.carilah {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	//font-size: 1rem;
+	//line-height: 1.5;
+	border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	//height: 32px;width: 32px;
+	color: white;
+}
+input[type="submit"] {
+	font-family: "Font Awesome 5 Free", "FontAwesome";
+	font-size: 1.3333333333333333em;
+	font-weight: 900;
+}
+/* **************************************************************************************** */
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+<div class="row flex-xl-nowrap">
+	<!-- ====================================================================================== -->
+	<div class="col-md-3 col-xl-2">
+
+	<div class="accordion" id="menuKanan">
+		<!-- ################################################################################## -->
+		<h2 class="mb-0">
+			<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#menuKanan1"
+			aria-expanded="true" aria-controls="menuKanan1"><strong>Getting started</strong>
+			</button>
+		</h2>
+		<div id="menuKanan1" class="collapse show" aria-labelledby="headingOne" data-parent="#menuKanan">
+
+			<ul>
+			<li><a href="/docs/4.5/getting-started/introduction/">Introduction</a></li>
+			<li><a href="/docs/4.5/getting-started/download/">Download</a></li>
+			<li><a href="/docs/4.5/getting-started/contents/">Contents</a></li>
+			<li><a href="/docs/4.5/getting-started/browsers-devices/">Browsers & devices</a></li>
+			<li><a href="/docs/4.5/getting-started/javascript/">JavaScript</a></li>
+			<li><a href="/docs/4.5/getting-started/theming/">Theming</a></li>
+			<li><a href="/docs/4.5/getting-started/build-tools/">Build tools</a></li>
+			<li><a href="/docs/4.5/getting-started/webpack/">Webpack</a></li>
+			<li><a href="/docs/4.5/getting-started/accessibility/">Accessibility</a></li>
+			</ul>
+
+		</div><!-- / class="collapse" -->
+
+	</div><!-- / class="accordion" -->
+
+
+	</div><!-- / class="col-md-3 col-xl-2" -->
+	<!-- ====================================================================================== -->
+	<main class="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+
+		<h1 class="bd-title" id="content">Asas Buat Highlight</h1>
+
+		<h2> Header untuk CSS </h2>
+<!-- contoh koding - mula ///////////////////////////////////////////////////// -->
+<figure class="highlight"><pre><code
+class="html">&lt;!-- main CSS --&gt;
+&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"&gt;
+&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css"&gt;
+</code></pre></figure>
+<!-- contoh koding - tamat ///////////////////////////////////////////////////// -->
+
+		<h2> Header untuk JavaScript </h2>
+<!-- contoh koding - mula ///////////////////////////////////////////////////// -->
+<figure class="highlight"><pre><code
+class="html">&lt;!-- untuk javascript
+=============================================================================================== -->
+&lt;script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+hljs.initHighlightingOnLoad();
+&lt;/script&gt;
+</code></pre></figure>
+<!-- contoh koding - tamat ///////////////////////////////////////////////////// -->
+
+		<h2 id="starter-template">Starter template</h2>
+
+		<figure class="highlight"><pre><code class="language-html"
+		data-lang="html">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;!-- Required meta tags --&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+
+&lt;!-- main CSS --&gt;
+&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"&gt;
+&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css"&gt;
+&lt;title&gt;Hello, world!&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+&lt;!-- untuk javascript. Optional JavaScript
+jQuery first, then Popper.js, then Bootstrap JS
+=============================================================================================== --&gt;
+&lt;script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+hljs.initHighlightingOnLoad();
+&lt;/script&gt;
+
+&lt;!-- baris akhir
+=============================================================================================== --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></figure>
+
+
+<!-- contoh koding - mula ///////////////////////////////////////////////////// -->
+<figure class="highlight"><pre><code class="php">&lt;?php
+	# guna '
+	echo ' \' \" \\ \$ ';
+
+	# guna "
+	echo " \' \" \\ \$ ";
+
+?&gt;
+</code></pre></figure>
+<!-- contoh koding - tamat ///////////////////////////////////////////////////// -->
+
+	</main>
+	<!-- ====================================================================================== -->
+	<!-- mula  - menu kiri -->
+	<nav class="d-none d-xl-block col-xl-2 bd-toc" aria-label="Secondary navigation">
+	<ul class="section-nav">
+	<li class="toc-entry toc-h2"><a href="#quick-start">Quick start</a>
+		<ul>
+		<li class="toc-entry toc-h3"><a href="#css">CSS</a></li>
+		<li class="toc-entry toc-h3"><a href="#js">JS</a></li>
+		</ul>
+	</li>
+	<li class="toc-entry toc-h2"><a href="#starter-template">Starter template</a></li>
+	<li class="toc-entry toc-h2"><a href="#important-globals">Important globals</a>
+		<ul>
+		<li class="toc-entry toc-h3"><a href="#html5-doctype">HTML5 doctype</a></li>
+		<li class="toc-entry toc-h3"><a href="#responsive-meta-tag">Responsive meta tag</a></li>
+		<li class="toc-entry toc-h3"><a href="#box-sizing">Box-sizing</a></li>
+		<li class="toc-entry toc-h3"><a href="#reboot">Reboot</a></li>
+		</ul>
+	</li>
+	<li class="toc-entry toc-h2"><a href="#community">Community</a></li>
+	</ul>
+	</nav>
+	<!-- tamat - menu kiri -->
+	<!-- ====================================================================================== -->
+</div><!-- / class="row flex-xl-nowrap" -->
+</div><!-- / class="container-fluid" -->
+
+<!-- untuk javascript
+=============================================================================================== -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+<!-- baris akhir
+=============================================================================================== -->
+</body>
+</html>
