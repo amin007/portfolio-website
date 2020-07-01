@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Amin007">
+
+<title>Fail Kitab</title>
+<!-- Main css -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" type="text/css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- add css -->
+<style type="text/css">
+/* **************************************************************************************** */
+body {
+	background-color: lightblue;
+}
+/* **************************************************************************************** */
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#CCCCCC;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+/* **************************************************************************************** */
+/* https://stackoverflow.com/questions/15988373/how-do-i-add-a-font-awesome-icon-to-input-field */
+.carilah {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+	//font-size: 1rem;
+	//line-height: 1.5;
+	border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	//height: 32px;width: 32px;
+	color: white;
+}
+input[type="submit"] {
+	font-family: "Font Awesome 5 Free", "FontAwesome";
+	font-size: 1.3333333333333333em;
+	font-weight: 900;
+}
+/* **************************************************************************************** */
+</style>
+</head>
+
+<body>
+<a class="skippy sr-only sr-only-focusable" href="#content"><span class="skippy-text">Skip to main content</span></a>
+<!-- mula - nav atas sekali ---------------------------------------------------------------------------------------------- -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="#anjung">Anjung</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+	aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<a class="navbar-brand" href="#keluar">
+		<i class="fas fa-door-open"></i>Keluar</a>
+	<!-- sempadan 1 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		<li class="nav-item active"><a class="nav-link" href="#"><i class="fas fa-scroll"></i>Halaman</a></li>
+		<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Dropdown</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div><!-- /  class="dropdown-menu" -->
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+			<i class="fas fa-filter"></i>Cari</a>
+			<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="#cari/tentang/msic/1">Msic</a></li>
+			<li><a class="dropdown-item" href="#cari/tentang/produk/1">Produk</a></li>
+			<li class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="#cari/tentang/johor/2">Lokaliti Johor</a></li>
+			<li><a class="dropdown-item" href="#cari/tentang/malaysia/2">Lokaliti Malaysia</a></li>
+			</ul>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+				<i class="fas fa-chart-line"></i>Laporan
+			</a>
+			<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="#laporan/bulanan">
+				<i class="fas fa-chart-pie"></i>Laporan Bulanan</a></li>
+			<li class="divider"></li>
+			</ul>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+				<i class="fas fa-question-circle"></i>Bantuan
+			</a>
+			<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="#forum/perdana">Forum</a></li>
+			<li><a class="dropdown-item" href="#mesej/utama">Email</a></li>
+			</ul>
+		</li>
+		<li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>
+		</ul>
+	<!-- sempadan 2 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+			<!-- borang cari tajuk -->
+			<form class="form-inline my-2" action="#cari/tajuk" method="POST">
+				<input type="submit" class="carilah bg-info" value="&#xf002;">
+				<input type="text" name="cari" placeholder="Cari Tajuk" class="form-control">
+			</form>
+	<!-- sempadan 3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	</div>
+</nav>
+<!-- tamat - nav atas sekali ---------------------------------------------------------------------------------------------- -->
+
+<div class="container-fluid">
+<div class="row flex-xl-nowrap">
+	<!-- ====================================================================================== -->
+	<div class="col-md-3 col-xl-2">
+
+	<form role="search" class="bd-search d-flex align-items-center">
+		<input type="search" class="form-control" id="search-input" placeholder="Search..."
+		aria-label="Search for..." autocomplete="off" data-docs-version="4.5">
+		<button class="btn bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg></button>
+	</form>
+
+	<div class="accordion" id="menuKanan">
+		<!-- ################################################################################## -->
+		<h2 class="mb-0">
+			<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#menuKanan1"
+			aria-expanded="true" aria-controls="menuKanan1"><strong>Getting started</strong>
+			</button>
+		</h2>
+		<div id="menuKanan1" class="collapse show" aria-labelledby="headingOne" data-parent="#menuKanan">
+
+			<ul>
+			<li><a href="/docs/4.5/getting-started/introduction/">Introduction</a></li>
+			<li><a href="/docs/4.5/getting-started/download/">Download</a></li>
+			<li><a href="/docs/4.5/getting-started/contents/">Contents</a></li>
+			<li><a href="/docs/4.5/getting-started/browsers-devices/">Browsers & devices</a></li>
+			<li><a href="/docs/4.5/getting-started/javascript/">JavaScript</a></li>
+			<li><a href="/docs/4.5/getting-started/theming/">Theming</a></li>
+			<li><a href="/docs/4.5/getting-started/build-tools/">Build tools</a></li>
+			<li><a href="/docs/4.5/getting-started/webpack/">Webpack</a></li>
+			<li><a href="/docs/4.5/getting-started/accessibility/">Accessibility</a></li>
+			</ul>
+
+		</div><!-- / class="collapse" -->
+		<!-- ################################################################################## -->
+		<h2 class="mb-0">
+			<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+			data-target="#menuKanan2" aria-expanded="false" aria-controls="menuKanan2">
+			Layout
+			</button>
+		</h2>
+		<div id="menuKanan2" class="collapse" aria-labelledby="headingTwo" data-parent="#menuKanan">
+
+			<ul>
+			<li><a href="/docs/4.5/layout/overview/">Overview</a></li>
+			<li><a href="/docs/4.5/layout/grid/">Grid</a></li>
+			<li><a href="/docs/4.5/layout/utilities-for-layout/">Utilities for layout</a></li>
+			</ul>
+
+		</div><!-- / class="collapse" -->
+		<!-- ################################################################################## -->
+		<h2 class="mb-0">
+			<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+			data-target="#menuKanan3" aria-expanded="false" aria-controls="menuKanan3">
+				Content
+			</button>
+		</h2>
+		<div id="menuKanan3" class="collapse" aria-labelledby="headingThree" data-parent="#menuKanan">
+
+			<ul>
+			<li><a href="/docs/4.5/content/reboot/">Reboot</a></li>
+			<li><a href="/docs/4.5/content/typography/">Typography</a></li>
+			<li><a href="/docs/4.5/content/code/">Code</a></li>
+			<li><a href="/docs/4.5/content/images/">Images</a></li>
+			<li><a href="/docs/4.5/content/tables/">Tables</a></li>
+			<li><a href="/docs/4.5/content/figures/">Figures</a></li>
+			</ul>
+			
+		</div><!-- / class="collapse" -->
+		<!-- ################################################################################## -->
+
+	</div><!-- / class="accordion" -->
+
+
+	</div><!-- / class="col-md-3 col-xl-2" -->
+	<!-- ====================================================================================== -->
+	<main class="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+
+		<h1 class="bd-title" id="content">Folder Kitab dalam MVC-melayu</h1>
+
+		<details>
+			<summary class="text-primary mb-3">Senarai Fail dalam Kitab</summary>
+			<ul>
+			<li>Alerts for dismissing</li>
+			<li>Buttons for toggling states and checkbox/radio functionality</li>
+			<li>Carousel for all slide behaviors, controls, and indicators</li>
+			<li>Collapse for toggling visibility of content</li>
+			<li>Dropdowns for displaying and positioning (also requires <a href="https://popper.js.org/">Popper.js</a>)</li>
+			<li>Modals for displaying, positioning, and scroll behavior</li>
+			<li>Navbar for extending our Collapse plugin to implement responsive behavior</li>
+			<li>Tooltips and popovers for displaying and positioning (also requires <a href="https://popper.js.org/">Popper.js</a>)</li>
+			<li>Scrollspy for scroll behavior and navigation updates</li>
+			</ul>
+		</details>
+
+<!-- contoh koding - mula ///////////////////////////////////////////////////// -->
+<pre><code class="php">&lt;?php
+	# guna ' 
+	echo ' \' \" \\ \$ ';
+	
+	# guna "
+	echo " \' \" \\ \$ ";
+
+?&gt;
+</code></pre>
+<!-- contoh koding - tamat ///////////////////////////////////////////////////// -->
+
+		<figure><pre><code class="html">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;!-- Required meta tags --&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+
+&lt;!-- Bootstrap CSS --&gt;
+&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"&gt;
+
+&lt;title&gt;Hello, world!&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+&lt;!-- Optional JavaScript --&gt;
+&lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+&lt;script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></figure>
+
+
+		<figure class="highlight"><pre><code class="language-html"
+		data-lang="html">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+...
+&lt;/html&gt;</code></pre></figure>
+
+
+	</main>
+	<!-- ====================================================================================== -->
+	<!-- mula  - menu kiri -->
+	<nav class="d-none d-xl-block col-xl-2 bd-toc" aria-label="Secondary navigation">
+	<ul class="section-nav">
+	<li class="toc-entry toc-h2"><a href="#quick-start">Quick start</a>
+		<ul>
+		<li class="toc-entry toc-h3"><a href="#css">CSS</a></li>
+		<li class="toc-entry toc-h3"><a href="#js">JS</a></li>
+		</ul>
+	</li>
+	<li class="toc-entry toc-h2"><a href="#starter-template">Starter template</a></li>
+	<li class="toc-entry toc-h2"><a href="#important-globals">Important globals</a>
+		<ul>
+		<li class="toc-entry toc-h3"><a href="#html5-doctype">HTML5 doctype</a></li>
+		<li class="toc-entry toc-h3"><a href="#responsive-meta-tag">Responsive meta tag</a></li>
+		<li class="toc-entry toc-h3"><a href="#box-sizing">Box-sizing</a></li>
+		<li class="toc-entry toc-h3"><a href="#reboot">Reboot</a></li>
+		</ul>
+	</li>
+	<li class="toc-entry toc-h2"><a href="#community">Community</a></li>
+	</ul>
+	</nav>
+	<!-- tamat - menu kiri -->
+	<!-- ====================================================================================== -->
+</div><!-- / class="row flex-xl-nowrap" -->
+</div><!-- / class="container-fluid" -->
+
+<!-- untuk javascript
+=============================================================================================== -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- baris akhir
+=============================================================================================== -->
+</body>
+</html>
