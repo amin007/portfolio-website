@@ -30,6 +30,19 @@ echo PHP_VERSION . '<br>';
 echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION . '<br>';
 echo '<pre>'; print_r($_SERVER); echo '</pre>';
 ```
+
+```php
+	function pautan($name,$web)
+	{
+		$icon1 = '<i class="fas fa-globe-asia fa-spin"></i>';
+		$icon2 = '<i class="far fa-folder fa-spin"></i>';
+		$icon = ($name != $web) ? $icon1 : $icon2;
+		$link = ($web == null) ? $name : '<a target="_blank" href="' . $web
+		. '">' . $name . '</a>';
+		return '&nbsp;&nbsp;' . $icon . $link . '<hr>';
+	}
+```
+
 ___
 # Standard
 * http://www.php-fig.org/psr/psr-4/
