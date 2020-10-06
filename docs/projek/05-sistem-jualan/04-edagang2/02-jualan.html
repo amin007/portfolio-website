@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<title>Edagang2-Jualan</title>
+</head>
+<body>
+<!-- -mula menu ------------------------------------------------------------------------------- -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#">Edagang</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<!-- sempadan ------------------------------------------------------------------------------ -->
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<!-- sempadan ------------------------------------------------------------------------------ -->
+		<!--
+			<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+			<li class="nav-item"><a class="nav-link disabled" href="#"
+			tabindex="-1" aria-disabled="true">Disabled</a></li>
+		-->
+		<ul class="navbar-nav mr-auto">
+		<li class="nav-item active"><a class="nav-link" href="#">Anjung</a></li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Borang</a>
+			<div class="dropdown-menu" aria-labelledby="dropdown01">
+				<a class="dropdown-item" href="#">Gambar</a>
+				<a class="dropdown-item" href="#">Produk</a>
+				<a class="dropdown-item" href="#">Kupon</a>
+				<a class="dropdown-item" href="#">Borang</a>
+				<a class="dropdown-item" href="#">Prospek</a>
+				<a class="dropdown-item" href="#">Pelanggan</a>
+				<a class="dropdown-item" href="#">Peserta</a>
+				<a class="dropdown-item" href="#">Link Pendek</a>
+			</div>
+		</li>
+		<li class="nav-item"><a class="nav-link" href="#">Jualan</a></li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analisis</a>
+			<div class="dropdown-menu" aria-labelledby="dropdown01">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staf</a>
+			<div class="dropdown-menu" aria-labelledby="dropdown01">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Affiliate</a>
+			<div class="dropdown-menu" aria-labelledby="dropdown01">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropship</a>
+			<div class="dropdown-menu" aria-labelledby="dropdown01">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pengedar</a>
+			<div class="dropdown-menu" aria-labelledby="dropdown01">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hebahan</a>
+			<div class="dropdown-menu" aria-labelledby="dropdown01">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		</ul>
+		<!-- sempadan ------------------------------------------------------------------------------ -->
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+			<button class="btn btn-secondary my-2 my-sm-0" type="submit">Cari</button>
+		</form>
+		<!-- sempadan ------------------------------------------------------------------------------ -->
+	</div><!-- /.class="collapse navbar-collapse" -->
+	<!-- sempadan ------------------------------------------------------------------------------ -->
+		<ul class="nav navbar-nav navbar-right">
+		<li class="nav-item"><a class="nav-link" href="#">Tutorial</a></li>
+		<li class="nav-item"><a class="nav-link" href="#">Ketetapan</a></li>
+		<li class="nav-item"><a class="nav-link" href="#">Keluar</a></li>
+		</ul>
+	<!-- sempadan ------------------------------------------------------------------------------ -->
+</nav>
+<!-- tamat menu ------------------------------------------------------------------------------- -->
+<br><br><br>
+<!-- -mula menu ------------------------------------------------------------------------------- -->
+<div class="container">
+<div class="card">
+		<div class="card-header">
+			Senarai Jualan
+		</div><!-- / class="card-header" -->
+		<div class="card-body">
+			<!-- sempadan --------------------------------------------------------------------- -->
+			<div class="row">
+				<div class="col-md-5 mb-3">
+					<label for="country">Papar</label>
+					<select class="custom-select d-block w-100" id="country" required>
+					<option value="">Semua Jualan</option>
+					<option>United States</option>
+					</select>
+					<div class="invalid-feedback">
+						Please select a valid country.
+					</div>
+				</div><!-- /.class="col" -->
+				<div class="col-md-4 mb-3">
+					<label for="state">Tapisan</label>
+					<select class="custom-select d-block w-100" id="state" required>
+					<option value="">No Invois</option>
+					<option>California</option>
+					</select>
+					<div class="invalid-feedback">
+						Please provide a valid state.
+					</div>
+				</div><!-- /.class="col" -->
+			</div><!-- /.class="row" -->
+
+			<div class="btn-toolbar justify-content-end" role="toolbar"
+			aria-label="Toolbar with button groups">
+				<div class="btn-group" role="group" aria-label="First group">
+					<button type="button" class="btn btn-secondary">1</button>
+					<button type="button" class="btn btn-secondary">2</button>
+					<button type="button" class="btn btn-secondary">3</button>
+					<button type="button" class="btn btn-secondary">4</button>
+				</div><!-- /.class="btn-group" -->
+			</div><!-- /.class="btn-toolbar" -->
+		</div><!-- /.class="card-body" -->
+		<!-- sempadan --------------------------------------------------------------------- -->
+		<div class="card-header">
+			Jadual
+		</div><!-- / class="card-header" -->
+		<div class="card-body">
+			<div class="table-responsive-lg">
+			<table class="table table-bordered table-hover">
+			<thead class="thead-light"><tr>
+				<th>#</th>
+				<th>Pelanggan</th>
+				<th>Pembelian</th>
+				<th>Pembayaran</th>
+				<th>Jualan</th>
+				<th>Info</th>
+				<th>Status</th>
+				<th>Pukal</th>
+			</tr></thead>
+			<tbody>
+				<tr><td>1</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td></tr>
+				<tr><td>2</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td></tr>
+				<tr><td>3</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td></tr>
+			</tbody>
+			</table>
+			</div><!-- /.class="table-responsive-lg" -->
+		</div><!-- /.class="card-body" -->
+	</div><!-- / class="card" -->
+</div><!-- /.container -->
+<!-- tamat menu ------------------------------------------------------------------------------- -->
+<h1>Nota Kaki</h1>
+<!-- -mula notakaki --------------------------------------------------------------------------- -->
+<!-- tamat notakaki --------------------------------------------------------------------------- -->
+
+<!-- # JavaScript
+----------------------------------------------------------------------------------------------- -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- -mula skrip ------------------------------------------------------------------------------ -->
+<!-- tamat skrip ------------------------------------------------------------------------------ -->
+</body>
+</html>
