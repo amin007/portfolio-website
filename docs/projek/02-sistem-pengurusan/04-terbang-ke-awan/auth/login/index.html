@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="Runcloud.io" />
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="/mstile-310x310.png" />
+        <meta name="csrf-token" content="ncjtJqHZgrjB23BmEGcuLuuvalWe3XI0RS2PXrzE"/>
+        <meta name="turbolinks-cache-control" content="no-cache">
+        
+        <title>Login | RunCloud</title>
+        <link rel="stylesheet" href="https://cf1.cdn.manage.runcloud.io/assets/css/app.css?id=7c8dc0d62d80d960a09c" data-turbolinks-track="reload">
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="//oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script>
+            window.RunCloud = {
+                user: null,
+                server: null,
+                webApp: null,
+                git: null,
+                productName: 'RunCloud',
+                braintreeToken: 'production_fvj8wvsz_96ncj42v6q4vx63j',
+                braintreeEnvironment: 'production',
+                pusher_key: 'BSsRFOIKzAm7OkZxPkumSgj8Ug46RwebRI749rEePRkIXe02HkSTsR6LC7t0Glgi',
+                pusher_host: 'pusher.runcloud.io',
+                pusher_port: 443,
+                pusher_encrypted: true,
+                siteMaintenance: false,
+                reCaptcha_key: '6LfhMcIUAAAAAPqWPbHNC4K5uNhZOi2tBzIJgZ4_',
+                env: 'production'
+            }
+        </script>
+        <!-- Google Tag Manager -->
+        <script>(function(w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({'gtm.start':
+                new Date().getTime(),
+            event: 'gtm.js'}); var f = d.getElementsByTagName(s)[0]
+            var j = d.createElement(s); var dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f)
+        })(window, document, 'script', 'dataLayer', 'GTM-NDZ4GN9')
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" data-turbolinks-track="reload"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" data-turbolinks-track="reload"></script>
+
+                <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4 log-level="warn" data-turbolinks-track="reload"></script>
+        <script src="https://js.braintreegateway.com/web/3.39.0/js/client.min.js" data-turbolinks-track="reload"></script>
+        <script src="https://js.braintreegateway.com/web/3.39.0/js/three-d-secure.min.js" data-turbolinks-track="reload"></script>
+        <script src="https://js.braintreegateway.com/web/3.39.0/js/hosted-fields.min.js" data-turbolinks-track="reload"></script>
+        <script src="https://js.braintreegateway.com/web/3.39.0/js/paypal-checkout.min.js" data-turbolinks-track="reload"></script>
+                        <script src="https://cf1.cdn.manage.runcloud.io/assets/js/manifest.js?id=3c768977c2574a34506e" data-turbolinks-track="reload"></script>
+        <script src="https://cf1.cdn.manage.runcloud.io/assets/js/vendor.js?id=7b64fb1d175ffbd6846a" data-turbolinks-track="reload"></script>
+        <script src="https://cf1.cdn.manage.runcloud.io/assets/js/app.js?id=a3838de01e60d76e8340" data-turbolinks-track="reload"></script>
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDZ4GN9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div id="app">
+                            <section class="rc-guest">
+        <div class="logo">
+            <a href="https://runcloud.io/"><img class="img-responsive" src="/assets/img/rc-logo-black-icon.svg?id=3e99b4ac185393755367" alt="Runcloud Logo"/></a>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="rc-login">
+    <div class="container">
+        <div class="box box-default">
+            <div class="box-heading">
+                <h3>Selamat Datang Semula</h3>
+                <p>Daftar Masuk Ke Terbang ke Awan.</p>
+            </div>
+            <div class="box-body">
+                <div class="social-account" data-turbolinks="false">
+                    <a href="https://manage.runcloud.io/auth/github" type="button" role="button" class="btn btn-github btn-social">
+                        <i class="rc rc-github"></i>
+                        <span class="hidden-xs hidden-sm">GitHub</span>
+                    </a>
+                    <a href="https://manage.runcloud.io/auth/digitalocean" type="button" role="button" class="btn btn-digital-ocean btn-social">
+                        <i class="rc rc-digital-ocean"></i>
+                        <span class="hidden-xs hidden-sm">Digital Ocean</span>
+                    </a>
+                    <a href="https://manage.runcloud.io/auth/google" type="button" role="button" class="btn btn-google btn-social">
+                        <i class="rc rc-br-google"></i>
+                        <span class="hidden-xs hidden-sm">Google</span>
+                    </a>
+                </div>
+                <p class="divider">
+                    <span>or</span>
+                </p>
+                <div>
+
+<form action="https://manage.runcloud.io/auth/login" method="POST" role="form"><div class="form-group"><label for="email" class="control-label"> </label> <!----> <input type="email" name="email" placeholder="Email" class="form-control input-lg"> <!----></div> <div class="form-group"><label for="password" class="control-label"> </label> <!----> <input type="password" name="password" placeholder="Password" class="form-control input-lg"> <!----></div> <div class="form-group pull-left"><!----> <!----> <!----> <div class="checkbox checkbox-primary"><input type="checkbox" id="rememberMe" name="rememberMe" class="styled">
+<label for="rememberMe">Ingat Daku Dalam Doamu</label> <!----></div></div> <a href="https://manage.runcloud.io/auth/resetpassword" class="pull-right">Lupa KataLaluan?</a> <div class="clearfix"></div> <small data-v-4d964b5f="" class="recaptcha-policy">
+    This site is protected by reCAPTCHA and the Google
+    <a data-v-4d964b5f="" href="https://policies.google.com/privacy" rel="nofollow" target="_blank">Privacy Policy</a> and
+    <a data-v-4d964b5f="" href="https://policies.google.com/terms" rel="nofollow" target="_blank">Terms of Service</a> apply.
+</small> <br> <br> <button data-v-69273b5e="" type="submit" class="btn btn-success btn-block"><span data-v-ea53abc6="" data-v-69273b5e=""><span data-v-ea53abc6="">
+        Sign in to Dashboard
+    </span></span></button></form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="link">
+            <ul class="list-unstyled">
+                <li>Don't have an account?
+                    <a href="https://manage.runcloud.io/auth/register" @click="analyticEvent('Authentication', 'Click', 'Register button on login page')">Register</a>
+                </li>
+                <li>Lost your verification link?
+                    <a href="https://manage.runcloud.io/auth/verify/resend" @click="analyticEvent('Verification', 'Click', 'Lost verification link button')">Resend</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+        </div>
+
+        
+        
+        <script src="https://www.google.com/recaptcha/api.js?render=6LfhMcIUAAAAAPqWPbHNC4K5uNhZOi2tBzIJgZ4_"></script>
+        <script>
+            window.announcekit = (window.announcekit || { queue: [], on: function(n, x) { window.announcekit.queue.push([n, x]) }, push: function(x) { window.announcekit.queue.push(x) } })
+            window.announcekit.push({
+                'widget': 'https://announcekit.app/widget/mJhEk',
+                'selector': '.announcekit-widget',
+                'version': 2
+            })
+
+            window.announcekit.push({
+                'widget': 'https://announcekit.app/widget/mJhEk',
+                'selector': '.announcekit-sidebar',
+                'version': 2
+            })
+        </script>
+        <script src="https://cdn.announcekit.app/widget.js" async></script>
+    </body>
+</html>
