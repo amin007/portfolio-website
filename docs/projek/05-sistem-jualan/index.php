@@ -58,6 +58,30 @@ function pautan($name,$web)
 	. $name . '</a><hr>';
 }
 #--------------------------------------------------------------------------------------------------
+function gaya01daa($dirlist)
+{
+	echo '<!-- //////////////////////////////////////////////////////////////////////////////////////// -->';
+	foreach($dirlist as $key02 => $value):
+	if ($value['type'] == 'dir'):
+		$nama = substr($value['name'],5);
+		$nama = substr($nama,0,-1);
+		$nama = ucwords(strtolower($nama));
+		echo "\n" . '<div class="col-md-3 col-sm-6">'
+		. "\n\t" . '<div class="card">'
+		. "\n\t" . '<div class="card-body">'
+		. "\n\t\t" . '<h5 class="card-title fo-weight-bold">' . $nama . '</h5>'
+		. "\n\t\t" . '<a href="' . $value['name']
+		. '"><h6 class="card-subtitle mb-2 text-muted">' . $nama . ' Daa</h6></a>'
+		. "\n\t\t" . '<p class="card-text">Sistem Yang Lengkap</p>'
+		. "\n\t" . '</div>'
+		. "\n\t" . '</div>'
+		. "\n" . '</div><!-- / class="col-md-3 col-sm-6" -->'
+		. "\n" . '<!-- //////////////////////////////////////////////////////////////////////////////////////// -->';
+	else:echo '';endif;
+	endforeach;
+	#
+}
+#--------------------------------------------------------------------------------------------------
 function list_files($tajuk)
 {
 	//$failIni = basename($_SERVER['PHP_SELF']);
@@ -72,7 +96,8 @@ function list_files($tajuk)
 	echo "\n\n</td><td valign=\"top\">\n";
 	foreach(getIdea() as $name => $web):
 		echo "\n" . pautan($name,$web); endforeach;
-	echo "\n</td></tr></table>";
+	echo "\n</td></tr></table>\n";
+	gaya01daa($dirlist);
 	dibawah();
 }
 #--------------------------------------------------------------------------------------------------
