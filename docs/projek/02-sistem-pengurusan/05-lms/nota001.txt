@@ -1,0 +1,45 @@
+Type of Actors/users
+-Admin
+-Instructor/Teacher
+-Student/user
+
+Admin Features
+-System Settings
+-Payment Settings
+-YouTube API Settings
+-Manage Categories
+-Manage Sub-categories
+-Manage Course(Course Contains,
+-Manage Course Section
+-Manage Course Lesson
+-Manage Course Quiz
+-Manage Instructor
+-Manage Student/user
+-Manage Instructor Payment/revenue
+
+Instructor Features
+-Manage Course(Course Contains,
+-Manage Course Section
+-Manage Course Lesson
+-Manage Course Quiz
+-Manage Profile
+-Manage Student/user
+-Check revenue
+
+Student/user Features
+-Can access the website/Course
+-Search for a specific course
+-Top Course
+-Top 10 Course
+-Get Course details on mouseover/thumnail
+-Create Account(Registration)
+-Login
+-Add to Cart/Checkout/Purchase Course
+-Wishlists Course
+-After Purchase/Buy Course See My Course
+-View Lessons
+-Give test/Quiz
+
+https://www.phptpoint.com/projects/learning-management-system-project-in-php/
+https://www.freeprojectz.com/project-screens/1843
+https://github.com/amin007/E-Learning-management-system
