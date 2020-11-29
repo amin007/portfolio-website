@@ -1,47 +1,48 @@
 # Konsep asas LMS
-- Jenis Pelakon / pengguna
- - Admin
- - Pengajar / Guru
- - Pelajar / pengguna
+___
+* Jenis Pelakon / pengguna
+ * Admin
+ * Pengajar / Guru
+ * Pelajar / pengguna
+___
+* Ciri Pentadbir
+ * Tetapan sistem
+ * Pengaturan Pembayaran
+ * Tetapan API YouTube
+ * Menguruskan Kategori
+ * Menguruskan Subkategori
+ * Kursus Pengurusan (Kursus Mengandungi,
+ * Menguruskan Bahagian Kursus
+ * Mengendalikan Pelajaran Kursus
+ * Mengendalikan Kuiz Kursus
+ * Murid Pengajar
+ * Menguruskan Pelajar / pengguna
+ * Menguruskan Pembayaran / hasil Instruktor
+___
+* Ciri Pengajar
+ * Kursus Pengurusan (Kursus Mengandungi,
+ * Menguruskan Bahagian Kursus
+ * Mengendalikan Pelajaran Kursus
+ * Mengendalikan Kuiz Kursus
+ * Menguruskan Profil
+ * Menguruskan Pelajar / pengguna
+ * Memeriksa pendapatan
+___
+* Ciri Pelajar / pengguna
+ * Boleh melayari laman web / Kursus
+ * Cari kursus tertentu
+ * Kursus Atas
+ * Kursus 10 Teratas
+ * Dapatkan perincian Kursus pada mouseover / thumnail
+ * Buat Akaun (Pendaftaran)
+ * Log masuk
+ * Tambah ke Kursus Cart / Checkout / Pembelian
+ * Kursus Senarai Isyarat
+ * Selepas Pembelian / Beli Kursus Lihat Kursus Saya
+ * Lihat Pelajaran
+ * Beri ujian / Kuiz
 
-- Ciri Pentadbir
- - Tetapan sistem
- - Pengaturan Pembayaran
- - Tetapan API YouTube
- - Menguruskan Kategori
- - Menguruskan Subkategori
- - Kursus Pengurusan (Kursus Mengandungi,
- - Menguruskan Bahagian Kursus
- - Mengendalikan Pelajaran Kursus
- - Mengendalikan Kuiz Kursus
- - Murid Pengajar
- - Menguruskan Pelajar / pengguna
- - Menguruskan Pembayaran / hasil Instruktor
-
-- Ciri Pengajar
- - Kursus Pengurusan (Kursus Mengandungi,
- - Menguruskan Bahagian Kursus
- - Mengendalikan Pelajaran Kursus
- - Mengendalikan Kuiz Kursus
- - Menguruskan Profil
- - Menguruskan Pelajar / pengguna
- - Memeriksa pendapatan
-
-- Ciri Pelajar / pengguna
- - Boleh melayari laman web / Kursus
- - Cari kursus tertentu
- - Kursus Atas
- - Kursus 10 Teratas
- - Dapatkan perincian Kursus pada mouseover / thumnail
- - Buat Akaun (Pendaftaran)
- - Log masuk
- - Tambah ke Kursus Cart / Checkout / Pembelian
- - Kursus Senarai Isyarat
- - Selepas Pembelian / Beli Kursus Lihat Kursus Saya
- - Lihat Pelajaran
- - Beri ujian / Kuiz
-
-
+___
 # Senarai Projek LMS Yang Ada
 
 | file_folder | Link
@@ -49,11 +50,6 @@
 | 01          | [Projek01](https://www.phptpoint.com/projects/learning-management-system-project-in-php)
 | 02          | [Projek0](https://www.freeprojectz.com/project-screens/1843)
 | 03          | [Projek0](https://github.com/amin007/E-Learning-management-system)
-
-### senarai icon kecil 
-:rocket:
-:file_folder:
-:globe_with_meridians:
 
 ___
 # Php Version
