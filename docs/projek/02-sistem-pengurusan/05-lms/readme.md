@@ -1,46 +1,50 @@
 # Konsep asas LMS
+
 ___
 * Jenis Pelakon / pengguna
- * Admin
- * Pengajar / Guru
- * Pelajar / pengguna
+  * Admin
+  * Pengajar / Guru
+  * Pelajar / pengguna
+
 ___
 * Ciri Pentadbir
- * Tetapan sistem
- * Pengaturan Pembayaran
- * Tetapan API YouTube
- * Menguruskan Kategori
- * Menguruskan Subkategori
- * Kursus Pengurusan (Kursus Mengandungi,
- * Menguruskan Bahagian Kursus
- * Mengendalikan Pelajaran Kursus
- * Mengendalikan Kuiz Kursus
- * Murid Pengajar
- * Menguruskan Pelajar / pengguna
- * Menguruskan Pembayaran / hasil Instruktor
+  * Tetapan sistem
+  * Pengaturan Pembayaran
+  * Tetapan API YouTube
+  * Menguruskan Kategori
+  * Menguruskan Subkategori
+  * Kursus Pengurusan (Kursus Mengandungi,
+  * Menguruskan Bahagian Kursus
+  * Mengendalikan Pelajaran Kursus
+  * Mengendalikan Kuiz Kursus
+  * Murid Pengajar
+  * Menguruskan Pelajar / pengguna
+  * Menguruskan Pembayaran / hasil Instruktor
+
 ___
 * Ciri Pengajar
- * Kursus Pengurusan (Kursus Mengandungi,
- * Menguruskan Bahagian Kursus
- * Mengendalikan Pelajaran Kursus
- * Mengendalikan Kuiz Kursus
- * Menguruskan Profil
- * Menguruskan Pelajar / pengguna
- * Memeriksa pendapatan
+  * Kursus Pengurusan (Kursus Mengandungi,
+  * Menguruskan Bahagian Kursus
+  * Mengendalikan Pelajaran Kursus
+  * Mengendalikan Kuiz Kursus
+  * Menguruskan Profil
+  * Menguruskan Pelajar / pengguna
+  * Memeriksa pendapatan
+
 ___
 * Ciri Pelajar / pengguna
- * Boleh melayari laman web / Kursus
- * Cari kursus tertentu
- * Kursus Atas
- * Kursus 10 Teratas
- * Dapatkan perincian Kursus pada mouseover / thumnail
- * Buat Akaun (Pendaftaran)
- * Log masuk
- * Tambah ke Kursus Cart / Checkout / Pembelian
- * Kursus Senarai Isyarat
- * Selepas Pembelian / Beli Kursus Lihat Kursus Saya
- * Lihat Pelajaran
- * Beri ujian / Kuiz
+  * Boleh melayari laman web / Kursus
+  * Cari kursus tertentu
+  * Kursus Atas
+  * Kursus 10 Teratas
+  * Dapatkan perincian Kursus pada mouseover / thumnail
+  * Buat Akaun (Pendaftaran)
+  * Log masuk
+  * Tambah ke Kursus Cart / Checkout / Pembelian
+  * Kursus Senarai Isyarat
+  * Selepas Pembelian / Beli Kursus Lihat Kursus Saya
+  * Lihat Pelajaran
+  * Beri ujian / Kuiz
 
 ___
 # Senarai Projek LMS Yang Ada
