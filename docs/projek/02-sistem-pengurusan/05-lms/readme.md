@@ -48,8 +48,8 @@ ___
 | file_folder | Link
 |-------------|:--------------------
 | 01          | [Projek01](https://www.phptpoint.com/projects/learning-management-system-project-in-php)
-| 02          | [Projek0](https://www.freeprojectz.com/project-screens/1843)
-| 03          | [Projek0](https://github.com/amin007/E-Learning-management-system)
+| 02          | [Projek02](https://www.freeprojectz.com/project-screens/1843)
+| 03          | [Projek03](https://github.com/amin007/E-Learning-management-system)
 
 ___
 # Php Version
