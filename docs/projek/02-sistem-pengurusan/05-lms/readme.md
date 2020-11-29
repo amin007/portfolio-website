@@ -1,10 +1,10 @@
 # Konsep asas LMS
-* Jenis Pelakon / pengguna
+- Jenis Pelakon / pengguna
  - Admin
  - Pengajar / Guru
  - Pelajar / pengguna
 
-* Ciri Pentadbir
+- Ciri Pentadbir
  - Tetapan sistem
  - Pengaturan Pembayaran
  - Tetapan API YouTube
@@ -18,7 +18,7 @@
  - Menguruskan Pelajar / pengguna
  - Menguruskan Pembayaran / hasil Instruktor
 
-* Ciri Pengajar
+- Ciri Pengajar
  - Kursus Pengurusan (Kursus Mengandungi,
  - Menguruskan Bahagian Kursus
  - Mengendalikan Pelajaran Kursus
@@ -27,7 +27,7 @@
  - Menguruskan Pelajar / pengguna
  - Memeriksa pendapatan
 
-* Ciri Pelajar / pengguna
+- Ciri Pelajar / pengguna
  - Boleh melayari laman web / Kursus
  - Cari kursus tertentu
  - Kursus Atas
