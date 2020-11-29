@@ -16,12 +16,9 @@ Ubahsuai koding baris 1400/1553/1576 => target=>_blank
 
 class Parsedown
 {
-    # ~
-
+#--------------------------------------------------------------------------------------------------
     const version = '1.8.0-beta-7';
-
-    # ~
-
+#--------------------------------------------------------------------------------------------------
     function text($text)
     {
         $Elements = $this->textElements($text);
@@ -34,7 +31,7 @@ class Parsedown
 
         return $markup;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function textElements($text)
     {
         # make sure no definitions are set
@@ -52,7 +49,7 @@ class Parsedown
         # iterate through lines to identify blocks
         return $this->linesElements($lines);
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Setters
     #
@@ -63,7 +60,7 @@ class Parsedown
 
         return $this;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected $breaksEnabled;
 
     function setMarkupEscaped($markupEscaped)
@@ -72,7 +69,7 @@ class Parsedown
 
         return $this;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected $markupEscaped;
 
     function setUrlsLinked($urlsLinked)
@@ -81,7 +78,7 @@ class Parsedown
 
         return $this;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected $urlsLinked = true;
 
     function setSafeMode($safeMode)
@@ -90,7 +87,7 @@ class Parsedown
 
         return $this;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected $safeMode;
 
     function setStrictMode($strictMode)
@@ -99,7 +96,7 @@ class Parsedown
 
         return $this;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected $strictMode;
 
     protected $safeLinksWhitelist = array(
@@ -119,7 +116,7 @@ class Parsedown
         'news:',
         'steam:',
     );
-
+#--------------------------------------------------------------------------------------------------
     #
     # Lines
     #
@@ -155,7 +152,7 @@ class Parsedown
     protected $unmarkedBlockTypes = array(
         'Code',
     );
-
+#--------------------------------------------------------------------------------------------------
     #
     # Blocks
     #
@@ -164,7 +161,7 @@ class Parsedown
     {
         return $this->elements($this->linesElements($lines));
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function linesElements(array $lines)
     {
         $Elements = array();
@@ -316,7 +313,7 @@ class Parsedown
 
         return $Elements;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function extractElement(array $Component)
     {
         if ( ! isset($Component['element']))
@@ -333,7 +330,7 @@ class Parsedown
 
         return $Component['element'];
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function isBlockContinuable($Type)
     {
         return method_exists($this, 'block' . $Type . 'Continue');
@@ -343,7 +340,7 @@ class Parsedown
     {
         return method_exists($this, 'block' . $Type . 'Complete');
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Code
 
@@ -371,7 +368,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockCodeContinue($Line, $Block)
     {
         if ($Line['indent'] >= 4)
@@ -392,12 +389,12 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockCodeComplete($Block)
     {
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Comment
 
@@ -425,7 +422,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockCommentContinue($Line, array $Block)
     {
         if (isset($Block['closed']))
@@ -442,7 +439,7 @@ class Parsedown
 
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Fenced Code
 
@@ -499,7 +496,7 @@ class Parsedown
 
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockFencedCodeContinue($Line, $Block)
     {
         if (isset($Block['complete']))
@@ -533,7 +530,7 @@ class Parsedown
     {
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Header
 
@@ -568,7 +565,7 @@ class Parsedown
 
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # List
 
@@ -640,7 +637,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockListContinue($Line, array $Block)
     {
         if (isset($Block['interrupted']) and empty($Block['li']['handler']['argument']))
@@ -726,7 +723,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockListComplete(array $Block)
     {
         if (isset($Block['loose']))
@@ -742,7 +739,7 @@ class Parsedown
 
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Quote
 
@@ -764,7 +761,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockQuoteContinue($Line, array $Block)
     {
         if (isset($Block['interrupted']))
@@ -786,7 +783,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Rule
 
@@ -805,7 +802,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Setext
 
@@ -823,7 +820,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Markup
 
@@ -866,7 +863,7 @@ class Parsedown
 
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Reference
 
@@ -891,7 +888,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Table
 
@@ -1020,7 +1017,7 @@ class Parsedown
 
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function blockTableContinue($Line, array $Block)
     {
         if (isset($Block['interrupted']))
@@ -1082,7 +1079,7 @@ class Parsedown
             return $Block;
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # ~
     #
@@ -1101,7 +1098,7 @@ class Parsedown
             ),
         );
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function paragraphContinue($Line, array $Block)
     {
         if (isset($Block['interrupted']))
@@ -1113,7 +1110,7 @@ class Parsedown
 
         return $Block;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # Inline Elements
     #
@@ -1132,7 +1129,7 @@ class Parsedown
     );
 
     # ~
-
+#--------------------------------------------------------------------------------------------------
     protected $inlineMarkerList = '!*_&[:<`~\\';
 
     #
@@ -1143,7 +1140,7 @@ class Parsedown
     {
         return $this->elements($this->lineElements($text, $nonNestables));
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function lineElements($text, $nonNestables = array())
     {
         # standardize line breaks
@@ -1243,7 +1240,7 @@ class Parsedown
 
         return $Elements;
     }
-
+#--------------------------------------------------------------------------------------------------
     #
     # ~
     #
@@ -1266,7 +1263,7 @@ class Parsedown
 
         return $Inline;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function inlineCode($Excerpt)
     {
         $marker = $Excerpt['text'][0];
@@ -1285,7 +1282,7 @@ class Parsedown
             );
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function inlineEmailTag($Excerpt)
     {
         $hostnameLabel = '[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?';
@@ -1315,7 +1312,7 @@ class Parsedown
             );
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function inlineEmphasis($Excerpt)
     {
         if ( ! isset($Excerpt['text'][1]))
@@ -1350,7 +1347,7 @@ class Parsedown
             ),
         );
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function inlineEscapeSequence($Excerpt)
     {
         if (isset($Excerpt['text'][1]) and in_array($Excerpt['text'][1], $this->specialCharacters))
@@ -1361,7 +1358,7 @@ class Parsedown
             );
         }
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function inlineImage($Excerpt)
     {
         if ( ! isset($Excerpt['text'][1]) or $Excerpt['text'][1] !== '[')
@@ -1396,7 +1393,7 @@ class Parsedown
 
         return $Inline;
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function inlineLink($Excerpt)
     {
         $Element = array(
@@ -1472,7 +1469,7 @@ class Parsedown
             'element' => $Element,
         );
     }
-
+#--------------------------------------------------------------------------------------------------
     protected function inlineMarkup($Excerpt)
     {
         if ($this->markupEscaped or $this->safeMode or strpos($Excerpt['text'], '>') === false)
