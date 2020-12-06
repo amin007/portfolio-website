@@ -1,12 +1,8 @@
 # Konsep asas LMS
-
-___
 * Jenis Pelakon / pengguna
   * Admin
   * Pengajar / Guru
   * Pelajar / pengguna
-
-___
 * Ciri Pentadbir
   * Tetapan sistem
   * Pengaturan Pembayaran
@@ -20,8 +16,6 @@ ___
   * Murid Pengajar
   * Menguruskan Pelajar / pengguna
   * Menguruskan Pembayaran / hasil Instruktor
-
-___
 * Ciri Pengajar
   * Kursus Pengurusan (Kursus Mengandungi,
   * Menguruskan Bahagian Kursus
@@ -30,8 +24,6 @@ ___
   * Menguruskan Profil
   * Menguruskan Pelajar / pengguna
   * Memeriksa pendapatan
-
-___
 * Ciri Pelajar / pengguna
   * Boleh melayari laman web / Kursus
   * Cari kursus tertentu
