@@ -11,9 +11,23 @@ ___
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 ```
 
+___
+# Contoh kod html untuk profesional
+```html
+<!DOCTYPE html>
+<html>
+<title>My Web</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
+```
+
 Pautan rasmi
 * [w3css template](https://www.w3schools.com/w3css/w3css_templates.asp)
+* [w3css pro template](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_pro_theme)
 * [w3css at github](https://github.com/JaniRefsnes/w3css)
+* [w2caa by Ng Wai Foong](https://betterprogramming.pub/getting-started-with-w3-css-379ff93463d1)
 
 ___
 # Php Version
