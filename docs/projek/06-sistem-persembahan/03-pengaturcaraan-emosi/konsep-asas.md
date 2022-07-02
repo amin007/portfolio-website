@@ -13,3 +13,17 @@ jika seorang awek menolak cinta kita, kita abadikan dalam dunia programming php.
 
 ## amalan biasa expert buat programming
 
+# apa yang kita faham tentang konsep route
+dalam framework php, kita akan pergi kepada fail/class route.
+
+dari sini, kita akan kenalpasti nama class dan pembolehubah berdasarkan data apa yang kita dapat dari $_GET atau ...
+
+pada mulanya kita akan pergi kepada fungsi dalam class Controller. lepas itu kita cari cari bapa class Controller.
+
+lepas itu kita pergi kepada fungsi dalam class Model
+
+dari Model, kita cari class Database.
+
+lepas jumpa data yang kita cari, masuk dalam tatasusunan.
+
+dari Database => Model => Controller => View
