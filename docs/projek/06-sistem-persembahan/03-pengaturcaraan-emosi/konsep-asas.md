@@ -27,3 +27,8 @@ dari Model, kita cari class Database.
 lepas jumpa data yang kita cari, masuk dalam tatasusunan.
 
 dari Database => Model => Controller => View
+
+# apa yang kita ubah dalam pengaturcaraan emosi
+memandangkan kita sudah jumpa kaedah untuk cari nama class dalam folder yang berlapis-lapis.
+
+jadi satu folder mewakili emosi yang ingin kita sampaikan
