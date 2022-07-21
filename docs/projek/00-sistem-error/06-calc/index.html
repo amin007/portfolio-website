@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Amin007">
+<title>Kira Harta</title>
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+
+<style type="text/css">
+table.excel {
+	border-style:ridge;
+	border-width:1;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:11px;
+}
+table.excel thead th, table.excel tbody th {
+	background:#cccccc;
+	border-style:ridge;
+	border-width:1;
+	text-align: center;
+	vertical-align: top;
+}
+table.excel tbody th { text-align:center; vertical-align: top; }
+table.excel tbody td { vertical-align:bottom; }
+table.excel tbody td
+{
+	padding: 0 3px; border: 1px solid #aaaaaa;
+	background:#ffffff;
+}
+</style>
+</head>
+<body>
+<h1>Contoh 01</h1>
+<p>sumber = https://www.tutorialspoint.com/How-to-include-the-result-of-a-calculation-in-HTML5</p>
+<form oninput="sumresult.value = parseInt(z1.value)+parseInt(z2.value)+parseInt(z3.value)">
+<input type="range" name="z1" value = "0" /> +
+<input type="number" name="z2" value = "30" /> +
+<input type="number" name="z3" value = "60" /><br />
+The output is: <output name="sumresult"></output>
+</form>
+<hr>
+<h1>Contoh 02</h1>
+<p> 0417 = 0410+0411+0412+0413 -(0414) +(0415) -(0416)</p>
+
+<form oninput="z010417.value = parseInt(z010410.value)+parseInt(z010411.value)+parseInt(z010412.value)+parseInt(z010413.value)-parseInt(z010414.value)+parseInt(z010415.value)-parseInt(z010416.value);
+z010420.value = parseInt(z010417.value)-parseInt(z010419.value);
+z020417.value = parseInt(z020410.value)+parseInt(z020411.value)+parseInt(z020412.value)+parseInt(z020413.value)-parseInt(z020414.value)+parseInt(z020415.value)-parseInt(z020416.value);
+z020420.value = parseInt(z020417.value)-parseInt(z020419.value);
+z030417.value = parseInt(z030410.value)+parseInt(z030411.value)+parseInt(z030412.value)+parseInt(z030413.value)-parseInt(z030414.value)+parseInt(z030415.value)-parseInt(z030416.value);
+z030420.value = parseInt(z030417.value)-parseInt(z030419.value);
+z040417.value = parseInt(z040410.value)+parseInt(z040411.value)+parseInt(z040412.value)+parseInt(z040413.value)-parseInt(z040414.value)+parseInt(z040415.value)-parseInt(z040416.value);
+z040420.value = parseInt(z040417.value)-parseInt(z040419.value);
+z050417.value = parseInt(z050410.value)+parseInt(z050411.value)+parseInt(z050412.value)+parseInt(z050413.value)-parseInt(z050414.value)+parseInt(z050415.value)-parseInt(z050416.value);
+z050420.value = parseInt(z050417.value)-parseInt(z050419.value);
+z060417.value = parseInt(z060410.value)+parseInt(z060411.value)+parseInt(z060412.value)+parseInt(z060413.value)-parseInt(z060414.value)+parseInt(z060415.value)-parseInt(z060416.value);
+z060420.value = parseInt(z060417.value)-parseInt(z060419.value);
+z070417.value = parseInt(z070410.value)+parseInt(z070411.value)+parseInt(z070412.value)+parseInt(z070413.value)-parseInt(z070414.value)+parseInt(z070415.value)-parseInt(z070416.value);
+z070420.value = parseInt(z070417.value)-parseInt(z070419.value);
+z080417.value = parseInt(z080410.value)+parseInt(z080411.value)+parseInt(z080412.value)+parseInt(z080413.value)-parseInt(z080414.value)+parseInt(z080415.value)-parseInt(z080416.value);
+z080420.value = parseInt(z080417.value)-parseInt(z080419.value);
+z090417.value = parseInt(z090410.value)+parseInt(z090411.value)+parseInt(z090412.value)+parseInt(z090413.value)-parseInt(z090414.value)+parseInt(z090415.value)-parseInt(z090416.value);
+z090420.value = parseInt(z090417.value)-parseInt(z090419.value);
+z100417.value = parseInt(z100410.value)+parseInt(z100411.value)+parseInt(z100412.value)+parseInt(z100413.value)-parseInt(z100414.value)+parseInt(z100415.value)-parseInt(z100416.value);
+z100420.value = parseInt(z100417.value)-parseInt(z100419.value);
+z110417.value = parseInt(z110410.value)+parseInt(z110411.value)+parseInt(z110412.value)+parseInt(z110413.value)-parseInt(z110414.value)+parseInt(z110415.value)-parseInt(z110416.value);
+z110420.value = parseInt(z110417.value)-parseInt(z110419.value);
+z120417.value = parseInt(z120410.value)+parseInt(z120411.value)+parseInt(z120412.value)+parseInt(z120413.value)-parseInt(z120414.value)+parseInt(z120415.value)-parseInt(z120416.value);
+z120420.value = parseInt(z120417.value)-parseInt(z120419.value);
+z130417.value = parseInt(z130410.value)+parseInt(z130411.value)+parseInt(z130412.value)+parseInt(z130413.value)-parseInt(z130414.value)+parseInt(z130415.value)-parseInt(z130416.value);
+z130420.value = parseInt(z130417.value)-parseInt(z130419.value);
+z140417.value = parseInt(z140410.value)+parseInt(z140411.value)+parseInt(z140412.value)+parseInt(z140413.value)-parseInt(z140414.value)+parseInt(z140415.value)-parseInt(z140416.value);
+z140420.value = parseInt(z140417.value)-parseInt(z140419.value);
+z150417.value = parseInt(z150410.value)+parseInt(z150411.value)+parseInt(z150412.value)+parseInt(z150413.value)-parseInt(z150414.value)+parseInt(z150415.value)-parseInt(z150416.value);
+z150420.value = parseInt(z150417.value)-parseInt(z150419.value);
+z160417.value = parseInt(z160410.value)+parseInt(z160411.value)+parseInt(z160412.value)+parseInt(z160413.value)-parseInt(z160414.value)+parseInt(z160415.value)-parseInt(z160416.value);
+z160420.value = parseInt(z160417.value)-parseInt(z160419.value);
+z170417.value = parseInt(z170410.value)+parseInt(z170411.value)+parseInt(z170412.value)+parseInt(z170413.value)-parseInt(z170414.value)+parseInt(z170415.value)-parseInt(z170416.value);
+z170420.value = parseInt(z170417.value)-parseInt(z170419.value);
+z180417.value = parseInt(z180410.value)+parseInt(z180411.value)+parseInt(z180412.value)+parseInt(z180413.value)-parseInt(z180414.value)+parseInt(z180415.value)-parseInt(z180416.value);
+z180420.value = parseInt(z180417.value)-parseInt(z180419.value);
+z99A0417.value = parseInt(z99A0410.value)+parseInt(z99A0411.value)+parseInt(z99A0412.value)+parseInt(z99A0413.value)-parseInt(z99A0414.value)+parseInt(z99A0415.value)-parseInt(z99A0416.value);
+z99A0420.value = parseInt(z99A0417.value)-parseInt(z99A0419.value);
+"><table class="excel">
+<tr><td>jadual</td><td></td><td>0410</td><td>0411</td><td>0412</td><td>0413</td><td>0414</td><td>0415</td><td>0416</td><td>0417</td><td>Borang</td><td>Beza</td></tr>
+<tr>
+	<td>Tanah</td><td>01</td>
+	<td><input type="number" name="z010410" value="0"></td>
+	<td><input type="number" name="z010411" value="0"></td>
+	<td><input type="number" name="z010412" value="0"></td>
+	<td><input type="number" name="z010413" value="0"></td>
+	<td><input type="number" name="z010414" value="0"></td>
+	<td><input type="number" name="z010415" value="0"></td>
+	<td><input type="number" name="z010416" value="0"></td>
+	<td><output name="z010417"></output></td>
+	<td><input type="number" name="z010419" value="0"></td>
+	<td><output name="z010420"></output></td>
+</tr>
+<tr>
+	<td>Rumah</td><td>02</td>
+	<td><input type="number" name="z020410" value="0"></td>
+	<td><input type="number" name="z020411" value="0"></td>
+	<td><input type="number" name="z020412" value="0"></td>
+	<td><input type="number" name="z020413" value="0"></td>
+	<td><input type="number" name="z020414" value="0"></td>
+	<td><input type="number" name="z020415" value="0"></td>
+	<td><input type="number" name="z020416" value="0"></td>
+	<td><output name="z020417"></output></td>
+	<td><input type="number" name="z020419" value="0"></td>
+	<td><output name="z020420"></output></td>
+</tr>
+<tr>
+	<td>Stor/pejabat</td><td>03</td>
+	<td><input type="number" name="z030410" value="0"></td>
+	<td><input type="number" name="z030411" value="0"></td>
+	<td><input type="number" name="z030412" value="0"></td>
+	<td><input type="number" name="z030413" value="0"></td>
+	<td><input type="number" name="z030414" value="0"></td>
+	<td><input type="number" name="z030415" value="0"></td>
+	<td><input type="number" name="z030416" value="0"></td>
+	<td><output name="z030417"></output></td>
+	<td><input type="number" name="z030419" value="0"></td>
+	<td><output name="z030420"></output></td>
+</tr>
+<tr>
+	<td>Binaan Lain</td><td>04</td>
+	<td><input type="number" name="z040410" value="0"></td>
+	<td><input type="number" name="z040411" value="0"></td>
+	<td><input type="number" name="z040412" value="0"></td>
+	<td><input type="number" name="z040413" value="0"></td>
+	<td><input type="number" name="z040414" value="0"></td>
+	<td><input type="number" name="z040415" value="0"></td>
+	<td><input type="number" name="z040416" value="0"></td>
+	<td><output name="z040417"></output></td>
+	<td><input type="number" name="z040419" value="0"></td>
+	<td><output name="z040420"></output></td>
+</tr>
+<tr>
+	<td>Pembangunan Tanah</td><td>05</td>
+	<td><input type="number" name="z050410" value="0"></td>
+	<td><input type="number" name="z050411" value="0"></td>
+	<td><input type="number" name="z050412" value="0"></td>
+	<td><input type="number" name="z050413" value="0"></td>
+	<td><input type="number" name="z050414" value="0"></td>
+	<td><input type="number" name="z050415" value="0"></td>
+	<td><input type="number" name="z050416" value="0"></td>
+	<td><output name="z050417"></output></td>
+	<td><input type="number" name="z050419" value="0"></td>
+	<td><output name="z050420"></output></td>
+</tr>
+<tr>
+	<td>Kereta penumpang</td><td>06</td>
+	<td><input type="number" name="z060410" value="0"></td>
+	<td><input type="number" name="z060411" value="0"></td>
+	<td><input type="number" name="z060412" value="0"></td>
+	<td><input type="number" name="z060413" value="0"></td>
+	<td><input type="number" name="z060414" value="0"></td>
+	<td><input type="number" name="z060415" value="0"></td>
+	<td><input type="number" name="z060416" value="0"></td>
+	<td><output name="z060417"></output></td>
+	<td><input type="number" name="z060419" value="0"></td>
+	<td><output name="z060420"></output></td>
+</tr>
+<tr>
+	<td>Lori, van, pikap dsb.</td><td>07</td>
+	<td><input type="number" name="z070410" value="0"></td>
+	<td><input type="number" name="z070411" value="0"></td>
+	<td><input type="number" name="z070412" value="0"></td>
+	<td><input type="number" name="z070413" value="0"></td>
+	<td><input type="number" name="z070414" value="0"></td>
+	<td><input type="number" name="z070415" value="0"></td>
+	<td><input type="number" name="z070416" value="0"></td>
+	<td><output name="z070417"></output></td>
+	<td><input type="number" name="z070419" value="0"></td>
+	<td><output name="z070420"></output></td>
+</tr>
+<tr>
+	<td>Angkut Lain-lain</td><td>08</td>
+	<td><input type="number" name="z080410" value="0"></td>
+	<td><input type="number" name="z080411" value="0"></td>
+	<td><input type="number" name="z080412" value="0"></td>
+	<td><input type="number" name="z080413" value="0"></td>
+	<td><input type="number" name="z080414" value="0"></td>
+	<td><input type="number" name="z080415" value="0"></td>
+	<td><input type="number" name="z080416" value="0"></td>
+	<td><output name="z080417"></output></td>
+	<td><input type="number" name="z080419" value="0"></td>
+	<td><output name="z080420"></output></td>
+</tr>
+<tr>
+	<td>Perkakasan komputer</td><td>09</td>
+	<td><input type="number" name="z090410" value="0"></td>
+	<td><input type="number" name="z090411" value="0"></td>
+	<td><input type="number" name="z090412" value="0"></td>
+	<td><input type="number" name="z090413" value="0"></td>
+	<td><input type="number" name="z090414" value="0"></td>
+	<td><input type="number" name="z090415" value="0"></td>
+	<td><input type="number" name="z090416" value="0"></td>
+	<td><output name="z090417"></output></td>
+	<td><input type="number" name="z090419" value="0"></td>
+	<td><output name="z090420"></output></td>
+</tr>
+<tr>
+	<td>Perisian komputer</td><td>10</td>
+	<td><input type="number" name="z100410" value="0"></td>
+	<td><input type="number" name="z100411" value="0"></td>
+	<td><input type="number" name="z100412" value="0"></td>
+	<td><input type="number" name="z100413" value="0"></td>
+	<td><input type="number" name="z100414" value="0"></td>
+	<td><input type="number" name="z100415" value="0"></td>
+	<td><input type="number" name="z100416" value="0"></td>
+	<td><output name="z100417"></output></td>
+	<td><input type="number" name="z100419" value="0"></td>
+	<td><output name="z100420"></output></td>
+</tr>
+<tr>
+	<td>Peralatan telekomunikasi</td><td>11</td>
+	<td><input type="number" name="z110410" value="0"></td>
+	<td><input type="number" name="z110411" value="0"></td>
+	<td><input type="number" name="z110412" value="0"></td>
+	<td><input type="number" name="z110413" value="0"></td>
+	<td><input type="number" name="z110414" value="0"></td>
+	<td><input type="number" name="z110415" value="0"></td>
+	<td><input type="number" name="z110416" value="0"></td>
+	<td><output name="z110417"></output></td>
+	<td><input type="number" name="z110419" value="0"></td>
+	<td><output name="z110420"></output></td>
+</tr>
+<tr>
+	<td>Jentera dan kelengkapan</td><td>12</td>
+	<td><input type="number" name="z120410" value="0"></td>
+	<td><input type="number" name="z120411" value="0"></td>
+	<td><input type="number" name="z120412" value="0"></td>
+	<td><input type="number" name="z120413" value="0"></td>
+	<td><input type="number" name="z120414" value="0"></td>
+	<td><input type="number" name="z120415" value="0"></td>
+	<td><input type="number" name="z120416" value="0"></td>
+	<td><output name="z120417"></output></td>
+	<td><input type="number" name="z120419" value="0"></td>
+	<td><output name="z120420"></output></td>
+</tr>
+<tr>
+	<td>Drone</td><td>13</td>
+	<td><input type="number" name="z130410" value="0"></td>
+	<td><input type="number" name="z130411" value="0"></td>
+	<td><input type="number" name="z130412" value="0"></td>
+	<td><input type="number" name="z130413" value="0"></td>
+	<td><input type="number" name="z130414" value="0"></td>
+	<td><input type="number" name="z130415" value="0"></td>
+	<td><input type="number" name="z130416" value="0"></td>
+	<td><output name="z130417"></output></td>
+	<td><input type="number" name="z130419" value="0"></td>
+	<td><output name="z130420"></output></td>
+</tr>
+<tr>
+	<td>Perabot dan pemasangan</td><td>14</td>
+	<td><input type="number" name="z140410" value="0"></td>
+	<td><input type="number" name="z140411" value="0"></td>
+	<td><input type="number" name="z140412" value="0"></td>
+	<td><input type="number" name="z140413" value="0"></td>
+	<td><input type="number" name="z140414" value="0"></td>
+	<td><input type="number" name="z140415" value="0"></td>
+	<td><input type="number" name="z140416" value="0"></td>
+	<td><output name="z140417"></output></td>
+	<td><input type="number" name="z140419" value="0"></td>
+	<td><output name="z140420"></output></td>
+</tr>
+<tr>
+	<td>Paten</td><td>15</td>
+	<td><input type="number" name="z150410" value="0"></td>
+	<td><input type="number" name="z150411" value="0"></td>
+	<td><input type="number" name="z150412" value="0"></td>
+	<td><input type="number" name="z150413" value="0"></td>
+	<td><input type="number" name="z150414" value="0"></td>
+	<td><input type="number" name="z150415" value="0"></td>
+	<td><input type="number" name="z150416" value="0"></td>
+	<td><output name="z150417"></output></td>
+	<td><input type="number" name="z150419" value="0"></td>
+	<td><output name="z150420"></output></td>
+</tr>
+<tr>
+	<td>Muhibah/Goodwill</td><td>16</td>
+	<td><input type="number" name="z160410" value="0"></td>
+	<td><input type="number" name="z160411" value="0"></td>
+	<td><input type="number" name="z160412" value="0"></td>
+	<td><input type="number" name="z160413" value="0"></td>
+	<td><input type="number" name="z160414" value="0"></td>
+	<td><input type="number" name="z160415" value="0"></td>
+	<td><input type="number" name="z160416" value="0"></td>
+	<td><output name="z160417"></output></td>
+	<td><input type="number" name="z160419" value="0"></td>
+	<td><output name="z160420"></output></td>
+</tr>
+<tr>
+	<td>Kerja dalam pelaksanaan</td><td>17</td>
+	<td><input type="number" name="z170410" value="0"></td>
+	<td><input type="number" name="z170411" value="0"></td>
+	<td><input type="number" name="z170412" value="0"></td>
+	<td><input type="number" name="z170413" value="0"></td>
+	<td><input type="number" name="z170414" value="0"></td>
+	<td><input type="number" name="z170415" value="0"></td>
+	<td><input type="number" name="z170416" value="0"></td>
+	<td><output name="z170417"></output></td>
+	<td><input type="number" name="z170419" value="0"></td>
+	<td><output name="z170420"></output></td>
+</tr>
+<tr>
+	<td>Lain-lain</td><td>18</td>
+	<td><input type="number" name="z180410" value="0"></td>
+	<td><input type="number" name="z180411" value="0"></td>
+	<td><input type="number" name="z180412" value="0"></td>
+	<td><input type="number" name="z180413" value="0"></td>
+	<td><input type="number" name="z180414" value="0"></td>
+	<td><input type="number" name="z180415" value="0"></td>
+	<td><input type="number" name="z180416" value="0"></td>
+	<td><output name="z180417"></output></td>
+	<td><input type="number" name="z180419" value="0"></td>
+	<td><output name="z180420"></output></td>
+</tr>
+<tr>
+	<td>JUMLAH</td><td>99</td>
+	<td><output name="z990410"></output></td>
+	<td><output name="z990411"></output></td>
+	<td><output name="z990412"></output></td>
+	<td><output name="z990413"></output></td>
+	<td><output name="z990414"></output></td>
+	<td><output name="z990415"></output></td>
+	<td><output name="z990416"></output></td>
+	<td><output name="z990417"></output></td>
+	<td><output name="z990419"></output></td>
+	<td><output name="z990420"></output></td>
+</tr>
+<tr>
+	<td>Borang</td><td>99A</td>
+	<td><input type="number" name="z99A0410" value="0"></td>
+	<td><input type="number" name="z99A0411" value="0"></td>
+	<td><input type="number" name="z99A0412" value="0"></td>
+	<td><input type="number" name="z99A0413" value="0"></td>
+	<td><input type="number" name="z99A0414" value="0"></td>
+	<td><input type="number" name="z99A0415" value="0"></td>
+	<td><input type="number" name="z99A0416" value="0"></td>
+	<td><output name="z99A0417"></output></td>
+	<td><input type="number" name="z99A0419" value="0"></td>
+	<td><output name="z99A0420"></output></td>
+</tr>
+<tr>
+	<td>Beza</td><td>99B</td>
+	<td><output name="z99B0410"></output></td>
+	<td><output name="z99B0411"></output></td>
+	<td><output name="z99B0412"></output></td>
+	<td><output name="z99B0413"></output></td>
+	<td><output name="z99B0414"></output></td>
+	<td><output name="z99B0415"></output></td>
+	<td><output name="z99B0416"></output></td>
+	<td><output name="z99B0417"></output></td>
+	<td><output name="z99B0419"></output></td>
+	<td><output name="z99B0420"></output></td>
+</tr></table>
+</form>
+<hr>
+<h1>Contoh 03</h1>
+<table class="excel"><tr><td>
+z990410.value = 0+parseInt(z010410.value)+parseInt(z020410.value)+parseInt(z030410.value);
+<form oninput="z990410.value = parseInt(z010410.value)+parseInt(z020410.value)+parseInt(z030410.value);">
+The output is: <output name="z990410"></output>
+</form>
+</td></tr></table>
+
+</body>
+</html>
