@@ -5,13 +5,14 @@ ___
 ### konsep asas dalam php/html template
 Ia terdiri dari beberapa folder dan fail.
 
+
 folder                  | fail
------------------------ | :----------:
+----------------------- | :--------------------------------------------------:
 01-terminal             | [**Terminal**](./01-terminal/index.html)
 02-sistem-dokumen       | [**Dokumen**](./02-sistem-dokumen/index.html)
 03-pengaturcaraan-emosi | [**Emosi**](./03-pengaturcaraan-emosi/index.html)
 04-peta-malaysia        | [**Peta**](./04-peta-malaysia/index.html)
-05-poster-presentation  | [**Poster**](./05-poster-presentation/index.html)
+05-poster-presentations | [**Poster**](./05-poster-presentations/index.html)
 
 ___
 # Php Version
