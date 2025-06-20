@@ -6,14 +6,15 @@ ___
 Ia terdiri dari beberapa folder dan fail.
 
 
-folder                  | fail
------------------------ | :--------------------------------------------------:
-01-terminal             | [**Terminal**](./01-terminal/index.html)
-02-sistem-dokumen       | [**Dokumen**](./02-sistem-dokumen/index.html)
-03-pengaturcaraan-emosi | [**Emosi**](./03-pengaturcaraan-emosi/index.html)
-04-peta-malaysia        | [**Peta**](./04-peta-malaysia/index.html)
-05-poster-presentations | [**Poster**](./05-poster-presentations/index.html)
-06-flipbook             | [**Flipbook**](./06-flipbook/index.html)
+folder                    | fail
+------------------------- | :--------------------------------------------------:
+01-terminal               | [**Terminal**](./01-terminal/index.html)
+02-sistem-dokumen         | [**Dokumen**](./02-sistem-dokumen/index.html)
+03-pengaturcaraan-emosi   | [**Emosi**](./03-pengaturcaraan-emosi/index.html)
+04-peta-malaysia          | [**Peta**](./04-peta-malaysia/index.html)
+05-poster-presentations   | [**Poster**](./05-poster-presentations/index.html)
+06-flipbook               | [**Flipbook**](./06-flipbook/index.html)
+07-kenapa-kita-suka-linux | [**Kenapa Kita Suka Linux**](./07-kenapa-kita-suka-linux/index.html)
 
 ___
 # Php Version
