@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+<meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+<meta name="author" content="Bartek Szopka" />
+
+<link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+<!--
+
+Impress.js doesn't depend on any external stylesheets. It adds all of the styles it needs for the
+presentation to work.
+
+This style below contains styles only for demo presentation. Browse it to see how impress.js
+classes are used to style presentation steps, or how to apply fallback styles, but I don't want
+you to use them directly in your presentation.
+
+Be creative, build your own. We don't really want all impress.js presentations to look the same,
+do we?
+
+When creating your own presentation get rid of this file. Start from scratch, it's fun!
+
+-->
+<link href="css/impress-demo.css" rel="stylesheet" />
+<link href="css/impress-common.css" rel="stylesheet" />
+
+<link rel="shortcut icon" href="favicon.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<!--
+
+Body element is used by impress.js to set some useful class names, that will allow you to detect
+the support and state of the presentation in CSS or other scripts.
+
+First very useful class name is `impress-not-supported`. This class means, that browser doesn't
+support features required by impress.js, so you should apply some fallback styles in your CSS.
+It's not necessary to add it manually on this element. If the script detects that browser is not
+good enough it will add this class, but keeping it in HTML means that users without JavaScript
+will also get fallback styles.
+
+When impress.js script detects that browser supports all required features, this class name will
+be removed.
+
+The class name on body element also depends on currently active presentation step. More details about
+it can be found later, when `hint` element is being described.
+
+-->
+<body class="impress-not-supported">
+
+<!--
+For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<!--
+
+Now that's the core element used by impress.js.
+
+That's the wrapper for your presentation steps. In this element all the impress.js magic happens.
+It doesn't have to be a `<div>`. Only `id` is important here as that's how the script find it.
+
+Often you don't need to use any attributes here, but for educational purposes I have used all of them below.
+
+To change the duration of the transition between slides use `data-transition-duration="2000"` giving it
+a number of ms. It defaults to 1000 (1s).
+
+When authoring impress.js presentations, you should target some screen size, which you can define here.
+The default is 1024 x 768. You should write your CSS as if this is the screen size used for the
+presentation. When you present your presentation on a screen (or browser window) of different size,
+impress.js will automatically scale the presentation to fit the screen. The minimum and maximum limits
+to this scaling can also be defined here.
+
+NOTE: I intend to change the defaults to target HD screens in 2021. So you may want to make a habit
+of explicitly defining these attributes for now, to avoid any disruption when the defaults change.
+
+You can also control the perspective with `data-perspective="500"` giving it a number of pixels.
+It defaults to 1000. You can set it to 0 if you don't want any 3D effects.
+If you are willing to change this value make sure you understand how CSS perspective works:
+https://developer.mozilla.org/en/CSS/perspective
+
+Plugins:
+
+We set the default time for autoplay plugin to 7 seconds. Autoplay will automatically advance
+to next slide after a timeout expires.
+-->
+<div id="impress"
+data-transition-duration="1000"
+
+data-width="1024"
+data-height="768"
+data-max-scale="3"
+data-min-scale="0"
+data-perspective="1000"
+
+data-autoplay="7">
+<!-- .muka - article ke 01 -------------------------------------------------------------------- -->
+	<article id="bored" class="step slide" data-x="-1000" data-y="-1500" data-autoplay="10">
+
+		<h1>Slide 1 - Tajuk</h1>
+
+		<strong>Kenapa Saya Suka Linux?</strong>
+		<p>Cerita Cinta, Terminal, dan Kebebasan</p>
+
+		<span>MiniUbuCon Malaysia 2025</span>
+
+	</article>
+<!-- tamat - article ke 01 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 02 -------------------------------------------------------------------- -->	<article class="step slide" data-x="0" data-y="-1500">
+		<h1>Slide 2 - Permulaan Kisah Cinta: Linux & Saya</h1>
+
+		<ul>
+		<li>Segalanya bermula pada tahun \[tahun kamu jumpa Linux].</li>
+		<li>Kali pertama tengok antaramuka pelik tanpa ‘Start Menu’.</li>
+		<li>Distro pertama: Ubuntu? Fedora? Knoppix Live CD? (Cerita kelakar pun boleh diselitkan)</li>
+		</ul>
+	</article>
+<!-- tamat - article ke 02 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 03 -------------------------------------------------------------------- -->	<article class="step slide" data-x="1000" data-y="-1500">
+		<h1>Slide 3 - Kenapa Linux Menarik Saya?</h1>
+
+		<ul>
+		<li>Percuma & Sumber Terbuka</li>
+		<li>Boleh hidup dalam laptop lama</li>
+		<li>Belajar banyak benda (terminal, struktur fail, sistem fail)</li>
+		<li>Komuniti yang ramah dan geeky</li>
+		</ul>
+	</article>
+<!-- tamat - article ke 03 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 04 -------------------------------------------------------------------- -->
+	<article id="title" class="step" data-x="0" data-y="0" data-scale="4">
+
+		<h1>Slide 4 - Jelajah Dunia Distro Linux</h1>
+
+		<q>"Linux bukan satu, tapi beratus!"</q>
+
+		<ul>
+		<li><strong>Ubuntu</strong> - mesra pengguna, paling popular</li>
+		<li><strong>Debian</strong> - stabil, ‘bapa’ kepada banyak distro lain</li>
+		<li><strong>Arch</strong> - untuk mereka yang suka buat dari kosong</li>
+		<li><strong>Fedora</strong> - bleeding edge</li>
+		<li><strong>Pop!\_OS</strong> - untuk peminat AI dan grafik</li>
+		<li><strong>Tails/Kali</strong> - keselamatan dan hacking</li>
+		</ul>
+		(Guna peta atau infografik untuk kesan visual)
+
+	</article>
+<!-- tamat - article ke 03 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 04 -------------------------------------------------------------------- -->
+	<article id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+		<h1>Slide 5 - Linux dan AI / Teknologi Baru</h1>
+
+		<ul>
+		<li>Banyak sistem AI & server guna Linux (TensorFlow, PyTorch, Jupyter, LLMs)</li>
+		<li>Cloud dan container (Docker, Kubernetes = Linux power!)</li>
+		<li>Saya belajar AI pun mula dengan bash dan Linux</li>
+		</ul>
+	</article>
+<!-- tamat - article ke 05 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 06 -------------------------------------------------------------------- -->
+	<article id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+<p>and <b>tiny</b> ideas</p>
+
+	<h1>Slide 6 - Kisah ‘Awek’ Peminat Linux</h1>
+
+	<q>"Saya pernah suka seseorang… yang install Arch tanpa bantuan."</q>
+
+	<li>Cerita kelakar atau satira tentang cari pasangan yang boleh reboot ke safe mode</li>
+	<li>"Dia bukan jenis buka TikTok, dia buka Terminal"</li>
+	<li>Tambahan: bagaimana Linux menjadikan perbualan lebih ‘deep’ 🤭</li>
+
+	</article>
+<!-- tamat - article ke 06 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 07 -------------------------------------------------------------------- -->
+	<article>
+
+	<h1>Slide 7 - Linux dan Kehidupan Seharian Saya</h1>
+
+	<li>Server peribadi (self-hosting)</li>
+	<li>Tulis buku dengan LibreOffice / LaTeX</li>
+	<li>Coding, blogging, buat video, semuanya di Linux</li>
+	<li>Guna OBS + ffmpeg untuk rakaman video review (boleh tambah demo gambar)</li>
+
+	</article>
+<!-- tamat - article ke 07 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 08 -------------------------------------------------------------------- -->
+	<article>
+
+	<h1>Slide 8 - Apa Saya Belajar dari Linux?</h1>
+
+	<li>Falsafah: kebebasan, kawalan, pilihan</li>
+	<li>Kesabaran, troubleshooting, dokumentasi</li>
+	<li>Komuniti > Komersial</li>
+	<li>Jadi lebih "manusia" dalam dunia digital</li>
+
+	</article>
+<!-- tamat - article ke 08 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 09 -------------------------------------------------------------------- -->
+	<article>
+
+	<h1>Slide 9 - Soalan Lazim yang Saya Dengar</h1>
+
+	<li>"Linux boleh main game ke?"</li>
+	<li>"Kenapa susah sangat command line tu?"</li>
+	<li>"Betul ke Linux takde virus?"</li>
+	  (Sediakan jawapan ringkas dan lucu)
+
+	</article>
+<!-- tamat - article ke 09 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 10 -------------------------------------------------------------------- -->
+	<article>
+
+	<h1>Slide 10 - Ajak Orang Cuba Linux</h1>
+
+	<li>Mulakan dengan Live USB</li>
+	<li>Pilih distro ikut gaya hidup</li>
+	<li>Join komuniti - online dan tempatan</li>
+	<li>Jangan takut silap - Linux ialah tempat untuk bereksperimen</li>
+
+	</article>
+<!-- tamat - article ke 10 -------------------------------------------------------------------- -->
+<!-- .muka - article ke 11 -------------------------------------------------------------------- -->
+	<article>
+
+	<h1>Slide 11 - Penutup: Kenapa Saya Masih Suka Linux?</h1>
+
+	<ul>
+	<li>Bebas</li>
+	<li>Belajar</li>
+	<li>Berjemaah (komuniti)</li>
+	<li>Bersemangat</li>
+	</ul>
+
+	*Tutup dengan pantun atau ayat epik*:
+
+	<q>"Kalau hidup ini sistem tertutup, Linux ajar kita buka peluang."</q>
+
+	</article>
+<!-- tamat - article ke 11 -------------------------------------------------------------------- -->
+
+</div><!-- / id="impress" -->
+
+<!-- khas untuk jquery dan js2 lain
+=============================================================================================== -->
+<script src="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js"></script>
+<script>impress().init()</script>
+
+<!-- bawah kaki
+=============================================================================================== -->
+</body>
+</html>
