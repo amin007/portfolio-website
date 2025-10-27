@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>amin007.org | Mengubah Ilham Menjadi Kenyataan</title>
+	<!-- Bootstrap 5.3 CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome 6 (CDN) -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+	<style>
+		:root {
+			--corporate-green: #218838;
+			--corporate-green-light: #28a745;
+			--corporate-green-bg: #e6f4ea;
+		}
+		body {
+			font-family: 'Segoe UI', Arial, sans-serif;
+			background: var(--corporate-green-bg);
+			scroll-behavior: smooth;
+		}
+		.navbar {
+			background-color: var(--corporate-green) !important;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+		}
+		.navbar-brand, .nav-link, .navbar-dark .navbar-nav .nav-link.active {
+			color: #fff !important;
+			font-weight: 500;
+		}
+		.nav-link:hover {
+			color: var(--corporate-green-light) !important;
+		}
+		.hero {
+			background: linear-gradient(120deg, #d4f5e9 0%, #e6f4ea 100%);
+			padding: 100px 0 80px 0;
+			text-align: center;
+		}
+		.hero h1 {
+			font-size: 2.5rem;
+			font-weight: bold;
+			color: var(--corporate-green);
+		}
+		.motto {
+			font-size: 1.3rem;
+			font-style: italic;
+			color: var(--corporate-green-light);
+			margin-bottom: 2rem;
+		}
+		.section-title {
+			font-weight: bold;
+			margin-bottom: 1.5rem;
+			text-align: center;
+			color: var(--corporate-green);
+		}
+		.icon {
+			font-size: 2.4rem;
+			color: var(--corporate-green-light);
+			margin-bottom: 1rem;
+		}
+		.service-card {
+			border: none;
+			border-radius: 1rem;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+			transition: transform 0.2s;
+			background: #fff;
+		}
+		.service-card:hover {
+			transform: translateY(-4px) scale(1.03);
+			box-shadow: 0 8px 24px rgba(33,136,56,0.18);
+		}
+		.btn-primary, .btn-success, .btn-corporate {
+			background-color: var(--corporate-green);
+			border-color: var(--corporate-green);
+		}
+		.btn-primary:hover, .btn-success:hover, .btn-corporate:hover {
+			background-color: var(--corporate-green-light);
+			border-color: var(--corporate-green-light);
+		}
+		.unicode-icon {
+			font-size: 2.1rem;
+			margin-right: 0.5rem;
+			vertical-align: middle;
+			color: var(--corporate-green-light);
+		}
+		footer {
+			background: var(--corporate-green);
+			color: #fff;
+			text-align: center;
+			padding: 24px 0 10px 0;
+			margin-top: 48px;
+		}
+		.form-label {
+			color: var(--corporate-green);
+			font-weight: 500;
+		}
+		.form-control:focus {
+			border-color: var(--corporate-green-light);
+			box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.1);
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigasi -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand d-flex align-items-center" href="#">
+				<span class="unicode-icon">&#128187;</span>
+				amin007.org
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+					<li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+					<li class="nav-item"><a class="nav-link" href="#perkhidmatan">Perkhidmatan</a></li>
+					<li class="nav-item"><a class="nav-link" href="#hubungi">Hubungi</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section class="hero" id="beranda">
+		<div class="container">
+			<h1>Mengubah Ilham Menjadi Kenyataan</h1>
+			<p class="motto">Motto: <span class="fw-semibold">Mengubah Ilham Menjadi Kenyataan</span></p>
+			<p class="lead mb-4">
+				Kami menjalankan perniagaan jualan runcit, terutamanya melalui platform dalam talian,<br>
+				merangkumi komputer, peralatan dan aksesori komputer, perisian, aplikasi mudah alih,<br>
+				peralatan telekomunikasi dan elektronik, buku, alat tulis, serta produk bakeri dan konfeksi,<br>
+				termasuk kuih tradisional dan kuih raya.
+			</p>
+			<a href="#hubungi" class="btn btn-primary btn-lg"><i class="fas fa-envelope"></i> Hubungi Kami</a>
+		</div>
+	</section>
+
+	<!-- Tentang -->
+	<section id="tentang" class="py-5">
+		<div class="container">
+			<h2 class="section-title">Profil Syarikat</h2>
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="text-center">
+						<i class="fas fa-store icon"></i>
+						<p>
+							amin007.org diasaskan dengan visi untuk menjadi rujukan utama keperluan runcit dan teknologi di Malaysia.
+							Kami komited membantu pelanggan mendapatkan produk berkualiti dan perkhidmatan terbaik, dari dunia digital hingga ke dapur rumah anda.
+						</p>
+						<p>
+							<strong>Tagline:</strong> "Teknologi dan Tradisi, Bersatu Membina Masa Depan"
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Produk -->
+	<section id="produk" class="bg-light py-5">
+		<div class="container">
+			<h2 class="section-title">Produk Kami</h2>
+			<div class="row g-4">
+				<div class="col-md-4">
+					<div class="card service-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-laptop-code icon"></i>
+							<h5 class="card-title">Komputer &amp; Perisian</h5>
+							<p class="card-text">
+								Komputer, aksesori, perisian, aplikasi mudah alih, serta peralatan telekomunikasi dan elektronik.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card service-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-book-open icon"></i>
+							<h5 class="card-title">Buku &amp; Alat Tulis</h5>
+							<p class="card-text">
+								Buku pelbagai genre, alat tulis untuk pelajar dan profesional.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card service-card h-100">
+						<div class="card-body text-center">
+							<span class="unicode-icon">&#127856;</span>
+							<h5 class="card-title">Bakeri &amp; Kuih</h5>
+							<p class="card-text">
+								Produk bakeri, konfeksi, kuih tradisional dan kuih raya, dibuat segar setiap masa.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Perkhidmatan -->
+	<section id="perkhidmatan" class="py-5">
+		<div class="container">
+			<h2 class="section-title">Perkhidmatan Kami</h2>
+			<div class="row g-4">
+				<div class="col-md-6 col-lg-4">
+					<div class="card service-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-code icon"></i>
+							<h5 class="card-title">Pengaturcaraan &amp; Aplikasi</h5>
+							<p class="card-text">
+								Pengaturcaraan komputer dan pembangunan aplikasi mudah alih mengikut keperluan pelanggan.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card service-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-chalkboard-teacher icon"></i>
+							<h5 class="card-title">Latihan &amp; Penyelidikan ICT</h5>
+							<p class="card-text">
+								Latihan komputer, penyelidikan dan pembangunan dalam bidang teknologi maklumat dan komunikasi (ICT).
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card service-card h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-lightbulb icon"></i>
+							<h5 class="card-title">Khidmat Nasihat &amp; Penulisan</h5>
+							<p class="card-text">
+								Khidmat nasihat pembangunan aplikasi, penyelesaian perisian, dan penulisan bebas untuk pelbagai industri, termasuk penggunaan teknologi AI dan automasi.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Hubungi -->
+	<section id="hubungi" class="py-5 bg-light">
+		<div class="container">
+			<h2 class="section-title">Hubungi Kami</h2>
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<div class="card shadow-sm">
+						<div class="card-body">
+							<form>
+								<div class="mb-3">
+									<label for="nama" class="form-label">Nama</label>
+									<input type="text" class="form-control" id="nama" required>
+								</div>
+								<div class="mb-3">
+									<label for="emel" class="form-label">E-mel</label>
+									<input type="email" class="form-control" id="emel" required>
+								</div>
+								<div class="mb-3">
+									<label for="mesej" class="form-label">Mesej</label>
+									<textarea class="form-control" id="mesej" rows="4" required></textarea>
+								</div>
+								<button type="submit" class="btn btn-corporate">
+									<i class="fas fa-paper-plane"></i> Hantar
+								</button>
+							</form>
+							<div class="mt-4 text-center">
+								<p><i class="fas fa-envelope"></i> info@amin007.org</p>
+								<p><i class="fas fa-globe"></i> www.amin007.org</p>
+								<p><i class="fab fa-whatsapp"></i> +6012-3456789</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		&copy; 2025 amin007.org &middot; Mengubah Ilham Menjadi Kenyataan
+		<br>
+		<span style="font-size:1.2rem;">&#128640;</span>
+		Dikuasakan oleh teknologi, diinspirasikan oleh kreativiti.
+	</footer>
+
+	<!-- Bootstrap JS & FontAwesome -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
