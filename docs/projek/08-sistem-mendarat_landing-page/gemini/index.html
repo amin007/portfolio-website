@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ms-MY">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amin007.org - Mengubah Ilham Menjadi Kenyataan</title>
+<meta name="description" content="Jualan runcit komputer, perisian, produk bakeri, dan perkhidmatan pembangunan aplikasi serta khidmat nasihat ICT.">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+<style>
+/* 1. Menimpa Pemboleh Ubah Bootstrap untuk Hijau Korporat */
+:root {
+	--bs-primary: #008060; /* Hijau Korporat (Gelap) - Untuk Navigasi & Butang */
+	--bs-primary-rgb: 0, 128, 96;
+	--bs-success: #4CAF50; /* Dikekalkan untuk butang CTA yang kontras */
+	--bs-success-rgb: 76, 175, 80;
+	/* Mendefinisikan warna Hero (Hijau Korporat Asal) dengan ketelusan 90% */
+	--hero-green-rgb-darker: 0, 128, 96;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+.display-4, h1, h2, h3 {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+.hero-section {
+	/* Menggunakan Hijau Korporat Gelap dengan ketelusan tinggi (0.9) */
+	/* rgba(R, G, B, Opacity) */
+	background: linear-gradient(
+		rgba(var(--hero-green-rgb-darker), 0.9),
+		rgba(var(--hero-green-rgb-darker), 0.9)
+	), url('https://via.placeholder.com/1920x1080.png?text=Imej+Latar+Teknologi');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 10rem 0;
+	/* Tambah sempadan sedikit gelap untuk perbezaan ketara dari navigasi */
+	border-bottom: 5px solid #00664c;
+}
+.icon-feature {
+	font-size: 3rem;
+	color: var(--bs-primary); /* Hijau Gelap */
+}
+/* Teks navigasi berwarna putih */
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 0.85);
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+	color: rgba(255, 255, 255, 1);
+}
+</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top" data-bs-theme="dark">
+		<div class="container">
+			<a class="navbar-brand fw-bold" href="#">
+				<i class="fa-solid fa-laptop-code me-2"></i> Amin007.org
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#hero">Utama</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#produk">Produk</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#perkhidmatan">Perkhidmatan</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tentang-kami">Tentang Kami</a>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-light text-primary ms-lg-2" href="#hubungi">Hubungi</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header id="hero" class="hero-section text-center">
+		<div class="container">
+			<h1 class="display-4 fw-bold">Mengubah Ilham Menjadi Kenyataan</h1>
+			<p class="lead my-4">Penyedia penyelesaian digital dan produk runcit anda—daripada kod kepada kuih.</p>
+			<a href="#perkhidmatan" class="btn btn-primary btn-lg me-2">Lihat Perkhidmatan Kami</a>
+			<a href="#produk" class="btn btn-outline-light btn-lg">Beli-belah Sekarang</a>
+		</div>
+	</header>
+
+	<section id="produk" class="py-5">
+		<div class="container">
+			<h2 class="text-center mb-5">Produk Pilihan Kami</h2>
+			<div class="row g-4">
+				<div class="col-lg-4 col-md-6">
+					<div class="card h-100 shadow-sm border-0">
+						<div class="card-body text-center p-4">
+							<div class="icon-feature mb-3">
+								<i class="fa-solid fa-computer"></i>
+							</div>
+							<h3 class="card-title h5">Teknologi & Elektronik</h3>
+							<p class="card-text">Komputer, perisian terkini, aplikasi mudah alih, serta peralatan telekomunikasi dan elektronik untuk keperluan peribadi dan perniagaan anda.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card h-100 shadow-sm border-0">
+						<div class="card-body text-center p-4">
+							<div class="icon-feature mb-3">
+								<i class="fa-solid fa-cookie-bite"></i>
+							</div>
+							<h3 class="card-title h5">Bakeri & Konfeksi</h3>
+							<p class="card-text">Nikmati pelbagai produk bakeri, kuih tradisional, dan kuih raya istimewa yang disediakan segar untuk anda.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="card h-100 shadow-sm border-0">
+						<div class="card-body text-center p-4">
+							<div class="icon-feature mb-3">
+								<i class="fa-solid fa-book-open-reader"></i>
+							</div>
+							<h3 class="card-title h5">Buku & Alat Tulis</h3>
+							<p class="card-text">Lengkapi keperluan pembelajaran dan pejabat anda dengan koleksi buku dan alat tulis berkualiti kami.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="perkhidmatan" class="py-5 bg-light">
+		<div class="container">
+			<h2 class="text-center mb-5">Perkhidmatan Profesional Kami</h2>
+			<div class="row g-4">
+				<div class="col-lg-6">
+					<div class="d-flex p-3">
+						<i class="fa-solid fa-code fa-2x text-primary me-3 mt-1"></i>
+						<div>
+							<h4 class="fw-bold">Pembangunan Aplikasi</h4>
+							<p>Pembangunan aplikasi mudah alih (iOS/Android) dan pengaturcaraan komputer khas mengikut spesifikasi anda.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="d-flex p-3">
+						<i class="fa-solid fa-chalkboard-user fa-2x text-primary me-3 mt-1"></i>
+						<div>
+							<h4 class="fw-bold">Latihan & R&D ICT</h4>
+							<p>Menyediakan latihan komputer serta menjalankan penyelidikan dan pembangunan (R&D) dalam teknologi maklumat (ICT).</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="d-flex p-3">
+						<i class="fa-solid fa-lightbulb fa-2x text-primary me-3 mt-1"></i>
+						<div>
+							<h4 class="fw-bold">Khidmat Nasihat Perisian</h4>
+							<p>Memberi khidmat nasihat profesional untuk pembangunan aplikasi dan cadangan penyelesaian perisian yang efektif.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="d-flex p-3">
+						<i class="fa-solid fa-robot fa-2x text-primary me-3 mt-1"></i>
+						<div>
+							<h4 class="fw-bold">Penulisan Bebas (AI)</h4>
+							<p>Perkhidmatan penulisan bebas untuk pelbagai industri, disokong oleh teknologi AI dan automasi untuk kualiti dan kepantasan.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="tentang-kami" class="py-5">
+		<div class="container text-center">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<i class="fa-solid fa-bullhorn fa-3x text-primary mb-3"></i>
+					<h2 class="fw-bold">Perlukan Laman Web Jualan Untuk Bisnes Anda?</h2>
+					<p class="lead my-4">Laman web ini dibina dari awal menggunakan teknologi web moden seperti Bootstrap 5.3. Kami di Amin007.org bukan sahaja menjual produk, tetapi kami juga *membina* penyelesaian. Kami faham keperluan teknikal untuk perniagaan dalam talian.</p>
+					<p>Biar kami bantu ubah ilham perniagaan anda menjadi sebuah laman web yang kenyataan.</p>
+					<a href="#hubungi" class="btn btn-success btn-lg">Dapatkan Sebut Harga Percuma</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="hubungi" class="py-5 bg-light">
+		<div class="container">
+			<h2 class="text-center mb-4">Hubungi Kami</h2>
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<form>
+						<div class="mb-3">
+							<label for="name" class="form-label">Nama</label>
+							<input type="text" class="form-control" id="name" required>
+						</div>
+						<div class="mb-3">
+							<label for="email" class="form-label">E-mel</label>
+							<input type="email" class="form-control" id="email" required>
+						</div>
+						<div class="mb-3">
+							<label for="message" class="form-label">Mesej</label>
+							<textarea class="form-control" id="message" rows="5" required></textarea>
+						</div>
+						<div class="text-center">
+							<button type="submit" class="btn btn-primary btn-lg">Hantar Mesej</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="py-4 bg-dark text-white">
+		<div class="container text-center">
+			<div class="mb-3">
+				<a href="#" class="text-white me-3 text-decoration-none"><i class="fab fa-facebook-f fa-lg"></i></a>
+				<a href="#" class="text-white me-3 text-decoration-none"><i class="fab fa-twitter fa-lg"></i></a>
+				<a href="#" class="text-white me-3 text-decoration-none"><i class="fab fa-instagram fa-lg"></i></a>
+				<a href="#" class="text-white text-decoration-none"><i class="fab fa-linkedin-in fa-lg"></i></a>
+			</div>
+			<p class="mb-0">&copy; <span id="currentYear"></span> Amin007.org. Hak Cipta Terpelihara.</p>
+		</div>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>
