@@ -22,7 +22,7 @@ folder              | fail
 02-iklan-kecantikan | [**Iklan**](./02-iklan-kecantikan)
 03-dns changer      | [**Dns Changer**](./03-dnschanger)
 04-w3cssw3schools   | [**W3 Css at w3schools**](./04-w3cssw3schools)
-05-picocss          | [**Pico Css**](./05-picocss)
+05-picocss          | [**Pico Css**](./05-picocss/template.html)
 06-calc             | [**Mesin Kira**](./06-calc)
 07-snapchat-friend  | [**Kawan Snapchat**](./07-snapchat-friend)
 08-css-wireframes   | [**Css Wireframes**](./08-css-wireframes)
