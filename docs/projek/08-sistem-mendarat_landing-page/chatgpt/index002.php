@@ -135,13 +135,45 @@
 	<div class="container">
 		<h2 class="fw-bold mb-4 text-success">Ikuti Kami di <hr></h2>
 		<div class="d-flex gap-3 text-center">
-		<div class="card border-success p-3"><a href="#"><i class="fab fa-facebook fa-2x text-success"></i></a></div>
-		<div class="card border-success p-3"><a href="#"><i class="fab fa-linkedin fa-2x text-success"></i></a></div>
-		<div class="card border-success p-3"><a href="#"><i class="fab fa-instagram fa-2x text-success"></i></a></div>
-		<div class="card border-success p-3"><a href="#"><i class="fab fa-youtube fa-2x text-success"></i></a></div>
-		<div class="card border-success p-3"><a href="#"><i class="fab fa-github fa-2x text-success"></i></a></div>
+		<div class="card border-success p-3">
+			<a href="https://www.facebook.com/amin007.ledang">
+			<i class="fab fa-facebook fa-2x text-success"></i></a>
+		</div>
+		<div class="card border-success p-3">
+			<a href="https://www.linkedin.com/in/amin007ledang">
+			<i class="fab fa-linkedin fa-2x text-success"></i></a>
+		</div>
+		<div class="card border-success p-3">
+			<a href="https://instagram.com/aminledang">
+			<i class="fab fa-instagram fa-2x text-success"></i></a>
+		</div>
+		<div class="card border-success p-3">
+			<a href="https://www.youtube.com/@abdmuhaimin">
+			<i class="fab fa-youtube fa-2x text-success"></i></a>
+		</div>
+		<div class="card border-success p-3">
+			<a href="https://github.com/amin007">
+			<i class="fab fa-github fa-2x text-success"></i></a>
+		</div>
 		</div><!-- / class="d-flex gap-3" -->
-	</div><!-- / class="container" -->
+	</div><!-- / class="container" --><?php /*
+	<blockquote>
+		<a target="_blank" href="https://www.facebook.com/amin007.ledang" class="btn btn-secondary butangBulat">
+			<i class="fab fa-facebook"></i>: amin007.ledang</a>
+		<a target="_blank" href="https://www.twitter.com/amin007_ledang" class="btn btn-secondary butangBulat">
+			<i class="fab fa-twitter-square"></i>: amin007_ledang</a>
+		<a target="_blank" href="https://www.linkedin.com/in/amin007ledang" class="btn btn-secondary butangBulat">
+			<i class="fab fa-linkedin"></i>: amin007ledang</a>
+		<a target="_blank" href="https://github.com/amin007" class="btn btn-secondary butangBulat">
+			<i class="fab fa-github"></i>: amin007</a>
+		<a target="_blank" href="https://instagram.com/aminledang" class="btn btn-secondary butangBulat">
+			<i class="fab fa-instagram"></i>: aminledang</a>
+		<a class="btn btn-secondary text-white butangBulat">
+			<i class="fab fa-snapchat">amin007ledang</i></a>
+		<a target="_blank" href="https://www.youtube.com/@abdmuhaimin" class="btn btn-secondary butangBulat">
+			<i class="fab fa-youtube"></i>: user/abdmuhaimin</a>
+	</blockquote> */?>
+
 </section>
 
 <!-- FOOTER -->
