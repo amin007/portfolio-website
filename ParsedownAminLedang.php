@@ -1252,14 +1252,17 @@ class Parsedown
             'element' => array(),
         );
 
-        $Inline['element']['elements'] = self::pregReplaceElements(
-            $this->breaksEnabled ? '/[ ]*+\n/' : '/(?:[ ]*+\\\\|[ ]{2,}+)\n/',
-            array(
-                array('name' => 'br'),
-                array('text' => "\n"),
-            ),
-            $text
-        );
+		$Inline['element']['elements'] = self::pregReplaceElements(
+			$this->breaksEnabled
+			? '/[ ]*\n/'
+			: '/[ ]*\\\\[ ]*\n|[ ]{2,}\n/',
+				array(
+					array('name' => 'br'),
+					array('name' => 'br'),
+					array('text' => "\n"),
+				),
+			$text
+		);
 
         return $Inline;
     }
@@ -1348,16 +1351,23 @@ class Parsedown
         );
     }
 #--------------------------------------------------------------------------------------------------
-    protected function inlineEscapeSequence($Excerpt)
-    {
-        if (isset($Excerpt['text'][1]) and in_array($Excerpt['text'][1], $this->specialCharacters))
-        {
-            return array(
-                'element' => array('rawHtml' => $Excerpt['text'][1]),
-                'extent' => 2,
-            );
-        }
-    }
+	protected function inlineEscapeSequence($Excerpt)
+	{
+		// Backslash + newline = line break
+		if (isset($Excerpt['text'][1]) and $Excerpt['text'][1] === "\n")
+		{
+			return array(
+			'element' => array('name' => 'br'), 'extent' => 2, );
+		}
+
+		if (isset($Excerpt['text'][1]) and in_array($Excerpt['text'][1], $this->specialCharacters))
+		{
+			return array(
+				'element' => array('rawHtml' => $Excerpt['text'][1]),
+				'extent' => 2,
+			);
+		}
+	}
 #--------------------------------------------------------------------------------------------------
     protected function inlineImage($Excerpt)
     {
