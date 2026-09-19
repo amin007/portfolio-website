@@ -12,6 +12,7 @@
 /*
 Abdul Muhaimin Bin Abdul Ghani (Amin Ledang)
 Ubahsuai koding baris 1400/1553/1576 => target=>_blank
+Ubahsuai koding baris 1255/1354 => tanda \ jadi <br>
 */
 
 class Parsedown
